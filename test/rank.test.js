@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { filterAndRank, scoreOffer, validateOffer } from "../src/rank.js";
+import { filterAndRank, validateOffer } from "../src/rank.js";
 
 const config = {
   travelers: 2,
@@ -11,6 +11,7 @@ const config = {
   departureAirports: [{ code: "MUC", name: "München" }],
   acceptedBoard: ["all_inclusive_plus", "all_inclusive"],
   preferredBoard: "all_inclusive_plus",
+  acceptedSourceLanguages: ["de", "en"],
   topOffers: 7
 };
 
@@ -19,11 +20,12 @@ function offer(overrides = {}) {
     resortName: "Test Resort",
     provider: "Testanbieter",
     url: "https://example.com/offer",
+    sourceLanguage: "de",
     departureAirport: "MUC",
     departureDate: "2026-11-27",
     returnDate: "2026-12-07",
     nights: 10,
-    board: "all_inclusive",
+    board: "all_inclusive_plus",
     packageIncludesFlights: true,
     transfer: "included",
     transferType: "Speedboat",
@@ -61,10 +63,18 @@ test("verwirft zu kurze, zu teure und Hotel-only Angebote", () => {
   assert.equal(validateOffer(offer({ packageIncludesFlights: false }), config).valid, false);
 });
 
-test("AI+ erhält bei sonst gleichen Daten das bessere Ranking", () => {
-  const ai = scoreOffer(offer(), config);
-  const aiPlus = scoreOffer(offer({ board: "all_inclusive_plus" }), config);
-  assert.ok(aiPlus.score > ai.score);
+test("akzeptiert AI und AI+ getrennt, verwirft aber nicht lesbare Quellsprachen", () => {
+  assert.equal(validateOffer(offer({ board: "all_inclusive" }), config).valid, true);
+  assert.equal(validateOffer(offer({ sourceLanguage: "sk" }), config).valid, false);
+  assert.equal(validateOffer(offer({ sourceLanguage: "en" }), config).valid, true);
+});
+
+test("AI+ erhält bei sonst gleichen Daten das höhere Ranking", () => {
+  const result = filterAndRank([
+    offer({ resortName: "AI Resort", board: "all_inclusive" }),
+    offer({ resortName: "AI Plus Resort", board: "all_inclusive_plus" })
+  ], config);
+  assert.equal(result.offers[0].board, "all_inclusive_plus");
 });
 
 test("dedupliziert gleiches Resort und behält den günstigeren Treffer", () => {

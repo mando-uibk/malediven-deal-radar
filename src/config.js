@@ -12,7 +12,8 @@ export async function loadConfig(path = process.env.TRIP_CONFIG_PATH || "config/
     "minimumNights",
     "maximumPricePerPersonEur",
     "departureAirports",
-    "acceptedBoard"
+    "acceptedBoard",
+    "acceptedSourceLanguages"
   ];
 
   for (const key of required) {
@@ -35,6 +36,9 @@ export async function loadConfig(path = process.env.TRIP_CONFIG_PATH || "config/
   }
   if (!Array.isArray(config.departureAirports) || config.departureAirports.length === 0) {
     throw new Error("Mindestens ein Abflughafen ist erforderlich.");
+  }
+  if (!Array.isArray(config.acceptedSourceLanguages) || config.acceptedSourceLanguages.length === 0) {
+    throw new Error("Mindestens eine akzeptierte Quellsprache ist erforderlich.");
   }
 
   return {

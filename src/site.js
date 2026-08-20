@@ -21,6 +21,16 @@ const STATUS_LABELS = {
   known: "Weiterhin verfügbar"
 };
 
+const LANGUAGE_LABELS = {
+  de: "Deutschsprachige Quelle",
+  en: "Englischsprachige Quelle"
+};
+
+const BOARD_BADGES = {
+  all_inclusive_plus: "AI+",
+  all_inclusive: "AI"
+};
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -63,7 +73,8 @@ function renderCard(offer, config, index) {
     offer.ratingOutOf10 != null ? `${offer.ratingOutOf10.toFixed(1)}/10` : null,
     offer.stars != null ? `${offer.stars}★` : null,
     offer.transfer === "included" ? `Transfer inkl.${offer.transferType ? ` · ${offer.transferType}` : ""}` : null,
-    offer.baggage === "included" ? "Gepäck inkl." : null
+    offer.baggage === "included" ? "Gepäck inkl." : null,
+    LANGUAGE_LABELS[offer.sourceLanguage] || null
   ].filter(Boolean);
   const searchable = [offer.resortName, offer.provider, offer.island, offer.atoll].filter(Boolean).join(" ").toLocaleLowerCase("de");
 
@@ -72,6 +83,7 @@ function renderCard(offer, config, index) {
       <div class="card-topline">
         <div class="badges">
           <span class="badge badge--status badge--${escapeHtml(offer.dealStatus)}">${escapeHtml(STATUS_LABELS[offer.dealStatus])}</span>
+          <span class="badge badge--board badge--${offer.board === "all_inclusive_plus" ? "board-plus" : "board-ai"}" title="${escapeHtml(BOARD_LABELS[offer.board])}">${escapeHtml(BOARD_BADGES[offer.board])}</span>
           ${dealLabel ? `<span class="badge badge--deal">${escapeHtml(dealLabel)}</span>` : ""}
           ${offer.membershipRequired ? `<span class="badge badge--member">Login nötig</span>` : ""}
         </div>
@@ -111,8 +123,8 @@ function renderCard(offer, config, index) {
 
 export function renderSite({ offers, config, warnings = [], generatedAt = new Date() }) {
   const locale = config.locale || "de-AT";
-  const newCount = offers.filter((offer) => offer.dealStatus === "new").length;
-  const dropCount = offers.filter((offer) => offer.dealStatus === "price_drop").length;
+  const aiPlusCount = offers.filter((offer) => offer.board === "all_inclusive_plus").length;
+  const aiCount = offers.filter((offer) => offer.board === "all_inclusive").length;
   const bestPrice = offers.length ? Math.min(...offers.map((offer) => offer.pricePerPersonEur)) : null;
   const cards = offers.map((offer, index) => renderCard(offer, config, index)).join("");
   const updated = generatedAt.toLocaleString(locale, {
@@ -128,7 +140,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#063c43">
   <meta name="robots" content="noindex,nofollow">
-  <meta name="description" content="Aktuelle Malediven-Pauschalreise-Deals ab München, Zürich und Wien.">
+  <meta name="description" content="Aktuelle Malediven-Pauschalreisen mit All Inclusive oder All Inclusive Plus ab München, Zürich und Wien.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B4%3C/text%3E%3C/svg%3E">
   <title>Malediven Deal Radar</title>
   <style>
@@ -161,7 +173,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
     .results-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:28px 2px 14px}.results-head h2{font-size:24px;margin:0;letter-spacing:-.035em}.results-head p{margin:3px 0 0;color:var(--muted);font-size:13px}.result-count{font-weight:800;color:var(--teal-dark);white-space:nowrap}
     .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
     .deal-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:0 10px 35px rgba(6,60,67,.06);display:flex;flex-direction:column;min-width:0;transition:transform .2s ease,box-shadow .2s ease}.deal-card:hover{transform:translateY(-2px);box-shadow:0 18px 45px rgba(6,60,67,.1)}
-    .card-topline{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.badges{display:flex;flex-wrap:wrap;gap:6px}.badge{display:inline-flex;padding:5px 8px;border-radius:999px;font-size:10px;line-height:1;font-weight:850;text-transform:uppercase;letter-spacing:.055em}.badge--status{background:#e5f7f3;color:#07675f}.badge--price_drop{background:#fff0e6;color:#b04422}.badge--deal{background:#fff3c6;color:#8d5d00}.badge--member{background:#eee9ff;color:#5f3bb1}
+    .card-topline{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.badges{display:flex;flex-wrap:wrap;gap:6px}.badge{display:inline-flex;padding:5px 8px;border-radius:999px;font-size:10px;line-height:1;font-weight:850;text-transform:uppercase;letter-spacing:.055em}.badge--status{background:#e5f7f3;color:#07675f}.badge--price_drop{background:#fff0e6;color:#b04422}.badge--board-plus{background:#dff7f3;color:#07545d}.badge--board-ai{background:#eef2f6;color:#405466}.badge--deal{background:#fff3c6;color:#8d5d00}.badge--member{background:#eee9ff;color:#5f3bb1}
     .favorite{flex:0 0 auto;width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#fff;color:#ad7d00;font-size:23px;line-height:1;cursor:pointer}.favorite[aria-pressed="true"]{background:#fff5ca;border-color:#f0d979}.rank{margin-top:17px;color:var(--teal);font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.08em}
     .deal-card h2{font-size:22px;line-height:1.14;letter-spacing:-.035em;margin:7px 0 5px}.location{color:var(--muted);font-size:13px;line-height:1.4;margin:0;min-height:36px}
     .price-row{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-top:20px}.price-row strong{display:block;font-size:31px;letter-spacing:-.045em}.price-row span{display:block;color:var(--muted);font-size:11px}.old-price{color:#9b6a59;font-size:12px;text-decoration:line-through}.total{margin:5px 0 16px;color:var(--muted);font-size:12px}
@@ -183,7 +195,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
     <div class="hero-inner">
       <div class="eyebrow"><span class="pulse"></span> 2× täglich frisch gesucht</div>
       <h1>Malediven<br>Deal Radar</h1>
-      <p class="hero-copy">Handverlesene Pauschalreisen mit Flug ab München, Zürich oder Wien – mindestens ${config.minimumNights} Nächte, bevorzugt All Inclusive Plus.</p>
+      <p class="hero-copy">Handverlesene Pauschalreisen mit Flug ab München, Zürich oder Wien – mindestens ${config.minimumNights} Nächte. All Inclusive und All Inclusive Plus/Premium/Ultra werden getrennt ausgewiesen. Nur seriöse Angebotsseiten auf Deutsch oder Englisch.</p>
       <div class="updated">Aktualisiert: ${escapeHtml(updated)} Uhr</div>
     </div>
   </header>
@@ -191,8 +203,8 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
   <main class="page">
     <section class="stats" aria-label="Zusammenfassung">
       <div class="stat"><strong>${offers.length}</strong><span>passende Deals</span></div>
-      <div class="stat"><strong>${newCount}</strong><span>heute neu</span></div>
-      <div class="stat"><strong>${dropCount}</strong><span>Preissenkungen</span></div>
+      <div class="stat"><strong>${aiPlusCount}</strong><span>AI+ / Premium / Ultra</span></div>
+      <div class="stat"><strong>${aiCount}</strong><span>All Inclusive</span></div>
       <div class="stat"><strong>${bestPrice == null ? "–" : eur(bestPrice, locale)}</strong><span>bester Preis p. P.</span></div>
     </section>
 
@@ -215,12 +227,12 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
 
     <section class="grid" id="deal-grid" aria-live="polite">
       ${cards}
-      <div class="empty" id="empty"><strong>Keine passenden Angebote</strong><br>Probiere einen anderen Filter oder entferne den Suchbegriff.</div>
+      <div class="empty" id="empty"><strong>Keine passenden Angebote</strong><br>Es erscheint nur, was alle Kriterien erfüllt und auf einer seriösen deutschen oder englischen Angebotsseite belegt ist.</div>
     </section>
 
     <aside class="notice">
-      <strong>Vor der Buchung kurz gegenprüfen:</strong> Preise und Verfügbarkeiten ändern sich schnell. Bitte auf der Anbieterseite Reisedaten, Abflughafen, Gepäck, Transfer und Endpreis für ${config.travelers} Personen bestätigen. Mitgliederpreise sind entsprechend markiert.
-      ${warnings.length ? `<div class="warning"><strong>Bei dieser Aktualisierung gab es Teilprobleme:</strong> ${warnings.map(escapeHtml).join(" · ")}</div>` : ""}
+      <strong>Vor der Buchung kurz gegenprüfen:</strong> All Inclusive und All Inclusive Plus/Premium/Ultra sind auf der Seite getrennt gekennzeichnet. Angezeigt werden nur ausgewählte seriöse Quellen mit deutscher oder englischer Angebotsseite. Preise und Verfügbarkeiten ändern sich schnell. Bitte dort Reisedaten, Abflughafen, Gepäck, Transfer, genaue Verpflegungsstufe und Endpreis für ${config.travelers} Personen bestätigen. Mitgliederpreise sind entsprechend markiert.
+      ${warnings.length ? `<div class="warning"><strong>Hinweis zur aktuellen Suche:</strong> ${warnings.map(escapeHtml).join(" · ")}</div>` : ""}
     </aside>
     <footer>Keine Cookies, kein Tracking, keine Buchung über diese Seite. Favoriten werden ausschließlich im Browser dieses Geräts gespeichert.</footer>
   </main>

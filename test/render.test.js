@@ -18,6 +18,7 @@ test("escaped Inhalte aus der Websuche erscheinen sicher im HTML-Bericht", () =>
     atoll: null,
     provider: "Test & Reisen",
     url: "https://example.com/?a=1&b=2",
+    sourceLanguage: "en",
     dealStatus: "new",
     score: 90,
     pricePerPersonEur: 3500,
@@ -35,11 +36,12 @@ test("escaped Inhalte aus der Websuche erscheinen sicher im HTML-Bericht", () =>
     baggage: "included",
     ratingOutOf10: 9,
     stars: 5,
-    reasons: ["AI+ bevorzugt"]
+    reasons: ["AI+ / Premium / Ultra"]
   };
 
   const { html } = renderReport({ offers: [offer], config, generatedAt: new Date("2026-08-20T08:00:00Z") });
   assert.ok(html.includes("Lagoon &lt;script&gt;alert(1)&lt;/script&gt;"));
   assert.ok(!html.includes("<script>alert(1)</script>"));
   assert.ok(html.includes("https://example.com/?a=1&amp;b=2"));
+  assert.ok(html.includes("Englischsprachige Quelle"));
 });

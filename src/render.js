@@ -21,6 +21,11 @@ const DEAL_TYPE_LABELS = {
   editorial_deal: "DEAL-TIPP"
 };
 
+const LANGUAGE_LABELS = {
+  de: "Deutschsprachige Quelle",
+  en: "Englischsprachige Quelle"
+};
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -46,6 +51,7 @@ export function renderReport({ offers, config, warnings = [], generatedAt = new 
     const extras = [
       offer.transfer === "included" ? `Transfer inkl.${offer.transferType ? ` (${offer.transferType})` : ""}` : null,
       offer.baggage === "included" ? "Gepäck inkl." : null,
+      LANGUAGE_LABELS[offer.sourceLanguage] || null,
       offer.ratingOutOf10 != null ? `Bewertung ${offer.ratingOutOf10.toFixed(1)}/10` : null,
       offer.stars != null ? `${offer.stars} Sterne` : null
     ].filter(Boolean).join(" · ");
@@ -85,7 +91,7 @@ export function renderReport({ offers, config, warnings = [], generatedAt = new 
     ? `<div style="background:#fff;border-radius:16px;padding:24px;border:1px solid #dbe7e7">Heute wurde kein ausreichend belastbares Angebot gefunden, das alle harten Kriterien erfüllt.</div>`
     : "";
   const warningBlock = warnings.length
-    ? `<div style="background:#fff7ed;color:#9a3412;border-radius:12px;padding:14px;margin-top:18px;font-size:13px"><strong>Teilweise Suchprobleme:</strong><br>${warnings.map(escapeHtml).join("<br>")}</div>`
+    ? `<div style="background:#fff7ed;color:#9a3412;border-radius:12px;padding:14px;margin-top:18px;font-size:13px"><strong>Hinweis zur aktuellen Suche:</strong><br>${warnings.map(escapeHtml).join("<br>")}</div>`
     : "";
 
   const html = `<!doctype html>
@@ -95,7 +101,7 @@ export function renderReport({ offers, config, warnings = [], generatedAt = new 
       <div style="padding:10px 4px 24px">
         <div style="font-size:13px;font-weight:800;color:#087f8c;letter-spacing:.12em">MALEDIVEN DEAL AGENT</div>
         <h1 style="font-size:31px;line-height:1.14;margin:9px 0 10px">Die besten Funde von heute 🌴</h1>
-        <div style="color:#527079;line-height:1.5">${config.windowStart} bis ${config.windowEnd} · mindestens ${config.minimumNights} Nächte · bis ${eur(config.maximumPricePerPersonEur, locale)} p. P. · Abflug MUC/ZRH/VIE</div>
+        <div style="color:#527079;line-height:1.5">${config.windowStart} bis ${config.windowEnd} · mindestens ${config.minimumNights} Nächte · All Inclusive oder AI+ / Premium / Ultra · deutsche oder englische Angebotsseite · bis ${eur(config.maximumPricePerPersonEur, locale)} p. P. · Abflug MUC/ZRH/VIE</div>
       </div>
       ${cards}${empty}${warningBlock}
       <div style="font-size:12px;line-height:1.5;color:#64748b;padding:20px 4px 0">

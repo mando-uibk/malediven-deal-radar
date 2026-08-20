@@ -13,13 +13,14 @@ const RESPONSE_SCHEMA = {
           atoll: { type: ["string", "null"] },
           provider: { type: "string" },
           url: { type: "string" },
+          sourceLanguage: { type: "string", enum: ["de", "en"] },
           departureAirport: { type: "string" },
           departureDate: { type: "string" },
           returnDate: { type: "string" },
           nights: { type: "integer" },
           board: {
             type: "string",
-            enum: ["all_inclusive_plus", "all_inclusive", "full_board_plus", "full_board", "half_board", "unknown"]
+            enum: ["all_inclusive_plus", "all_inclusive"]
           },
           packageIncludesFlights: { type: "boolean" },
           transfer: { type: "string", enum: ["included", "extra", "unknown"] },
@@ -37,7 +38,7 @@ const RESPONSE_SCHEMA = {
           evidence: { type: "string" }
         },
         required: [
-          "resortName", "island", "atoll", "provider", "url", "departureAirport",
+          "resortName", "island", "atoll", "provider", "url", "sourceLanguage", "departureAirport",
           "departureDate", "returnDate", "nights", "board", "packageIncludesFlights",
           "transfer", "transferType", "baggage", "pricePerPersonEur", "totalPriceEur",
           "priceConfidence", "dealType", "membershipRequired", "bookingDeadline", "stars",
@@ -63,12 +64,14 @@ Harte Kriterien:
 - Mindestens ${config.minimumNights} Nächte.
 - Flug und Hotel müssen im Preis als Pauschalreise enthalten sein.
 - Maximal ${config.maximumPricePerPersonEur} EUR pro Person bei ${config.travelers} Erwachsenen im Doppelzimmer.
-- Verpflegung ausschließlich All Inclusive Plus/All Inclusive Premium oder All Inclusive.
+- Verpflegung muss mindestens All Inclusive sein. Normales All Inclusive ist zulässig und wird als all_inclusive erfasst. All Inclusive Plus, All Inclusive Premium, Premium All Inclusive, Ultra All Inclusive und nachweislich gleichwertige erweiterte Stufen werden getrennt als all_inclusive_plus erfasst. Verwechsle die beiden Kategorien nicht.
+- Die konkrete Angebots- oder Buchungsseite muss auf Deutsch oder Englisch lesbar sein. Setze sourceLanguage passend auf de oder en. Eine automatische Browserübersetzung einer anderssprachigen Seite reicht nicht.
 
 ${sourceText}
 Suche ausdrücklich auch bei Last-Minute-, Flash-Sale- und Mitgliederportalen wie Secret Escapes, Voyage Privé, Restplatzbörse, 5vorFlug, L'TUR, Urlaubspiraten und Travelzoo.
 
 Qualitätsregeln:
+- Verwende ausschließlich etablierte Reiseveranstalter, Reisebüros, Buchungsportale oder redaktionell kuratierte Dealportale. Keine Foren, Social-Media-Posts, Linkfarmen oder SEO-Aggregatoren als Angebotsquelle.
 - Öffne nach Möglichkeit die konkrete Angebots- oder Buchungsseite; verwende keine redaktionellen Preisbeispiele.
 - Übernimm nur Angaben, die eine Quelle stützt. Erfinde keine Preise, Termine, Verpflegung, Bewertungen oder Inklusivleistungen.
 - Nutze die endgültige Anbieter-URL, keine Suchmaschinen-URL.
@@ -79,6 +82,7 @@ Qualitätsregeln:
 - priceConfidence = live nur bei sichtbarer aktueller Buchungsabfrage, recent bei einem datierten aktuellen Treffer, sonst indicative.
 - Normalisiere Bewertungen auf eine Skala von 0 bis 10. Unbekannte optionale Angaben sind null/unknown.
 - Gib lieber wenige belastbare Treffer als viele unsichere zurück. Wenn nichts passt, gib eine leere Liste zurück.
+- Suche breit über mehrere Anbieter und schöpfe die Obergrenze aus, wenn genügend belastbare Treffer existieren; beschränke dich nicht auf nur einen oder zwei Funde.
 `.trim();
 }
 
@@ -106,7 +110,7 @@ async function callResponsesApi({ apiKey, model, prompt, timezone }) {
     },
     body: JSON.stringify({
       model,
-      instructions: "Du bist ein sehr genauer deutschsprachiger Reise-Deal-Analyst. Quellenbezug und harte Filter sind wichtiger als die Anzahl der Treffer.",
+      instructions: "Du bist ein sehr genauer Reise-Deal-Analyst. Quellenbezug, seriöse Anbieter sowie deutsch- oder englischsprachige Buchungsseiten und harte Filter sind wichtiger als die Anzahl der Treffer.",
       input: prompt,
       tools: [{
         type: "web_search",

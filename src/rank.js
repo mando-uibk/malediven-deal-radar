@@ -21,6 +21,10 @@ export function validateOffer(raw, config) {
   if (!raw.resortName?.trim()) reasons.push("Resort fehlt");
   if (!raw.provider?.trim()) reasons.push("Anbieter fehlt");
   if (!validHttpsUrl(raw.url)) reasons.push("keine gültige HTTPS-URL");
+  const acceptedSourceLanguages = config.acceptedSourceLanguages || ["de", "en"];
+  if (!acceptedSourceLanguages.includes(raw.sourceLanguage)) {
+    reasons.push("Quelle nicht auf Deutsch oder Englisch");
+  }
   if (!DATE_PATTERN.test(raw.departureDate || "") || !DATE_PATTERN.test(raw.returnDate || "")) {
     reasons.push("ungültige Reisedaten");
   }
@@ -80,7 +84,7 @@ export function scoreOffer(offer, config) {
 
   if (offer.board === config.preferredBoard) {
     score += 24;
-    reasons.push("AI+ bevorzugt");
+    reasons.push("AI+ / Premium / Ultra");
   } else if (offer.board === "all_inclusive") {
     score += 15;
     reasons.push("All Inclusive");

@@ -8,10 +8,12 @@ Eine mobile Angebotsseite für zwei Reisende aus Innsbruck. Die Recherche läuft
 - mindestens **9 Nächte**
 - Abflug: **München (MUC), Zürich (ZRH), Wien (VIE)**
 - maximal **4.000 € pro Person** bei zwei Erwachsenen
-- **All Inclusive Plus** bevorzugt, **All Inclusive** akzeptiert
+- **All Inclusive** und **All Inclusive Plus/Premium/Ultra** werden beide aufgenommen und auf der Seite klar getrennt
+- konkrete Angebots- oder Buchungsseite ausschließlich auf **Deutsch oder Englisch**
 - Pauschalreise inklusive Flug
-- klassische Anbieter sowie **Secret Escapes, Voyage Privé, Restplatzbörse, 5vorFlug, L'TUR, Urlaubspiraten und Travelzoo**
+- nur etablierte Reiseveranstalter, Buchungsportale und seriöse kuratierte Dealportale; darunter **Secret Escapes, Voyage Privé, Restplatzbörse, 5vorFlug, L'TUR, Urlaubspiraten und Travelzoo**
 - Recherche zweimal täglich um **07:15 und 19:15 Uhr** (Europe/Vienna)
+- bis zu **18 belastbare Angebote** pro Aktualisierung; gesucht werden bis zu 12 Kandidaten je Abflughafen
 
 Die Werte stehen in [`config/trip.json`](config/trip.json).
 
@@ -23,7 +25,7 @@ Die Werte stehen in [`config/trip.json`](config/trip.json).
 4. Wenn ein GitHub-Remote verbunden ist, committet und pusht die Routine die Aktualisierung.
 5. GitHub Actions veröffentlicht ausschließlich die fertige statische Seite. Dort wird kein OpenAI-Key benötigt.
 
-Preise und Verfügbarkeit ändern sich schnell. Vor der Buchung müssen Reisedaten, Flughafen, Gepäck, Transfer, Verpflegung und Gesamtpreis auf der Anbieterseite bestätigt werden.
+Preise und Verfügbarkeit ändern sich schnell. Vor der Buchung müssen Reisedaten, Flughafen, Gepäck, Transfer, die genaue AI- oder AI+-Leistungsbeschreibung und der Gesamtpreis auf der deutsch- oder englischsprachigen Anbieterseite bestätigt werden.
 
 ## Lokal prüfen
 

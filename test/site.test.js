@@ -25,6 +25,7 @@ function siteOffer(overrides = {}) {
     atoll: "Test-Atoll",
     provider: "Secret Escapes",
     url: "https://example.com/deal?a=1&b=2",
+    sourceLanguage: "de",
     departureAirport: "MUC",
     departureDate: "2026-11-27",
     returnDate: "2026-12-08",
@@ -46,17 +47,29 @@ function siteOffer(overrides = {}) {
     dealStatus: "new",
     previousPricePerPersonEur: null,
     score: 95,
-    reasons: ["AI+ bevorzugt", "Mitgliederangebot"],
+    reasons: ["AI+ / Premium / Ultra", "Mitgliederangebot"],
     ...overrides
   };
 }
 
-test("erzeugt eine mobile, filterbare Seite mit Favoriten", () => {
-  const html = renderSite({ offers: [siteOffer()], config, generatedAt: new Date("2026-08-20T08:00:00Z") });
+test("erzeugt eine mobile, nach AI und AI+ filterbare Seite mit Favoriten", () => {
+  const html = renderSite({
+    offers: [
+      siteOffer(),
+      siteOffer({ id: "offer-2", resortName: "Classic AI Resort", board: "all_inclusive", score: 82 })
+    ],
+    config,
+    generatedAt: new Date("2026-08-20T08:00:00Z")
+  });
   assert.ok(html.includes('name="viewport"'));
   assert.ok(html.includes("data-airport-filter=\"MUC\""));
   assert.ok(html.includes("data-favorite=\"offer-1\""));
   assert.ok(html.includes("Mitglieder-Deal"));
+  assert.ok(html.includes("Deutschsprachige Quelle"));
+  assert.ok(html.includes('<option value="all_inclusive_plus">Nur AI+</option>'));
+  assert.ok(html.includes('<option value="all_inclusive">Nur AI</option>'));
+  assert.ok(html.includes('title="All Inclusive Plus">AI+</span>'));
+  assert.ok(html.includes('title="All Inclusive">AI</span>'));
   assert.ok(html.includes("Keine Cookies, kein Tracking"));
 });
 
