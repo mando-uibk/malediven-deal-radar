@@ -7,11 +7,12 @@ Eine mobile Angebotsseite für zwei Reisende aus Innsbruck. Die Recherche läuft
 - Reisezeitraum: **26.11.2026 bis 10.12.2026**
 - mindestens **9 Nächte**
 - Abflug: **München (MUC), Zürich (ZRH), Wien (VIE)**
-- maximal **4.000 € pro Person** bei zwei Erwachsenen
+- maximal **5.000 € pro Person** bei zwei Erwachsenen
 - **All Inclusive** und **All Inclusive Plus/Premium/Ultra** werden beide aufgenommen und auf der Seite klar getrennt
 - konkrete Angebots- oder Buchungsseite ausschließlich auf **Deutsch oder Englisch**
 - Pauschalreise inklusive Flug
 - nur etablierte Reiseveranstalter, Buchungsportale und seriöse kuratierte Dealportale; darunter **Secret Escapes, Voyage Privé, Restplatzbörse, 5vorFlug, L'TUR, Urlaubspiraten und Travelzoo**
+- dynamische Angebotsseiten wie **BILLA/DERTOUR, TUI, HolidayCheck Reisen, CHECK24 Reisen oder weg.de** sind zulässig, wenn Preis, Termin, Flughafen, Flugpaket und AI-Stufe im Live-Ergebnis geprüft wurden; nach dem Öffnen kann eine erneute Auswahl nötig sein
 - Recherche zweimal täglich um **07:15 und 19:15 Uhr** (Europe/Vienna)
 - bis zu **18 belastbare Angebote** pro Aktualisierung; gesucht werden bis zu 12 Kandidaten je Abflughafen
 

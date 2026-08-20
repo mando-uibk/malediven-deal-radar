@@ -4,7 +4,7 @@
   "windowStart": "2026-11-26",
   "windowEnd": "2026-12-10",
   "minimumNights": 9,
-  "maximumPricePerPersonEur": 4000,
+  "maximumPricePerPersonEur": 5000,
   "departureAirports": [
     { "code": "MUC", "name": "München" },
     { "code": "ZRH", "name": "Zürich" },
