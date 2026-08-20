@@ -1,0 +1,16 @@
+{
+  "name": "malediven-deal-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Taeglicher, konfigurierbarer Deal-Scanner fuer Malediven-Pauschalreisen.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "scan": "node src/index.js",
+    "publish": "node --env-file=.env.publish src/index.js",
+    "demo": "node --env-file=.env.demo src/index.js",
+    "test": "node --test --test-isolation=none"
+  }
+}

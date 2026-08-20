@@ -1,0 +1,34 @@
+{
+  "updatedAt": "2026-08-20T14:30:00+02:00",
+  "offers": [
+    {
+      "resortName": "Summer Island Maldives",
+      "island": "Ziyaaraifushi",
+      "atoll": "Nord-Malé-Atoll",
+      "provider": "CK Slniečko / DER Touristik SK",
+      "url": "https://dovolenky.ckslniecko.sk/maldivy/1356231/summer-island/termin/95544320",
+      "departureAirport": "VIE",
+      "departureDate": "2026-11-30",
+      "returnDate": "2026-12-10",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "unknown",
+      "transferType": null,
+      "baggage": "unknown",
+      "pricePerPersonEur": 3495,
+      "totalPriceEur": 6990,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": 4,
+      "ratingOutOf10": null,
+      "room": "Superior Doppelzimmer",
+      "evidence": "Am 20.08.2026 im Buchungsformular geprüft: Wien, 30.11.–10.12.2026, 9 Hotelnächte, 2 Erwachsene, All Inclusive, 3.495 € pro Person. Transfer und Gepäck vor Buchung bestätigen."
+    }
+  ],
+  "warnings": [
+    "Weitere gefundene Kandidaten lagen nach Auswahl von All Inclusive über dem Budget oder zeigten nur einen nicht eindeutig zuordenbaren Ab-Preis."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "destination": "Malediven",
+  "travelers": 2,
+  "windowStart": "2026-11-26",
+  "windowEnd": "2026-12-10",
+  "minimumNights": 9,
+  "maximumPricePerPersonEur": 4000,
+  "departureAirports": [
+    { "code": "MUC", "name": "München" },
+    { "code": "ZRH", "name": "Zürich" },
+    { "code": "VIE", "name": "Wien" }
+  ],
+  "acceptedBoard": ["all_inclusive_plus", "all_inclusive"],
+  "preferredBoard": "all_inclusive_plus",
+  "topOffers": 7,
+  "offersPerAirport": 8,
+  "currency": "EUR",
+  "locale": "de-AT",
+  "timezone": "Europe/Vienna",
+  "searchSources": [
+    "TUI",
+    "DERTOUR",
+    "Meiers Weltreisen",
+    "HolidayCheck Reisen",
+    "CHECK24 Reisen",
+    "weg.de",
+    "Expedia",
+    "Secret Escapes",
+    "Voyage Privé",
+    "Restplatzbörse Österreich",
+    "5vorFlug",
+    "L'TUR",
+    "Urlaubspiraten",
+    "Travelzoo"
+  ]
+}
