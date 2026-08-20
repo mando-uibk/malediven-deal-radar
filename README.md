@@ -1,6 +1,6 @@
 # Malediven Deal Radar
 
-Eine mobile Angebotsseite für zwei Reisende aus Innsbruck. Die Recherche läuft als geplante Codex-Routine – ohne separaten OpenAI-API-Key und ohne Pay-as-you-go-API-Kosten. Nach jeder Suche werden die geprüften Treffer lokal gespeichert, die Seite neu erzeugt und bei verbundenem GitHub-Repository veröffentlicht.
+Eine mobile Angebotsseite für zwei Reisende aus Innsbruck. Die Recherche kann als geplanter ChatGPT-Web-Task laufen – ohne lokalen Rechner, separaten OpenAI-API-Key oder Pay-as-you-go-API-Kosten. Der Web-Task aktualisiert die geprüften Treffer im GitHub-Repository; GitHub Actions prüft die Daten, erzeugt die Seite und veröffentlicht sie.
 
 ## Suchprofil
 
@@ -18,13 +18,14 @@ Eine mobile Angebotsseite für zwei Reisende aus Innsbruck. Die Recherche läuft
 
 Die Werte stehen in [`config/trip.json`](config/trip.json).
 
-## Ablauf ohne API-Key
+## Cloud-Ablauf ohne lokalen Rechner und API-Key
 
-1. Die geplante Codex-Routine recherchiert aktuelle, konkret belegte Angebote im Web.
-2. Sie schreibt die Ergebnisse nach [`data/latest-offers.json`](data/latest-offers.json).
-3. `npm run publish` prüft, filtert und rankt die Angebote und erzeugt [`site/index.html`](site/index.html).
-4. Wenn ein GitHub-Remote verbunden ist, committet und pusht die Routine die Aktualisierung.
-5. GitHub Actions veröffentlicht ausschließlich die fertige statische Seite. Dort wird kein OpenAI-Key benötigt.
+1. Ein geplanter ChatGPT-Web-Task recherchiert aktuelle, konkret belegte Angebote.
+2. Über die verbundene GitHub-App aktualisiert er ausschließlich [`data/latest-offers.json`](data/latest-offers.json) auf `main`.
+3. Der Push startet GitHub Actions. Der Workflow führt `npm test` und `npm run publish` in der Cloud aus.
+4. GitHub Pages veröffentlicht die neu erzeugte [`site/index.html`](site/index.html).
+
+Der vollständige Prompt und die einmalige Einrichtung stehen in [`WEB_TASK_PROMPT.md`](WEB_TASK_PROMPT.md). Die bisherige lokale Routine sollte erst deaktiviert werden, nachdem der Web-Task einmal erfolgreich bis zur Live-Seite durchgelaufen ist.
 
 Preise und Verfügbarkeit ändern sich schnell. Vor der Buchung müssen Reisedaten, Flughafen, Gepäck, Transfer, die genaue AI- oder AI+-Leistungsbeschreibung und der Gesamtpreis auf der deutsch- oder englischsprachigen Anbieterseite bestätigt werden.
 
