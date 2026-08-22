@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T13:31:29+02:00",
+  "updatedAt": "2026-08-22T19:16:47+02:00",
   "offers": [
     {
       "resortName": "Centara Ras Fushi Resort & Spa",
@@ -579,10 +579,10 @@
     }
   ],
   "warnings": [
-    "Am 22.08.2026 wurden 18 Angebote im Cloud-Browser direkt in dynamischen Live-Ergebnissen bestätigt: 15 All Inclusive und 3 Alles Inklusive plus.",
-    "TUI wurde als Pflichtquelle ausdrücklich geprüft. Drei X-TUI-Angebote für Centara Ras Fushi Resort & Spa waren mit exakten Hin- und Rückreisedaten, 9 Hotelnächten, MUC, Hotel + Flug, Transfer, All Inclusive und 2.451 € p. P. vollständig sichtbar und wurden übernommen.",
-    "Die TUI- und BILLA-Seiten sind dynamisch. Nach dem Öffnen der Links müssen Datum, Abflughafen, Reisedauer und Verpflegung gegebenenfalls erneut gewählt werden; bei TUI erweitert die URL die Flughafenauswahl zunächst, obwohl die übernommenen konkreten Angebotskarten mit MUC geprüft wurden.",
-    "Alle übrigen übernommenen Angebote wurden in den BILLA-Reisen-Tariflisten mit VIE live geprüft. Für ZRH ließ sich in diesem Lauf kein ebenso vollständig belegbarer Treffer bestätigen.",
-    "Die breite Websuche bei den weiteren priorisierten Veranstaltern und Portalen ergab keine zusätzlichen Treffer, deren exakte Daten, zulässiger Flughafen, mindestens 9 Hotelnächte, Hotel + Flug, All-Inclusive-Stufe und Preis zugleich belastbar sichtbar waren. Preise und Verfügbarkeit können sich kurzfristig ändern."
+    "Am 22.08.2026 um 19:16 CEST wurden 18 Angebote unter dem 48-Stunden-Bestandsschutz erhalten: 15 All Inclusive und 3 Alles Inklusive plus. Sie wurden zuletzt am 22.08.2026 zwischen ca. 13:15 und 13:30 CEST im Cloud-Browser live bestätigt und werden in diesem Lauf nicht als frisch bestätigt dargestellt.",
+    "Der Cloud-Browser war in diesem Lauf technisch nicht verfügbar. TUI wurde deshalb als Pflichtquelle per aktueller Websuche geprüft: Centara Ras Fushi Resort & Spa und All-Inclusive-Pauschalangebote waren weiterhin auffindbar, der exakte dynamische Auswahlzustand mit MUC, Reisedaten, 9 Hotelnächten und 2.451 € p. P. ließ sich jedoch nicht erneut auslesen. Es gab keinen ausdrücklichen Nichtverfügbarkeits- oder Preisgegenbeleg.",
+    "Die konkreten dynamischen BILLA-Reisen-Links für Embudu Village, ADAARAN Select Meedhupparu, Sentido OBLU Helengeli und Oaga Art Resort konnten per Webabruf nicht mit ihrem gespeicherten Filterzustand geöffnet werden. Die Resorts und All-Inclusive-Angebotsseiten waren weiterhin auffindbar; die zuletzt live bestätigten VIE-Tarife bleiben daher bis maximal 24.08.2026 gegen 13:30 CEST geschützt.",
+    "Die vorhandenen drei resortbezogenen HTTPS-Bilder je Angebot wurden unverändert übernommen. Die Websuche lieferte keinen Hinweis auf eine falsche Resortzuordnung; eine vollständige technische Erreichbarkeitsprüfung aller externen Bildserver war in diesem Lauf nicht möglich.",
+    "Die breite aktuelle Websuche bei den priorisierten Veranstaltern, Buchungs- und Dealportalen zeigte weitere allgemeine Malediven-Angebote, aber keine zusätzlichen Treffer, bei denen exakte Hin- und Rückreise, MUC/ZRH/VIE, mindestens 9 Hotelnächte, Flug + Hotel, zulässige All-Inclusive-Stufe und Preis zugleich belastbar sichtbar waren."
   ]
 }
