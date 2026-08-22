@@ -25,6 +25,7 @@ function siteOffer(overrides = {}) {
     atoll: "Test-Atoll",
     provider: "Secret Escapes",
     url: "https://example.com/deal?a=1&b=2",
+    imageUrls: ["https://images.example.com/one.jpg", "https://images.example.com/two.jpg", "https://images.example.com/three.jpg"],
     sourceLanguage: "de",
     departureAirport: "MUC",
     departureDate: "2026-11-27",
@@ -70,6 +71,10 @@ test("erzeugt eine mobile, nach AI und AI+ filterbare Seite mit Favoriten", () =
   assert.ok(html.includes('<option value="all_inclusive">Nur AI</option>'));
   assert.ok(html.includes('title="All Inclusive Plus">AI+</span>'));
   assert.ok(html.includes('title="All Inclusive">AI</span>'));
+  assert.ok(html.includes('class="deal-gallery"'));
+  assert.equal((html.match(/class="gallery-image"/g) || []).length, 6);
+  assert.ok(html.includes('loading="lazy"'));
+  assert.ok(html.includes("Lagoon Resort – Bild 1"));
   assert.ok(html.includes("Keine Cookies, kein Tracking"));
 });
 
@@ -83,4 +88,5 @@ test("escaped Angebotsdaten können weder Markup noch Script einschleusen", () =
   assert.ok(!html.includes("<script>alert(2)</script>"));
   assert.ok(html.includes("&lt;script&gt;alert(1)&lt;/script&gt;"));
   assert.ok(html.includes("https://example.com/deal?a=1&amp;b=2"));
+  assert.ok(html.includes("https://images.example.com/one.jpg"));
 });

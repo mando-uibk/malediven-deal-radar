@@ -77,9 +77,14 @@ function renderCard(offer, config, index) {
     LANGUAGE_LABELS[offer.sourceLanguage] || null
   ].filter(Boolean);
   const searchable = [offer.resortName, offer.provider, offer.island, offer.atoll].filter(Boolean).join(" ").toLocaleLowerCase("de");
+  const imageUrls = Array.isArray(offer.imageUrls) ? offer.imageUrls.filter((url) => /^https:\/\//.test(url)).slice(0, 3) : [];
+  const gallery = imageUrls.length
+    ? `<div class="deal-gallery" aria-label="Bilder von ${escapeHtml(offer.resortName)}">${imageUrls.map((url, imageIndex) => `<div class="gallery-image"><img src="${escapeHtml(url)}" alt="${escapeHtml(offer.resortName)} – Bild ${imageIndex + 1}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.hidden=true"></div>`).join("")}</div>`
+    : `<div class="deal-gallery deal-gallery--fallback" aria-label="Kein Resortbild verfügbar"><span>🌴</span></div>`;
 
   return `
     <article class="deal-card" data-offer-card data-id="${escapeHtml(offer.id)}" data-airport="${escapeHtml(offer.departureAirport)}" data-board="${escapeHtml(offer.board)}" data-price="${offer.pricePerPersonEur}" data-score="${offer.score}" data-nights="${offer.nights}" data-search="${escapeHtml(searchable)}">
+      ${gallery}
       <div class="card-topline">
         <div class="badges">
           <span class="badge badge--status badge--${escapeHtml(offer.dealStatus)}">${escapeHtml(STATUS_LABELS[offer.dealStatus])}</span>
@@ -173,6 +178,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
     .results-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:28px 2px 14px}.results-head h2{font-size:24px;margin:0;letter-spacing:-.035em}.results-head p{margin:3px 0 0;color:var(--muted);font-size:13px}.result-count{font-weight:800;color:var(--teal-dark);white-space:nowrap}
     .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
     .deal-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:0 10px 35px rgba(6,60,67,.06);display:flex;flex-direction:column;min-width:0;transition:transform .2s ease,box-shadow .2s ease}.deal-card:hover{transform:translateY(-2px);box-shadow:0 18px 45px rgba(6,60,67,.1)}
+    .deal-gallery{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:repeat(2,92px);gap:3px;margin:-20px -20px 18px;overflow:hidden;border-radius:21px 21px 12px 12px;background:linear-gradient(135deg,#b9eee5,#f7deb0)}.gallery-image{min-width:0;min-height:0;background:linear-gradient(135deg,#8ed8cd,#f3cf91)}.gallery-image:first-child{grid-row:1/3}.gallery-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}.deal-card:hover .gallery-image img{transform:scale(1.025)}.deal-gallery--fallback{display:flex;align-items:center;justify-content:center;height:184px;color:#fff;font-size:46px}.deal-gallery--fallback span{filter:drop-shadow(0 5px 8px rgba(6,60,67,.25))}
     .card-topline{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.badges{display:flex;flex-wrap:wrap;gap:6px}.badge{display:inline-flex;padding:5px 8px;border-radius:999px;font-size:10px;line-height:1;font-weight:850;text-transform:uppercase;letter-spacing:.055em}.badge--status{background:#e5f7f3;color:#07675f}.badge--price_drop{background:#fff0e6;color:#b04422}.badge--board-plus{background:#dff7f3;color:#07545d}.badge--board-ai{background:#eef2f6;color:#405466}.badge--deal{background:#fff3c6;color:#8d5d00}.badge--member{background:#eee9ff;color:#5f3bb1}
     .favorite{flex:0 0 auto;width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#fff;color:#ad7d00;font-size:23px;line-height:1;cursor:pointer}.favorite[aria-pressed="true"]{background:#fff5ca;border-color:#f0d979}.rank{margin-top:17px;color:var(--teal);font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.08em}
     .deal-card h2{font-size:22px;line-height:1.14;letter-spacing:-.035em;margin:7px 0 5px}.location{color:var(--muted);font-size:13px;line-height:1.4;margin:0;min-height:36px}
@@ -185,7 +191,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
     .notice{margin-top:24px;padding:18px;border-radius:16px;background:var(--sand);border:1px solid #f4dfb7;color:#6d5833;font-size:12px;line-height:1.55}.warning{margin-top:12px;color:#9a3412}
     footer{max-width:760px;margin:30px auto 0;text-align:center;color:#678083;font-size:11px;line-height:1.6}
     [hidden]{display:none!important}
-    @media(max-width:760px){.hero{padding-left:16px;padding-right:16px;padding-bottom:82px}.page{padding-left:12px;padding-right:12px}.stats{grid-template-columns:repeat(2,1fr);border-radius:18px}.stat{padding:15px}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.stat strong{font-size:20px}.grid{grid-template-columns:1fr}.filters{padding:12px}.filter-row{gap:8px}.chip--saved{margin-left:0}.deal-card{padding:17px;border-radius:19px}.results-head{margin-top:22px}.results-head h2{font-size:21px}}
+    @media(max-width:760px){.hero{padding-left:16px;padding-right:16px;padding-bottom:82px}.page{padding-left:12px;padding-right:12px}.stats{grid-template-columns:repeat(2,1fr);border-radius:18px}.stat{padding:15px}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.stat strong{font-size:20px}.grid{grid-template-columns:1fr}.filters{padding:12px}.filter-row{gap:8px}.chip--saved{margin-left:0}.deal-card{padding:17px;border-radius:19px}.deal-gallery{margin:-17px -17px 16px;border-radius:18px 18px 11px 11px;grid-template-rows:repeat(2,82px)}.deal-gallery--fallback{height:164px}.results-head{margin-top:22px}.results-head h2{font-size:21px}}
     @media(max-width:390px){h1{font-size:39px}.filter-row select{width:100%}.chip{flex:1}.chip--saved{flex-basis:100%}.price-row strong{font-size:28px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.deal-card{transition:none}}
   </style>
