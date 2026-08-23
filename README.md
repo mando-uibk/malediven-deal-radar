@@ -15,7 +15,7 @@ Eine mobile Angebotsseite für zwei Reisende aus Innsbruck. Die Recherche kann a
 - nur etablierte Reiseveranstalter, Buchungsportale und seriöse kuratierte Dealportale; darunter **Secret Escapes, Voyage Privé, Restplatzbörse, 5vorFlug, L'TUR, Urlaubspiraten und Travelzoo**
 - dynamische Angebotsseiten wie **BILLA/DERTOUR, TUI, HolidayCheck Reisen, CHECK24 Reisen oder weg.de** sind zulässig, wenn Preis, Termin, Flughafen, Flugpaket und AI-Stufe im Live-Ergebnis geprüft wurden; nach dem Öffnen kann eine erneute Auswahl nötig sein
 - Recherche zweimal täglich um **07:15 und 19:15 Uhr** (Europe/Vienna)
-- bis zu **18 belastbare Angebote** pro Aktualisierung; gesucht werden bis zu 12 Kandidaten je Abflughafen
+- Zielgröße: **20 unterschiedliche Resorts** pro Aktualisierung; mehrere Anbieter- und Tarifvarianten werden je Resort gruppiert (höchstens 60 Angebote insgesamt), gesucht werden bis zu 25 Kandidaten je Abflughafen
 
 Die Werte stehen in [`config/trip.json`](config/trip.json).
 

@@ -28,8 +28,9 @@
     "de",
     "en"
   ],
-  "topOffers": 18,
-  "offersPerAirport": 12,
+  "targetResorts": 20,
+  "topOffers": 60,
+  "offersPerAirport": 25,
   "currency": "EUR",
   "locale": "de-AT",
   "timezone": "Europe/Vienna",

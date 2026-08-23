@@ -33,7 +33,7 @@ Dynamische Angebotsseiten sind zulässig. Preis, Reisedaten, Abflughafen, Flugpa
 
 Erfasse normales All Inclusive als board = all_inclusive. Erfasse nur nachweislich erweiterte Stufen als board = all_inclusive_plus und übernimm deren Originalbezeichnung in evidence. Erfinde keine Preise, Termine, Leistungen, Transferarten, Gepäckangaben oder Bewertungen.
 
-Strebe 12 bis 18 unterschiedliche, belastbare Angebote an. Weniger Treffer sind zulässig, wenn nicht mehr alle Kriterien erfüllen. Dedupliziere gleiche Kombinationen aus Resort, Flughafen, Hinreise, Rückreise und Verpflegung und behalte die günstigste.
+Strebe 20 unterschiedliche, belastbare Resorts an. Priorisiere neue Resortnamen, bis 20 verschiedene Resorts erreicht sind. Weniger Resorts sind zulässig, wenn nicht mehr alle harten Kriterien vollständig erfüllen; ergänze niemals ungeprüfte Platzhalter. Mehrere belegte Anbieter-, Termin-, Flughafen- oder Verpflegungsvarianten desselben Resorts bleiben zulässig und werden auf der Website innerhalb einer Resortkarte gruppiert. Begrenze den Gesamtstand auf höchstens 60 Angebote. Dedupliziere nur exakt gleiche Kombinationen aus normalisiertem Resortnamen, Anbieter, Flughafen, Hinreise, Rückreise und Verpflegung und behalte davon die günstigste.
 
 Restaurantinformationen je Resort:
 - Ergänze bei jedem Angebot restaurantInfo im vorhandenen Schema.
