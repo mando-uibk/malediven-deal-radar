@@ -377,7 +377,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
             : Number(b.dataset.score) - Number(a.dataset.score));
         visible.forEach((card) => grid.insertBefore(card, empty));
         const visibleOffers = visible.reduce((sum, card) => sum + [...card.querySelectorAll('[data-provider-offer]')].filter((option) => !option.hidden).length, 0);
-        count.textContent = visible.length + ' Resorts · ' + visibleOffers + ' Angebote';
+        count.textContent = visible.length + (visible.length === 1 ? ' Resort · ' : ' Resorts · ') + visibleOffers + (visibleOffers === 1 ? ' Angebot' : ' Angebote');
         empty.classList.toggle('visible', visible.length === 0);
       };
 
