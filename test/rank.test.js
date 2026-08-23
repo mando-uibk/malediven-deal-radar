@@ -84,3 +84,13 @@ test("dedupliziert gleiches Resort und behält den günstigeren Treffer", () => 
   assert.equal(result.offers.length, 1);
   assert.equal(result.offers[0].pricePerPersonEur, 3300);
 });
+
+
+test("behält Anbieter-Alternativen desselben Resorts getrennt", () => {
+  const result = filterAndRank([
+    offer({ provider: "TUI", pricePerPersonEur: 3300, totalPriceEur: 6600 }),
+    offer({ provider: "DERTOUR", pricePerPersonEur: 3400, totalPriceEur: 6800 })
+  ], config);
+  assert.equal(result.offers.length, 2);
+  assert.deepEqual(new Set(result.offers.map((item) => item.provider)), new Set(["TUI", "DERTOUR"]));
+});

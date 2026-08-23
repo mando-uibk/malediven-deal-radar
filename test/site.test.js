@@ -57,14 +57,21 @@ test("erzeugt eine mobile, nach AI und AI+ filterbare Seite mit Favoriten", () =
   const html = renderSite({
     offers: [
       siteOffer(),
-      siteOffer({ id: "offer-2", resortName: "Classic AI Resort", board: "all_inclusive", score: 82 })
+      siteOffer({ id: "offer-2", provider: "TUI", board: "all_inclusive", pricePerPersonEur: 3400, totalPriceEur: 6800, score: 88 }),
+      siteOffer({ id: "offer-3", resortName: "Classic AI Resort", board: "all_inclusive", score: 82 })
     ],
     config,
     generatedAt: new Date("2026-08-20T08:00:00Z")
   });
   assert.ok(html.includes('name="viewport"'));
   assert.ok(html.includes("data-airport-filter=\"MUC\""));
-  assert.ok(html.includes("data-favorite=\"offer-1\""));
+  assert.ok(html.includes('data-favorite="resort-lagoon-resort"'));
+  assert.equal((html.match(/data-offer-card data-id=/g) || []).length, 2);
+  assert.equal((html.match(/class="offer-option" data-provider-offer/g) || []).length, 3);
+  assert.ok(html.includes("2 Anbieterangebote"));
+  assert.ok(html.includes("2 Angebote von 2 Anbietern"));
+  assert.ok(html.includes("TUI"));
+  assert.ok(html.includes("günstigstes zuerst"));
   assert.ok(html.includes("Mitglieder-Deal"));
   assert.ok(html.includes("Deutschsprachige Quelle"));
   assert.ok(html.includes('<option value="all_inclusive_plus">Nur AI+</option>'));

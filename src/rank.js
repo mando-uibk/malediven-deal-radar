@@ -130,6 +130,7 @@ export function scoreOffer(offer, config) {
 function dedupeKey(offer) {
   return [
     offer.resortName.toLocaleLowerCase("de"),
+    offer.provider.toLocaleLowerCase("de"),
     offer.departureAirport,
     offer.departureDate,
     offer.returnDate,

@@ -65,7 +65,68 @@ function fullDate(value, locale) {
   }).format(new Date(`${value}T00:00:00Z`));
 }
 
-function renderCard(offer, config, index) {
+function normalizeResortName(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase("de")
+    .replace(/&/g, " und ")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
+}
+
+function sortOffers(offers) {
+  return [...offers].sort((a, b) =>
+    a.pricePerPersonEur - b.pricePerPersonEur
+    || a.departureDate.localeCompare(b.departureDate)
+    || a.returnDate.localeCompare(b.returnDate)
+    || a.provider.localeCompare(b.provider, "de")
+  );
+}
+
+function groupOffersByResort(offers) {
+  const groups = new Map();
+  for (const offer of offers) {
+    const key = normalizeResortName(offer.resortName);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(offer);
+  }
+  return [...groups.values()]
+    .map(sortOffers)
+    .sort((a, b) =>
+      a[0].pricePerPersonEur - b[0].pricePerPersonEur
+      || b[0].score - a[0].score
+      || a[0].resortName.localeCompare(b[0].resortName, "de")
+    );
+}
+
+function renderBoardBadge(board) {
+  return `<span class="badge badge--board badge--${board === "all_inclusive_plus" ? "board-plus" : "board-ai"}" title="${escapeHtml(BOARD_LABELS[board])}">${escapeHtml(BOARD_BADGES[board])}</span>`;
+}
+
+function renderProviderOffer(item, locale, travelers, index) {
+  const confidence = item.priceConfidence === "live" ? "Live-Preis" : item.priceConfidence === "recent" ? "aktueller Fund" : "Richtpreis";
+  return `
+    <div class="offer-option" data-provider-offer data-airport="${escapeHtml(item.departureAirport)}" data-board="${escapeHtml(item.board)}" data-price="${item.pricePerPersonEur}" data-search="${escapeHtml([item.provider, item.room, BOARD_LABELS[item.board]].filter(Boolean).join(" ").toLocaleLowerCase("de"))}">
+      <div class="offer-option-head">
+        <div><span class="offer-number">#${index + 1}</span><strong>${escapeHtml(item.provider)}</strong></div>
+        ${renderBoardBadge(item.board)}
+      </div>
+      <div class="offer-option-facts">
+        <span><strong>${escapeHtml(item.departureAirport)}</strong></span>
+        <span>${shortDate(item.departureDate, locale)}–${shortDate(item.returnDate, locale)}</span>
+        <span>${item.nights} Nächte</span>
+      </div>
+      <p class="offer-room">${escapeHtml(BOARD_LABELS[item.board])} · ${escapeHtml(item.room || "Doppelzimmer")}</p>
+      <div class="offer-option-bottom">
+        <div class="offer-price"><strong>${eur(item.pricePerPersonEur, locale)} p. P.</strong><span>${eur(item.totalPriceEur, locale)} gesamt für ${travelers}</span></div>
+        <a class="offer-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer nofollow">Zum Angebot <span>↗</span></a>
+      </div>
+      ${item.evidence ? `<details class="offer-evidence"><summary>Live-Prüfung und Hinweise</summary><p>${escapeHtml(item.evidence)}</p></details>` : ""}
+    </div>`;
+}
+
+function renderCard(groupOffers, config, index) {
+  const offer = groupOffers[0];
   const locale = config.locale || "de-AT";
   const dealLabel = DEAL_LABELS[offer.dealType];
   const location = [offer.island, offer.atoll].filter(Boolean).join(", ") || "Malediven";
@@ -76,36 +137,49 @@ function renderCard(offer, config, index) {
     offer.baggage === "included" ? "Gepäck inkl." : null,
     LANGUAGE_LABELS[offer.sourceLanguage] || null
   ].filter(Boolean);
-  const searchable = [offer.resortName, offer.provider, offer.island, offer.atoll].filter(Boolean).join(" ").toLocaleLowerCase("de");
-  const imageUrls = Array.isArray(offer.imageUrls) ? offer.imageUrls.filter((url) => /^https:\/\//.test(url)).slice(0, 3) : [];
+  const providers = [...new Set(groupOffers.map((item) => item.provider))];
+  const boards = [...new Set(groupOffers.map((item) => item.board))];
+  const searchable = groupOffers
+    .flatMap((item) => [item.resortName, item.provider, item.island, item.atoll, item.room, BOARD_LABELS[item.board]])
+    .filter(Boolean)
+    .join(" ")
+    .toLocaleLowerCase("de");
+  const resortSearchable = [offer.resortName, offer.island, offer.atoll].filter(Boolean).join(" ").toLocaleLowerCase("de");
+  const groupId = `resort-${normalizeResortName(offer.resortName).replaceAll(" ", "-")}`;
+  const maxScore = Math.max(...groupOffers.map((item) => item.score));
+  const maxNights = Math.max(...groupOffers.map((item) => item.nights));
+  const imageUrls = groupOffers
+    .flatMap((item) => Array.isArray(item.imageUrls) ? item.imageUrls : [])
+    .filter((url, imageIndex, urls) => /^https:\/\//.test(url) && urls.indexOf(url) === imageIndex)
+    .slice(0, 3);
   const gallery = imageUrls.length
     ? `<div class="deal-gallery" aria-label="Bilder von ${escapeHtml(offer.resortName)}">${imageUrls.map((url, imageIndex) => `<div class="gallery-image"><img src="${escapeHtml(url)}" alt="${escapeHtml(offer.resortName)} – Bild ${imageIndex + 1}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.hidden=true"></div>`).join("")}</div>`
     : `<div class="deal-gallery deal-gallery--fallback" aria-label="Kein Resortbild verfügbar"><span>🌴</span></div>`;
 
   return `
-    <article class="deal-card" data-offer-card data-id="${escapeHtml(offer.id)}" data-airport="${escapeHtml(offer.departureAirport)}" data-board="${escapeHtml(offer.board)}" data-price="${offer.pricePerPersonEur}" data-score="${offer.score}" data-nights="${offer.nights}" data-search="${escapeHtml(searchable)}">
+    <article class="deal-card" data-offer-card data-id="${escapeHtml(groupId)}" data-price="${offer.pricePerPersonEur}" data-score="${maxScore}" data-nights="${maxNights}" data-search="${escapeHtml(searchable)}" data-resort-search="${escapeHtml(resortSearchable)}">
       ${gallery}
       <div class="card-topline">
         <div class="badges">
           <span class="badge badge--status badge--${escapeHtml(offer.dealStatus)}">${escapeHtml(STATUS_LABELS[offer.dealStatus])}</span>
-          <span class="badge badge--board badge--${offer.board === "all_inclusive_plus" ? "board-plus" : "board-ai"}" title="${escapeHtml(BOARD_LABELS[offer.board])}">${escapeHtml(BOARD_BADGES[offer.board])}</span>
+          ${boards.map(renderBoardBadge).join("")}
           ${dealLabel ? `<span class="badge badge--deal">${escapeHtml(dealLabel)}</span>` : ""}
-          ${offer.membershipRequired ? `<span class="badge badge--member">Login nötig</span>` : ""}
+          ${groupOffers.some((item) => item.membershipRequired) ? `<span class="badge badge--member">Login nötig</span>` : ""}
         </div>
-        <button class="favorite" type="button" data-favorite="${escapeHtml(offer.id)}" aria-label="Angebot merken" aria-pressed="false">☆</button>
+        <button class="favorite" type="button" data-favorite="${escapeHtml(groupId)}" aria-label="Resort merken" aria-pressed="false">☆</button>
       </div>
 
-      <div class="rank">#${index + 1} · Deal-Score ${offer.score}</div>
+      <div class="rank">#${index + 1} · bester Deal-Score ${maxScore}</div>
       <h2>${escapeHtml(offer.resortName)}</h2>
-      <p class="location">${escapeHtml(location)} · ${escapeHtml(offer.provider)}</p>
+      <p class="location">${escapeHtml(location)} · ${groupOffers.length} ${groupOffers.length === 1 ? "Angebot" : "Angebote"} von ${providers.length} ${providers.length === 1 ? "Anbieter" : "Anbietern"}</p>
 
       <div class="price-row">
-        <div><strong>${eur(offer.pricePerPersonEur, locale)}</strong><span>pro Person</span></div>
+        <div><strong>ab ${eur(offer.pricePerPersonEur, locale)}</strong><span>pro Person</span></div>
         ${offer.dealStatus === "price_drop" && offer.previousPricePerPersonEur
           ? `<div class="old-price">vorher ${eur(offer.previousPricePerPersonEur, locale)}</div>`
           : ""}
       </div>
-      <p class="total">${eur(offer.totalPriceEur, locale)} gesamt für ${config.travelers} Personen · ${offer.priceConfidence === "live" ? "Live-Preis" : offer.priceConfidence === "recent" ? "aktueller Fund" : "Richtpreis"}</p>
+      <p class="total">${eur(offer.totalPriceEur, locale)} gesamt für ${config.travelers} Personen · günstigstes Angebot</p>
 
       <div class="trip-facts">
         <div class="airport">${escapeHtml(offer.departureAirport)}</div>
@@ -116,22 +190,27 @@ function renderCard(offer, config, index) {
       ${quality.length ? `<div class="quality">${quality.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : ""}
       ${offer.bookingDeadline ? `<p class="deadline">Nur bis ${escapeHtml(offer.bookingDeadline)} buchbar</p>` : ""}
 
-      <details>
-        <summary>Warum dieser Deal?</summary>
-        <p>${escapeHtml(offer.reasons.join(" · ") || "Erfüllt alle Suchkriterien")}</p>
-        ${offer.evidence ? `<p class="evidence">Quellenhinweis: ${escapeHtml(offer.evidence)}</p>` : ""}
+      <details class="offer-options" data-offer-options>
+        <summary><span>${groupOffers.length} ${groupOffers.length === 1 ? "Anbieterangebot" : "Anbieterangebote"}</span><span class="summary-hint">günstigstes zuerst</span></summary>
+        <div class="offer-list">${groupOffers.map((item, offerIndex) => renderProviderOffer(item, locale, config.travelers, offerIndex)).join("")}</div>
       </details>
 
-      <a class="deal-link" href="${escapeHtml(offer.url)}" target="_blank" rel="noopener noreferrer nofollow">Angebot beim Anbieter prüfen <span>↗</span></a>
+      <details class="deal-reasons">
+        <summary>Warum ist das günstigste ein Deal?</summary>
+        <p>${escapeHtml((offer.reasons || []).join(" · ") || "Erfüllt alle Suchkriterien")}</p>
+      </details>
+
+      <a class="deal-link" href="${escapeHtml(offer.url)}" target="_blank" rel="noopener noreferrer nofollow">Günstigstes Angebot prüfen <span>↗</span></a>
     </article>`;
 }
 
 export function renderSite({ offers, config, warnings = [], generatedAt = new Date() }) {
   const locale = config.locale || "de-AT";
+  const groups = groupOffersByResort(offers);
   const aiPlusCount = offers.filter((offer) => offer.board === "all_inclusive_plus").length;
   const aiCount = offers.filter((offer) => offer.board === "all_inclusive").length;
   const bestPrice = offers.length ? Math.min(...offers.map((offer) => offer.pricePerPersonEur)) : null;
-  const cards = offers.map((offer, index) => renderCard(offer, config, index)).join("");
+  const cards = groups.map((group, index) => renderCard(group, config, index)).join("");
   const updated = generatedAt.toLocaleString(locale, {
     dateStyle: "medium",
     timeStyle: "short",
@@ -186,12 +265,13 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
     .trip-facts{display:grid;grid-template-columns:auto 1fr;gap:12px 13px;padding:15px;background:var(--aqua);border-radius:15px}.trip-facts>div{min-width:0}.trip-facts>div:last-child{grid-column:2}.trip-facts strong,.trip-facts span{display:block}.trip-facts strong{font-size:13px}.trip-facts span{margin-top:2px;color:#426b6b;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.airport{grid-row:1/3;display:flex;align-items:center;justify-content:center;min-width:55px;border-radius:12px;background:#fff;color:var(--teal-dark);font-weight:900;font-size:16px;box-shadow:0 4px 14px rgba(6,60,67,.08)}
     .quality{display:flex;flex-wrap:wrap;gap:6px;margin:13px 0}.quality span{padding:5px 8px;background:#f5f8f8;border-radius:7px;color:#48666a;font-size:11px}.deadline{margin:12px 0 0;color:#a74223;font-size:12px;font-weight:750}
     details{margin-top:14px;border-top:1px solid #edf3f2;padding-top:12px;color:var(--muted);font-size:12px}summary{cursor:pointer;color:#375c60;font-weight:750}details p{line-height:1.5}.evidence{font-size:11px}
+    .offer-options{margin:16px 0 14px;border:1px solid #bcded9;border-radius:14px;padding:0;overflow:hidden;background:#f7fcfb;color:var(--ink)}.offer-options>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 15px;list-style:none;background:#e8f8f5;color:var(--teal-dark);font-size:13px;font-weight:850}.offer-options>summary::-webkit-details-marker{display:none}.offer-options>summary:after{content:"＋";font-size:17px;line-height:1}.offer-options[open]>summary:after{content:"−"}.summary-hint{margin-left:auto;color:#5a7a7b;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.055em}.offer-list{display:grid;gap:9px;padding:10px}.offer-option{padding:12px;border:1px solid var(--line);border-radius:11px;background:#fff}.offer-option-head,.offer-option-head>div,.offer-option-bottom{display:flex;align-items:center}.offer-option-head{justify-content:space-between;gap:10px}.offer-option-head>div{gap:7px}.offer-number{color:var(--teal);font-size:10px;font-weight:850}.offer-option-head strong{font-size:13px}.offer-option-facts{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.offer-option-facts span{padding:4px 7px;border-radius:6px;background:#eef7f5;color:#315d60;font-size:10px}.offer-room{margin:8px 0;color:#536f72;font-size:11px}.offer-option-bottom{justify-content:space-between;gap:12px}.offer-price strong,.offer-price span{display:block}.offer-price strong{font-size:14px}.offer-price span{margin-top:2px;color:var(--muted);font-size:10px}.offer-link{display:inline-flex;align-items:center;gap:5px;flex:0 0 auto;padding:8px 10px;border-radius:8px;background:var(--teal-dark);color:#fff;text-decoration:none;font-size:11px;font-weight:800}.offer-link:hover{background:#043e45}.offer-evidence{margin-top:9px;padding-top:8px}.offer-evidence summary{font-size:10px}.offer-evidence p{margin:6px 0 0;color:#647b7e;font-size:10px}.deal-reasons{margin-top:10px}
     .deal-link{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding:14px 16px;border-radius:12px;background:var(--teal-dark);color:#fff;text-decoration:none;font-size:14px;font-weight:800}.deal-link:hover{background:#043e45}.deal-link span{font-size:18px}
     .empty{display:none;grid-column:1/-1;text-align:center;background:#fff;border:1px dashed #bdd4d2;border-radius:20px;padding:44px 20px;color:var(--muted)}.empty.visible{display:block}
     .notice{margin-top:24px;padding:18px;border-radius:16px;background:var(--sand);border:1px solid #f4dfb7;color:#6d5833;font-size:12px;line-height:1.55}.warning{margin-top:12px;color:#9a3412}
     footer{max-width:760px;margin:30px auto 0;text-align:center;color:#678083;font-size:11px;line-height:1.6}
     [hidden]{display:none!important}
-    @media(max-width:760px){.hero{padding-left:16px;padding-right:16px;padding-bottom:82px}.page{padding-left:12px;padding-right:12px}.stats{grid-template-columns:repeat(2,1fr);border-radius:18px}.stat{padding:15px}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.stat strong{font-size:20px}.grid{grid-template-columns:1fr}.filters{padding:12px}.filter-row{gap:8px}.chip--saved{margin-left:0}.deal-card{padding:17px;border-radius:19px}.deal-gallery{margin:-17px -17px 16px;border-radius:18px 18px 11px 11px;grid-template-rows:repeat(2,82px)}.deal-gallery--fallback{height:164px}.results-head{margin-top:22px}.results-head h2{font-size:21px}}
+    @media(max-width:760px){.hero{padding-left:16px;padding-right:16px;padding-bottom:82px}.page{padding-left:12px;padding-right:12px}.stats{grid-template-columns:repeat(2,1fr);border-radius:18px}.stat{padding:15px}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.stat strong{font-size:20px}.grid{grid-template-columns:1fr}.filters{padding:12px}.filter-row{gap:8px}.chip--saved{margin-left:0}.deal-card{padding:17px;border-radius:19px}.deal-gallery{margin:-17px -17px 16px;border-radius:18px 18px 11px 11px;grid-template-rows:repeat(2,82px)}.deal-gallery--fallback{height:164px}.results-head{margin-top:22px}.results-head h2{font-size:21px}.offer-options>summary{padding:13px}.offer-option-bottom{align-items:flex-end}}
     @media(max-width:390px){h1{font-size:39px}.filter-row select{width:100%}.chip{flex:1}.chip--saved{flex-basis:100%}.price-row strong{font-size:28px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.deal-card{transition:none}}
   </style>
@@ -208,7 +288,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
 
   <main class="page">
     <section class="stats" aria-label="Zusammenfassung">
-      <div class="stat"><strong>${offers.length}</strong><span>passende Deals</span></div>
+      <div class="stat"><strong>${groups.length}</strong><span>Resorts · ${offers.length} Angebote</span></div>
       <div class="stat"><strong>${aiPlusCount}</strong><span>AI+ / Premium / Ultra</span></div>
       <div class="stat"><strong>${aiCount}</strong><span>All Inclusive</span></div>
       <div class="stat"><strong>${bestPrice == null ? "–" : eur(bestPrice, locale)}</strong><span>bester Preis p. P.</span></div>
@@ -228,7 +308,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
 
     <div class="results-head">
       <div><h2>Aktuelle Funde</h2><p>${fullDate(config.windowStart, locale)}–${fullDate(config.windowEnd, locale)}</p></div>
-      <div class="result-count" id="result-count">${offers.length} angezeigt</div>
+      <div class="result-count" id="result-count">${groups.length} Resorts · ${offers.length} Angebote</div>
     </div>
 
     <section class="grid" id="deal-grid" aria-live="polite">
@@ -275,9 +355,16 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
         const boardValue = board.value;
         const onlySaved = savedOnly.getAttribute('aria-pressed') === 'true';
         const visible = cards.filter((card) => {
-          const matches = (airport === 'all' || card.dataset.airport === airport)
-            && (boardValue === 'all' || card.dataset.board === boardValue)
-            && Number(card.dataset.price) <= maxPrice
+          const resortTextMatches = !needle || card.dataset.resortSearch.includes(needle);
+          const matchingOptions = [...card.querySelectorAll('[data-provider-offer]')].filter((option) => {
+            const matches = (airport === 'all' || option.dataset.airport === airport)
+              && (boardValue === 'all' || option.dataset.board === boardValue)
+              && Number(option.dataset.price) <= maxPrice
+              && (!needle || resortTextMatches || option.dataset.search.includes(needle));
+            option.hidden = !matches;
+            return matches;
+          });
+          const matches = matchingOptions.length > 0
             && (!needle || card.dataset.search.includes(needle))
             && (!onlySaved || favorites.has(card.dataset.id));
           card.hidden = !matches;
@@ -289,7 +376,8 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
             ? Number(b.dataset.nights) - Number(a.dataset.nights)
             : Number(b.dataset.score) - Number(a.dataset.score));
         visible.forEach((card) => grid.insertBefore(card, empty));
-        count.textContent = visible.length + ' angezeigt';
+        const visibleOffers = visible.reduce((sum, card) => sum + [...card.querySelectorAll('[data-provider-offer]')].filter((option) => !option.hidden).length, 0);
+        count.textContent = visible.length + ' Resorts · ' + visibleOffers + ' Angebote';
         empty.classList.toggle('visible', visible.length === 0);
       };
 
