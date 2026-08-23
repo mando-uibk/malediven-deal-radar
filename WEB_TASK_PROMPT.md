@@ -22,7 +22,7 @@ Harte Kriterien:
 - Hinreise frühestens 26.11.2026, Rückreise spätestens 10.12.2026.
 - Mindestens 9 Hotelnächte.
 - Flug und Hotel müssen im ausgewählten Preis als Pauschalreise enthalten sein.
-- Maximal 5.000 EUR pro Person beziehungsweise 10.000 EUR gesamt.
+- Maximal 3.700 EUR pro Person beziehungsweise 7.400 EUR gesamt.
 - Zulässig sind normales All Inclusive sowie getrennt ausgewiesenes All Inclusive Plus, Premium All Inclusive oder Ultra All Inclusive.
 - Angebote unterhalb All Inclusive ausschließen.
 - Die konkrete Angebots- oder Buchungsseite muss direkt auf Deutsch oder Englisch lesbar sein.
@@ -34,6 +34,15 @@ Dynamische Angebotsseiten sind zulässig. Preis, Reisedaten, Abflughafen, Flugpa
 Erfasse normales All Inclusive als board = all_inclusive. Erfasse nur nachweislich erweiterte Stufen als board = all_inclusive_plus und übernimm deren Originalbezeichnung in evidence. Erfinde keine Preise, Termine, Leistungen, Transferarten, Gepäckangaben oder Bewertungen.
 
 Strebe 12 bis 18 unterschiedliche, belastbare Angebote an. Weniger Treffer sind zulässig, wenn nicht mehr alle Kriterien erfüllen. Dedupliziere gleiche Kombinationen aus Resort, Flughafen, Hinreise, Rückreise und Verpflegung und behalte die günstigste.
+
+Restaurantinformationen je Resort:
+- Ergänze bei jedem Angebot restaurantInfo im vorhandenen Schema.
+- Erfasse die Zahl der Essenslokale, davon Buffet und À-la-carte, sowie jedes Restaurant/Café mit Name und Typ.
+- Kennzeichne getrennt für AI und AI+, ob ein Lokal inklusive, nur begrenzt inklusive (z. B. Set-Menü oder ein Besuch), gegen Gebühr oder nur für bestimmte Villenkategorien verfügbar ist.
+- Nenne kostenpflichtige Ausnahmen, Reservierungspflichten und Aufenthaltsstaffeln.
+- Belege die Angaben bevorzugt auf der offiziellen Resortseite und ergänzend in der konkreten Veranstalterbeschreibung; speichere die HTTPS-Quellen unter sourceUrls und den Prüfzeitpunkt unter verifiedAt.
+- Erfinde keine Restaurantnamen oder Inklusivleistungen. Bei Widersprüchen formuliere unter caveat vorsichtig und verweise auf die verbindliche Tarifbeschreibung bei Buchung.
+- Übernimm für weitere Angebote desselben Resorts dieselben aktuell plausiblen Restaurantdaten.
 
 Aktualisiere anschließend über die GitHub-Verbindung ausschließlich data/latest-offers.json auf dem Branch main im vorhandenen Schema. Setze updatedAt auf die aktuelle Zeit, ersetze offers vollständig durch die aktuell belegten Treffer und dokumentiere Quellen- oder Verfügbarkeitsunsicherheiten unter warnings. Ändere weder site/index.html noch andere Dateien: Der GitHub-Actions-Workflow prüft die JSON-Datei, erzeugt die Seite und veröffentlicht GitHub Pages automatisch.
 

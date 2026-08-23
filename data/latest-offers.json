@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T21:45:00+02:00",
+  "updatedAt": "2026-08-23T21:58:00+02:00",
   "offers": [
     {
       "resortName": "Mercure Maldives Kooddoo Resort",
@@ -31,7 +31,44 @@
         "https://images.flux.reisen/hotel/175566/1/xl",
         "https://images.flux.reisen/hotel/175566/2/m",
         "https://images.flux.reisen/hotel/175566/3/m"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Alita",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Internationales Buffet zum Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "Vista",
+            "type": "a_la_carte",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Mediterranes/italienisches À-la-carte-Restaurant über dem Wasser; Mittag- und Abendessen nach Öffnung und Reservierung."
+          }
+        ],
+        "extraCharge": [
+          "Private Dining",
+          "Premium-Spirituosen und frisch gepresste Säfte außerhalb der Paketliste"
+        ],
+        "caveat": "Das konkrete Restplatzbörse-Angebot heißt „All Inclusive Plus“. Die offizielle 2026-Leistungsseite nennt das Resortpaket „All-Inclusive“ und schließt Alita sowie Vista ein; die verbindliche Tarifliste vor Buchung nochmals abgleichen.",
+        "sourceUrls": [
+          {
+            "label": "Mercure: All-Inclusive-Angebot 2026",
+            "url": "https://mercuremaldiveskooddooresort.com/offers/all-inclusive-offer/"
+          },
+          {
+            "label": "Mercure: Alita Restaurant",
+            "url": "https://mercuremaldiveskooddooresort.com/enjoy-no-fuss-comforting-and-exciting-dining-with-bed-breakfast-and-half-board-meal-plans/alita-restaurant/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Mercure Maldives Kooddoo Resort",
@@ -63,7 +100,44 @@
         "https://images.flux.reisen/hotel/175566/1/xl",
         "https://images.flux.reisen/hotel/175566/2/m",
         "https://images.flux.reisen/hotel/175566/3/m"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Alita",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Internationales Buffet zum Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "Vista",
+            "type": "a_la_carte",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Mediterranes/italienisches À-la-carte-Restaurant über dem Wasser; Mittag- und Abendessen nach Öffnung und Reservierung."
+          }
+        ],
+        "extraCharge": [
+          "Private Dining",
+          "Premium-Spirituosen und frisch gepresste Säfte außerhalb der Paketliste"
+        ],
+        "caveat": "Das konkrete Restplatzbörse-Angebot heißt „All Inclusive Plus“. Die offizielle 2026-Leistungsseite nennt das Resortpaket „All-Inclusive“ und schließt Alita sowie Vista ein; die verbindliche Tarifliste vor Buchung nochmals abgleichen.",
+        "sourceUrls": [
+          {
+            "label": "Mercure: All-Inclusive-Angebot 2026",
+            "url": "https://mercuremaldiveskooddooresort.com/offers/all-inclusive-offer/"
+          },
+          {
+            "label": "Mercure: Alita Restaurant",
+            "url": "https://mercuremaldiveskooddooresort.com/enjoy-no-fuss-comforting-and-exciting-dining-with-bed-breakfast-and-half-board-meal-plans/alita-restaurant/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Adaaran Club Rannalhi",
@@ -95,7 +169,48 @@
         "https://images.flux.reisen/hotel/15375/1/xl",
         "https://images.flux.reisen/hotel/15375/2/m",
         "https://images.flux.reisen/hotel/15375/3/m"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Water Front Café / Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "AI umfasst Snacks zu festgelegten Zeiten; das übrige À-la-carte-Angebot ist nicht als pauschal inklusive ausgewiesen."
+          }
+        ],
+        "extraCharge": [
+          "À-la-carte-Bestellungen außerhalb der ausgewiesenen AI-Snackzeiten",
+          "Special Dining"
+        ],
+        "caveat": "Die offizielle AI-Seite führt als vollwertige Mahlzeiten ausschließlich das Main Restaurant auf. Der Coffeeshop wird als zusätzliches Essenslokal gezählt.",
+        "sourceUrls": [
+          {
+            "label": "Adaaran: All-Inclusive-Leistungen",
+            "url": "https://www.adaaran.com/clubrannalhi/all-inclusive-offering/"
+          },
+          {
+            "label": "BILLA: Hotel- und Verpflegungsbeschreibung",
+            "url": "https://www.billareisen.at/Reisen/Adaaran%2BClub%2BRannalhi-MLE59001P.html"
+          },
+          {
+            "label": "Adaaran: Menüs",
+            "url": "https://www.adaaran.com/clubrannalhi/adaaran-club-rannalhi-menus/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Adaaran Club Rannalhi",
@@ -127,7 +242,48 @@
         "https://images.flux.reisen/hotel/15375/1/xl",
         "https://images.flux.reisen/hotel/15375/2/m",
         "https://images.flux.reisen/hotel/15375/3/m"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Water Front Café / Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "AI umfasst Snacks zu festgelegten Zeiten; das übrige À-la-carte-Angebot ist nicht als pauschal inklusive ausgewiesen."
+          }
+        ],
+        "extraCharge": [
+          "À-la-carte-Bestellungen außerhalb der ausgewiesenen AI-Snackzeiten",
+          "Special Dining"
+        ],
+        "caveat": "Die offizielle AI-Seite führt als vollwertige Mahlzeiten ausschließlich das Main Restaurant auf. Der Coffeeshop wird als zusätzliches Essenslokal gezählt.",
+        "sourceUrls": [
+          {
+            "label": "Adaaran: All-Inclusive-Leistungen",
+            "url": "https://www.adaaran.com/clubrannalhi/all-inclusive-offering/"
+          },
+          {
+            "label": "BILLA: Hotel- und Verpflegungsbeschreibung",
+            "url": "https://www.billareisen.at/Reisen/Adaaran%2BClub%2BRannalhi-MLE59001P.html"
+          },
+          {
+            "label": "Adaaran: Menüs",
+            "url": "https://www.adaaran.com/clubrannalhi/adaaran-club-rannalhi-menus/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Adaaran Club Rannalhi",
@@ -159,7 +315,48 @@
         "https://images.flux.reisen/hotel/15375/1/xl",
         "https://images.flux.reisen/hotel/15375/2/m",
         "https://images.flux.reisen/hotel/15375/3/m"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Water Front Café / Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "AI umfasst Snacks zu festgelegten Zeiten; das übrige À-la-carte-Angebot ist nicht als pauschal inklusive ausgewiesen."
+          }
+        ],
+        "extraCharge": [
+          "À-la-carte-Bestellungen außerhalb der ausgewiesenen AI-Snackzeiten",
+          "Special Dining"
+        ],
+        "caveat": "Die offizielle AI-Seite führt als vollwertige Mahlzeiten ausschließlich das Main Restaurant auf. Der Coffeeshop wird als zusätzliches Essenslokal gezählt.",
+        "sourceUrls": [
+          {
+            "label": "Adaaran: All-Inclusive-Leistungen",
+            "url": "https://www.adaaran.com/clubrannalhi/all-inclusive-offering/"
+          },
+          {
+            "label": "BILLA: Hotel- und Verpflegungsbeschreibung",
+            "url": "https://www.billareisen.at/Reisen/Adaaran%2BClub%2BRannalhi-MLE59001P.html"
+          },
+          {
+            "label": "Adaaran: Menüs",
+            "url": "https://www.adaaran.com/clubrannalhi/adaaran-club-rannalhi-menus/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Mercure Maldives Kooddoo Resort",
@@ -191,7 +388,44 @@
         "https://images.flux.reisen/hotel/175566/1/xl",
         "https://images.flux.reisen/hotel/175566/2/m",
         "https://images.flux.reisen/hotel/175566/3/m"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Alita",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Internationales Buffet zum Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "Vista",
+            "type": "a_la_carte",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Mediterranes/italienisches À-la-carte-Restaurant über dem Wasser; Mittag- und Abendessen nach Öffnung und Reservierung."
+          }
+        ],
+        "extraCharge": [
+          "Private Dining",
+          "Premium-Spirituosen und frisch gepresste Säfte außerhalb der Paketliste"
+        ],
+        "caveat": "Das konkrete Restplatzbörse-Angebot heißt „All Inclusive Plus“. Die offizielle 2026-Leistungsseite nennt das Resortpaket „All-Inclusive“ und schließt Alita sowie Vista ein; die verbindliche Tarifliste vor Buchung nochmals abgleichen.",
+        "sourceUrls": [
+          {
+            "label": "Mercure: All-Inclusive-Angebot 2026",
+            "url": "https://mercuremaldiveskooddooresort.com/offers/all-inclusive-offer/"
+          },
+          {
+            "label": "Mercure: Alita Restaurant",
+            "url": "https://mercuremaldiveskooddooresort.com/enjoy-no-fuss-comforting-and-exciting-dining-with-bed-breakfast-and-half-board-meal-plans/alita-restaurant/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Embudu Village Maldives",
@@ -223,7 +457,48 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_2.jpg?w=722&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als internationales Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Bar & Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Nachmittagstee/-kaffee mit Sandwich oder Kuchen von 16:00 bis 18:00 Uhr ist inklusive; weitere À-la-carte-Auswahl separat bezahlen."
+          }
+        ],
+        "extraCharge": [
+          "Weitere À-la-carte-Bestellungen im Coffeeshop",
+          "Private Dining, Beach-/Garden-Dinner und Seafood-BBQ"
+        ],
+        "caveat": "Der Coffeeshop ist ein Essenslokal mit À-la-carte-Angebot, kein zweites Vollrestaurant. Maßgeblich bleibt die konkrete AI-Leistungsbeschreibung des Veranstalters.",
+        "sourceUrls": [
+          {
+            "label": "Embudu: All-Inclusive Dining",
+            "url": "https://www.embuduvillage.com/dining-delights/all-inclusive"
+          },
+          {
+            "label": "Embudu: Bar & Coffeeshop",
+            "url": "https://www.embuduvillage.com/dining-delights/bar-coffeeshop"
+          },
+          {
+            "label": "Virgin Atlantic: AI-Leistungsumfang",
+            "url": "https://www.virginatlantic.com/holidays/destinations/indian-ocean/maldives/embudu-village-maldives-browse"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Embudu Village Maldives",
@@ -255,7 +530,48 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_2.jpg?w=722&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als internationales Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Bar & Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Nachmittagstee/-kaffee mit Sandwich oder Kuchen von 16:00 bis 18:00 Uhr ist inklusive; weitere À-la-carte-Auswahl separat bezahlen."
+          }
+        ],
+        "extraCharge": [
+          "Weitere À-la-carte-Bestellungen im Coffeeshop",
+          "Private Dining, Beach-/Garden-Dinner und Seafood-BBQ"
+        ],
+        "caveat": "Der Coffeeshop ist ein Essenslokal mit À-la-carte-Angebot, kein zweites Vollrestaurant. Maßgeblich bleibt die konkrete AI-Leistungsbeschreibung des Veranstalters.",
+        "sourceUrls": [
+          {
+            "label": "Embudu: All-Inclusive Dining",
+            "url": "https://www.embuduvillage.com/dining-delights/all-inclusive"
+          },
+          {
+            "label": "Embudu: Bar & Coffeeshop",
+            "url": "https://www.embuduvillage.com/dining-delights/bar-coffeeshop"
+          },
+          {
+            "label": "Virgin Atlantic: AI-Leistungsumfang",
+            "url": "https://www.virginatlantic.com/holidays/destinations/indian-ocean/maldives/embudu-village-maldives-browse"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Embudu Village Maldives",
@@ -287,7 +603,48 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_2.jpg?w=722&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als internationales Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Bar & Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Nachmittagstee/-kaffee mit Sandwich oder Kuchen von 16:00 bis 18:00 Uhr ist inklusive; weitere À-la-carte-Auswahl separat bezahlen."
+          }
+        ],
+        "extraCharge": [
+          "Weitere À-la-carte-Bestellungen im Coffeeshop",
+          "Private Dining, Beach-/Garden-Dinner und Seafood-BBQ"
+        ],
+        "caveat": "Der Coffeeshop ist ein Essenslokal mit À-la-carte-Angebot, kein zweites Vollrestaurant. Maßgeblich bleibt die konkrete AI-Leistungsbeschreibung des Veranstalters.",
+        "sourceUrls": [
+          {
+            "label": "Embudu: All-Inclusive Dining",
+            "url": "https://www.embuduvillage.com/dining-delights/all-inclusive"
+          },
+          {
+            "label": "Embudu: Bar & Coffeeshop",
+            "url": "https://www.embuduvillage.com/dining-delights/bar-coffeeshop"
+          },
+          {
+            "label": "Virgin Atlantic: AI-Leistungsumfang",
+            "url": "https://www.virginatlantic.com/holidays/destinations/indian-ocean/maldives/embudu-village-maldives-browse"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Centara Ras Fushi Resort & Spa",
@@ -319,7 +676,63 @@
         "https://cloud.tui.com/pics/hotel/resize:fill:580:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS8xLzE0YmZiOGU4LTQ3ZDUtNGUxOS05NmYzLWRiMmE2N2I1M2I4Yi5qcGc=",
         "https://cloud.tui.com/pics/hotel/resize:fill:300:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS84LzhlNjVmZTM3LTQxYTYtNDRmMy1iNjM5LWFiOWMxZTQwNzliMy5qcGc=",
         "https://cloud.tui.com/pics/hotel/resize:fill:300:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS85LzljNDUyODYwLWI0ODAtNDE5Mi1iZmQxLTZjY2RjOTk2Y2MwNy5qcGc="
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 4,
+        "buffet": 1,
+        "aLaCarte": 3,
+        "venues": [
+          {
+            "name": "Oceans",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "La Brezza",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Bei Standard-AI als 3-Gänge-/Set-Menü bzw. nach Tarifguthaben; Premium AI mit Dine-around."
+          },
+          {
+            "name": "Suan Bua",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Bei Standard-AI als 3-Gänge-/Set-Menü bzw. nach Tarifguthaben; Premium AI mit Dine-around."
+          },
+          {
+            "name": "Al Khaimah",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": "included",
+            "note": "TUI weist das Restaurant bei Standard-AI als gegen Gebühr aus; im offiziellen Premium-AI-Dine-around als 3-Gänge-Menü enthalten."
+          }
+        ],
+        "extraCharge": [
+          "Al Khaimah bei Standard-AI",
+          "Gerichte außerhalb des enthaltenen Set-Menüs/Guthabens",
+          "Private Dinner und In-villa Dining außerhalb ausdrücklich enthaltener Leistungen"
+        ],
+        "caveat": "Für die gelisteten TUI/L’TUR-Angebote gilt die Spalte AI. AI+ beschreibt das aktuelle offizielle Premium-All-Inclusive-Konzept und ist kein Beleg dafür, dass der konkrete Standard-AI-Tarif automatisch Premiumleistungen enthält.",
+        "sourceUrls": [
+          {
+            "label": "TUI: Hotel- und AI-Restaurantbeschreibung",
+            "url": "https://www.tui.at/hotels/centara-ras-fushi-resort-and-spa-260902/hotelinformation/"
+          },
+          {
+            "label": "Centara: aktuelle Meal Plans",
+            "url": "https://www.centarahotelsresorts.com/centara/crf/meal-plans"
+          },
+          {
+            "label": "Centara: Restaurants & Bars",
+            "url": "https://www.centarahotelsresorts.com/centara/crf/restaurants-and-bars"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Centara Ras Fushi Resort & Spa",
@@ -351,7 +764,63 @@
         "https://cloud.tui.com/pics/hotel/resize:fill:580:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS8xLzE0YmZiOGU4LTQ3ZDUtNGUxOS05NmYzLWRiMmE2N2I1M2I4Yi5qcGc=",
         "https://cloud.tui.com/pics/hotel/resize:fill:300:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS84LzhlNjVmZTM3LTQxYTYtNDRmMy1iNjM5LWFiOWMxZTQwNzliMy5qcGc=",
         "https://cloud.tui.com/pics/hotel/resize:fill:300:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS85LzljNDUyODYwLWI0ODAtNDE5Mi1iZmQxLTZjY2RjOTk2Y2MwNy5qcGc="
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 4,
+        "buffet": 1,
+        "aLaCarte": 3,
+        "venues": [
+          {
+            "name": "Oceans",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "La Brezza",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Bei Standard-AI als 3-Gänge-/Set-Menü bzw. nach Tarifguthaben; Premium AI mit Dine-around."
+          },
+          {
+            "name": "Suan Bua",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Bei Standard-AI als 3-Gänge-/Set-Menü bzw. nach Tarifguthaben; Premium AI mit Dine-around."
+          },
+          {
+            "name": "Al Khaimah",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": "included",
+            "note": "TUI weist das Restaurant bei Standard-AI als gegen Gebühr aus; im offiziellen Premium-AI-Dine-around als 3-Gänge-Menü enthalten."
+          }
+        ],
+        "extraCharge": [
+          "Al Khaimah bei Standard-AI",
+          "Gerichte außerhalb des enthaltenen Set-Menüs/Guthabens",
+          "Private Dinner und In-villa Dining außerhalb ausdrücklich enthaltener Leistungen"
+        ],
+        "caveat": "Für die gelisteten TUI/L’TUR-Angebote gilt die Spalte AI. AI+ beschreibt das aktuelle offizielle Premium-All-Inclusive-Konzept und ist kein Beleg dafür, dass der konkrete Standard-AI-Tarif automatisch Premiumleistungen enthält.",
+        "sourceUrls": [
+          {
+            "label": "TUI: Hotel- und AI-Restaurantbeschreibung",
+            "url": "https://www.tui.at/hotels/centara-ras-fushi-resort-and-spa-260902/hotelinformation/"
+          },
+          {
+            "label": "Centara: aktuelle Meal Plans",
+            "url": "https://www.centarahotelsresorts.com/centara/crf/meal-plans"
+          },
+          {
+            "label": "Centara: Restaurants & Bars",
+            "url": "https://www.centarahotelsresorts.com/centara/crf/restaurants-and-bars"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Centara Ras Fushi Resort & Spa",
@@ -383,7 +852,63 @@
         "https://cloud.tui.com/pics/hotel/resize:fill:580:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS8xLzE0YmZiOGU4LTQ3ZDUtNGUxOS05NmYzLWRiMmE2N2I1M2I4Yi5qcGc=",
         "https://cloud.tui.com/pics/hotel/resize:fill:300:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS84LzhlNjVmZTM3LTQxYTYtNDRmMy1iNjM5LWFiOWMxZTQwNzliMy5qcGc=",
         "https://cloud.tui.com/pics/hotel/resize:fill:300:/aHR0cHM6Ly9waWNzLnR1aS5jb20vcGljcy9waWNzMTYwMHgxMjAwL3R1aS85LzljNDUyODYwLWI0ODAtNDE5Mi1iZmQxLTZjY2RjOTk2Y2MwNy5qcGc="
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 4,
+        "buffet": 1,
+        "aLaCarte": 3,
+        "venues": [
+          {
+            "name": "Oceans",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "La Brezza",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Bei Standard-AI als 3-Gänge-/Set-Menü bzw. nach Tarifguthaben; Premium AI mit Dine-around."
+          },
+          {
+            "name": "Suan Bua",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Bei Standard-AI als 3-Gänge-/Set-Menü bzw. nach Tarifguthaben; Premium AI mit Dine-around."
+          },
+          {
+            "name": "Al Khaimah",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": "included",
+            "note": "TUI weist das Restaurant bei Standard-AI als gegen Gebühr aus; im offiziellen Premium-AI-Dine-around als 3-Gänge-Menü enthalten."
+          }
+        ],
+        "extraCharge": [
+          "Al Khaimah bei Standard-AI",
+          "Gerichte außerhalb des enthaltenen Set-Menüs/Guthabens",
+          "Private Dinner und In-villa Dining außerhalb ausdrücklich enthaltener Leistungen"
+        ],
+        "caveat": "Für die gelisteten TUI/L’TUR-Angebote gilt die Spalte AI. AI+ beschreibt das aktuelle offizielle Premium-All-Inclusive-Konzept und ist kein Beleg dafür, dass der konkrete Standard-AI-Tarif automatisch Premiumleistungen enthält.",
+        "sourceUrls": [
+          {
+            "label": "TUI: Hotel- und AI-Restaurantbeschreibung",
+            "url": "https://www.tui.at/hotels/centara-ras-fushi-resort-and-spa-260902/hotelinformation/"
+          },
+          {
+            "label": "Centara: aktuelle Meal Plans",
+            "url": "https://www.centarahotelsresorts.com/centara/crf/meal-plans"
+          },
+          {
+            "label": "Centara: Restaurants & Bars",
+            "url": "https://www.centarahotelsresorts.com/centara/crf/restaurants-and-bars"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Embudu Village Maldives",
@@ -415,7 +940,48 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_2.jpg?w=722&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als internationales Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Bar & Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Nachmittagstee/-kaffee mit Sandwich oder Kuchen von 16:00 bis 18:00 Uhr ist inklusive; weitere À-la-carte-Auswahl separat bezahlen."
+          }
+        ],
+        "extraCharge": [
+          "Weitere À-la-carte-Bestellungen im Coffeeshop",
+          "Private Dining, Beach-/Garden-Dinner und Seafood-BBQ"
+        ],
+        "caveat": "Der Coffeeshop ist ein Essenslokal mit À-la-carte-Angebot, kein zweites Vollrestaurant. Maßgeblich bleibt die konkrete AI-Leistungsbeschreibung des Veranstalters.",
+        "sourceUrls": [
+          {
+            "label": "Embudu: All-Inclusive Dining",
+            "url": "https://www.embuduvillage.com/dining-delights/all-inclusive"
+          },
+          {
+            "label": "Embudu: Bar & Coffeeshop",
+            "url": "https://www.embuduvillage.com/dining-delights/bar-coffeeshop"
+          },
+          {
+            "label": "Virgin Atlantic: AI-Leistungsumfang",
+            "url": "https://www.virginatlantic.com/holidays/destinations/indian-ocean/maldives/embudu-village-maldives-browse"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Embudu Village Maldives",
@@ -447,7 +1013,48 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_2.jpg?w=722&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als internationales Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Bar & Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Nachmittagstee/-kaffee mit Sandwich oder Kuchen von 16:00 bis 18:00 Uhr ist inklusive; weitere À-la-carte-Auswahl separat bezahlen."
+          }
+        ],
+        "extraCharge": [
+          "Weitere À-la-carte-Bestellungen im Coffeeshop",
+          "Private Dining, Beach-/Garden-Dinner und Seafood-BBQ"
+        ],
+        "caveat": "Der Coffeeshop ist ein Essenslokal mit À-la-carte-Angebot, kein zweites Vollrestaurant. Maßgeblich bleibt die konkrete AI-Leistungsbeschreibung des Veranstalters.",
+        "sourceUrls": [
+          {
+            "label": "Embudu: All-Inclusive Dining",
+            "url": "https://www.embuduvillage.com/dining-delights/all-inclusive"
+          },
+          {
+            "label": "Embudu: Bar & Coffeeshop",
+            "url": "https://www.embuduvillage.com/dining-delights/bar-coffeeshop"
+          },
+          {
+            "label": "Virgin Atlantic: AI-Leistungsumfang",
+            "url": "https://www.virginatlantic.com/holidays/destinations/indian-ocean/maldives/embudu-village-maldives-browse"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Embudu Village Maldives",
@@ -479,7 +1086,48 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_2.jpg?w=722&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Frühstück, Mittag- und Abendessen als internationales Buffet sind im All Inclusive enthalten."
+          },
+          {
+            "name": "Bar & Coffeeshop",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Nachmittagstee/-kaffee mit Sandwich oder Kuchen von 16:00 bis 18:00 Uhr ist inklusive; weitere À-la-carte-Auswahl separat bezahlen."
+          }
+        ],
+        "extraCharge": [
+          "Weitere À-la-carte-Bestellungen im Coffeeshop",
+          "Private Dining, Beach-/Garden-Dinner und Seafood-BBQ"
+        ],
+        "caveat": "Der Coffeeshop ist ein Essenslokal mit À-la-carte-Angebot, kein zweites Vollrestaurant. Maßgeblich bleibt die konkrete AI-Leistungsbeschreibung des Veranstalters.",
+        "sourceUrls": [
+          {
+            "label": "Embudu: All-Inclusive Dining",
+            "url": "https://www.embuduvillage.com/dining-delights/all-inclusive"
+          },
+          {
+            "label": "Embudu: Bar & Coffeeshop",
+            "url": "https://www.embuduvillage.com/dining-delights/bar-coffeeshop"
+          },
+          {
+            "label": "Virgin Atlantic: AI-Leistungsumfang",
+            "url": "https://www.virginatlantic.com/holidays/destinations/indian-ocean/maldives/embudu-village-maldives-browse"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "ADAARAN Select Meedhupparu",
@@ -511,7 +1159,70 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_2.jpg?w=572&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 5,
+        "buffet": 2,
+        "aLaCarte": 3,
+        "venues": [
+          {
+            "name": "Jaafaiy",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "Sufura",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "note": "Indische Küche; als zweites Buffetrestaurant im Veranstalterprofil geführt."
+          },
+          {
+            "name": "Thavaa",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Mediterranes À-la-carte-Restaurant; Dine-around nach Voranmeldung."
+          },
+          {
+            "name": "Café Mass",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "note": "Bestellservice mit Burgern, Pizza, Sandwiches und Snacks; konkrete Menüauswahl und Zeiten laut Paket."
+          },
+          {
+            "name": "Water Villa Restaurant & Lounge",
+            "type": "a_la_carte",
+            "allInclusive": "restricted",
+            "allInclusivePlus": "restricted",
+            "note": "Exklusiv für Prestige-Water-Villa-Gäste; beim gelisteten Beach-Villa-Angebot nicht enthalten."
+          }
+        ],
+        "extraCharge": [
+          "Leistungen außerhalb der Dine-around-/Paketkarte",
+          "Water Villa Restaurant für Gäste ohne passende Water-Villa-Berechtigung",
+          "Special Dining"
+        ],
+        "caveat": "Der Veranstalter führt 2 Buffet- und 3 À-la-carte-Restaurants sowie Dine-around nach Voranmeldung. Das gelistete Angebot ist eine Beach Villa; das exklusive Water Villa Restaurant ist daher nicht als nutzbare Inklusivleistung gerechnet.",
+        "sourceUrls": [
+          {
+            "label": "TUI: AI- und Dine-around-Beschreibung",
+            "url": "https://www.tui.at/hotels/adaaran-select-meedhupparu-17205/hotelinformation/"
+          },
+          {
+            "label": "Adaaran: Premium All Inclusive",
+            "url": "https://www.adaaran.com/selectmeedhupparu/premium-all-inclusive-offering/"
+          },
+          {
+            "label": "Adaaran: Water Villa Restaurant",
+            "url": "https://www.adaaran.com/selectmeedhupparu/dining/water-villa-restaurant/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     },
     {
       "resortName": "Sentido OBLU Helengeli",
@@ -543,49 +1254,67 @@
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_48.jpg?w=1210&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_1.jpg?w=540&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_2.jpg?w=721&h=406"
-      ]
-    },
-    {
-      "resortName": "Oaga Art Resort Maldives",
-      "island": null,
-      "atoll": "Nord-Malé-Atoll",
-      "provider": "Meiers Weltreisen",
-      "url": "https://www.billareisen.at/Reisen/Oaga+Art+Resort-MLE13153P.html?bdid=ib&toid=iba&ptid=BTS&ssnid=W26&pttid=PF&phidf=MLE13153P&pdacf=au&pdaf=VIE&dft=apx&psdf=2026-11-26&pedf=2026-12-10&pnnfl=9&pnnfh=12&pbtf=ai&ptf=1&pnsf=0&ps=pr&pdm=pp&psbbr=pna%3D2%26pnc%3D0",
-      "sourceLanguage": "de",
-      "departureAirport": "VIE",
-      "packageIncludesFlights": true,
-      "transfer": "included",
-      "transferType": null,
-      "baggage": "unknown",
-      "priceConfidence": "live",
-      "dealType": "regular",
-      "membershipRequired": false,
-      "bookingDeadline": null,
-      "stars": null,
-      "ratingOutOf10": null,
-      "departureDate": "2026-11-26",
-      "returnDate": "2026-12-06",
-      "nights": 9,
-      "board": "all_inclusive_plus",
-      "pricePerPersonEur": 4874,
-      "totalPriceEur": 9748,
-      "room": "Gallery Pool Villa Veyoge (BX1)",
-      "evidence": "Live geprüft am 23.08.2026 um ca. 19:25 CEST im BILLA-Tarifdialog: Originalbezeichnung „Alles Inklusive plus (Y)“, sichtbarer Aufpreis 1.806 € zum aktuellen AI-Gesamtpreis 7 942 €; Meiers-Weltreisen-Flugpaket ab Wien (VIE) mit Austrian Airlines, Direktflug und Transfer. AI+-Gesamtpreis 9 748 € bzw. 4 874 € p. P.",
-      "imageUrls": [
-        "https://www.billareisen.at/pibe-media/mwr_atc/hotel/MLE13153B_W26-M56G2627_40.jpg?w=609&h=406",
-        "https://www.billareisen.at/pibe-media/mwr_atc/hotel/MLE13153B_W26-M56G2627_1.jpg?w=609&h=406",
-        "https://www.billareisen.at/pibe-media/mwr_atc/hotel/MLE13153B_W26-M56G2627_2.jpg?w=609&h=406"
-      ]
+      ],
+      "restaurantInfo": {
+        "total": 3,
+        "buffet": 1,
+        "aLaCarte": 2,
+        "venues": [
+          {
+            "name": "The Spice",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen im OBLU Island Plan."
+          },
+          {
+            "name": "Just Grill",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Bei 9 Nächten ist ein vorab reserviertes Dinner enthalten; Lunch und weitere Besuche kosten extra."
+          },
+          {
+            "name": "Raga Route",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Bei 9 Nächten ist ein vorab reserviertes Dinner enthalten; weitere Besuche und Sunset Champagne kosten extra."
+          }
+        ],
+        "extraCharge": [
+          "Just-Grill-Lunch",
+          "Weitere Spezialitätenrestaurant-Besuche über die Aufenthaltsstaffel hinaus",
+          "Sunset Champagne mit Canapés"
+        ],
+        "caveat": "Für den 9-Nächte-Aufenthalt gilt die 8+-Nächte-Staffel: je ein Dinner im Just Grill und im Raga Route, jeweils nach Voranmeldung und Verfügbarkeit.",
+        "sourceUrls": [
+          {
+            "label": "OBLU: offizieller Island Plan",
+            "url": "https://coloursofoblu.com/oblu-nature-helengeli/en/oblu-island-plan"
+          },
+          {
+            "label": "OBLU: Dining",
+            "url": "https://coloursofoblu.com/oblu-nature-helengeli/en/dining"
+          },
+          {
+            "label": "Virgin Atlantic: Aufenthaltsstaffel",
+            "url": "https://www.virginatlantic.com/holidays/holiday-types/all-inclusive-holidays/hotels/oblu-nature-helengeli-by-sentido"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
     }
   ],
   "warnings": [
-    "Am 23.08.2026 gegen 21:40 CEST wurden 15 der 18 Angebote im Cloud-Browser direkt in konkreten Live-Tarifkarten bestätigt: 9 neue Restplatzbörse.at-Angebote sowie 6 BILLA-/DERTOUR-/Meiers-Angebote. Drei TUI/L’TUR-Angebote bleiben nach der 48-Stunden-Regel auf Basis der letzten Live-Prüfung vom 23.08.2026 gegen 07:40 CEST erhalten.",
+    "Am 23.08.2026 gegen 21:40 CEST wurden 14 der 17 verbleibenden Angebote im Cloud-Browser direkt in konkreten Live-Tarifkarten bestätigt: 9 Restplatzbörse.at-Angebote sowie 5 BILLA-/DERTOUR-Angebote. Drei TUI/L’TUR-Angebote bleiben nach der 48-Stunden-Regel auf Basis der letzten Live-Prüfung vom 23.08.2026 gegen 07:40 CEST erhalten.",
     "Restplatzbörse.at wurde als Pflichtquelle mit den exakten Filtern 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Reisetage und All Inclusive geprüft. Aufgenommen wurden Mercure Maldives Kooddoo Resort mit der Originalbezeichnung „All Inclusive Plus“, Adaaran Club Rannalhi mit All Inclusive und zusätzliche ITS-Angebote für Embudu Village. Preis, Flüge, Daten, Zimmer, Hoteltransfer und Gepäck waren jeweils in der konkreten Live-Tarifkarte sichtbar.",
     "Bei den Restplatzbörse-Angeboten entsprechen 10 Reisetage neun Hotelübernachtungen, weil der Hinflug ab MUC abends startet und die Ankunft auf den Malediven am Folgetag erfolgt; die Rückflüge starten am dokumentierten Rückreisedatum. Ein zunächst angezeigter günstigerer Mercure-Preis änderte sich bei der Preisprüfung deutlich und wurde nicht übernommen.",
     "TUI wurde erneut als Pflichtquelle geprüft. Die konkrete Centara-Seite war erreichbar, zeigte in diesem Lauf jedoch keine Tarifkarten oder Preise. Die drei erhaltenen Centara-Angebote wurden zuletzt am 23.08.2026 gegen 07:40 CEST mit MUC, exakten Daten, 9 Hotelnächten, Hotel + Flug, Transfer und All Inclusive live bestätigt und werden nicht als frisch bestätigt dargestellt.",
-    "Die sechs weitergeführten BILLA-/DERTOUR-/Meiers-Angebote wurden gegen 21:40 CEST erneut live bestätigt. Oaga „Alles Inklusive plus (Y)“ war im Tarifdialog erneut mit 1.806 € Aufpreis sichtbar.",
-    "Der Stand ist auf 18 Angebote begrenzt. Bei belastbaren Alternativen wurden günstigere Preise, unterschiedliche Resorts und unterschiedliche Anbieter bevorzugt; weitere weiterhin sichtbare Varianten wurden deshalb nicht aufgenommen.",
+    "Die fünf weitergeführten BILLA-/DERTOUR-Angebote wurden gegen 21:40 CEST erneut live bestätigt.",
+    "Die Preisobergrenze wurde auf 3.700 € pro Person bzw. 7.400 € gesamt gesenkt. Das zuvor enthaltene Oaga-AI+-Angebot zu 4.874 € p. P. wurde deshalb entfernt.",
+    "Restaurantdaten wurden am 23.08.2026 gegen 21:57 CEST anhand offizieller Resortseiten und konkreter Veranstalterbeschreibungen ergänzt. Enthaltene Set-Menüs, besuchsabhängige Spezialitätenrestaurants und nur für bestimmte Villenkategorien verfügbare Lokale sind ausdrücklich als begrenzt oder eingeschränkt markiert; verbindlich ist die Tarifbeschreibung bei Buchung.",
     "Restplatzbörse-, TUI- und BILLA-Seiten sind dynamisch. Nach dem Öffnen müssen Datum, Abflughafen, Reisedauer, Reisende und Verpflegung gegebenenfalls erneut gewählt werden.",
-    "Jedes Resort besitzt drei unterschiedliche, resortbezogene HTTPS-Bilder aus der live geöffneten Anbieter-Galerie. Die veröffentlichte Seite wird nach dem Deployment auf vollständigen Bildaufbau und die aufklappbaren Anbieterlisten geprüft."
+    "Jedes der sechs Resorts besitzt drei unterschiedliche, resortbezogene HTTPS-Bilder aus der live geöffneten Anbieter-Galerie. Die veröffentlichte Seite wird nach dem Deployment auf vollständigen Bildaufbau, Restaurantdetails und aufklappbare Anbieterlisten geprüft."
   ]
 }

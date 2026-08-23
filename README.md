@@ -7,8 +7,9 @@ Eine mobile Angebotsseite für zwei Reisende aus Innsbruck. Die Recherche kann a
 - Reisezeitraum: **26.11.2026 bis 10.12.2026**
 - mindestens **9 Nächte**
 - Abflug: **München (MUC), Zürich (ZRH), Wien (VIE)**
-- maximal **5.000 € pro Person** bei zwei Erwachsenen
+- maximal **3.700 € pro Person** bei zwei Erwachsenen
 - **All Inclusive** und **All Inclusive Plus/Premium/Ultra** werden beide aufgenommen und auf der Seite klar getrennt
+- je Resort eine aufklappbare Restaurantübersicht mit Anzahl Buffet-/À-la-carte-Lokalen sowie klarer Kennzeichnung „inklusive“, „begrenzt inklusive“ oder „gegen Gebühr“
 - konkrete Angebots- oder Buchungsseite ausschließlich auf **Deutsch oder Englisch**
 - Pauschalreise inklusive Flug
 - nur etablierte Reiseveranstalter, Buchungsportale und seriöse kuratierte Dealportale; darunter **Secret Escapes, Voyage Privé, Restplatzbörse, 5vorFlug, L'TUR, Urlaubspiraten und Travelzoo**

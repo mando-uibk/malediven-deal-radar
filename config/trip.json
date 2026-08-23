@@ -4,15 +4,30 @@
   "windowStart": "2026-11-26",
   "windowEnd": "2026-12-10",
   "minimumNights": 9,
-  "maximumPricePerPersonEur": 5000,
+  "maximumPricePerPersonEur": 3700,
   "departureAirports": [
-    { "code": "MUC", "name": "München" },
-    { "code": "ZRH", "name": "Zürich" },
-    { "code": "VIE", "name": "Wien" }
+    {
+      "code": "MUC",
+      "name": "München"
+    },
+    {
+      "code": "ZRH",
+      "name": "Zürich"
+    },
+    {
+      "code": "VIE",
+      "name": "Wien"
+    }
   ],
-  "acceptedBoard": ["all_inclusive_plus", "all_inclusive"],
+  "acceptedBoard": [
+    "all_inclusive_plus",
+    "all_inclusive"
+  ],
   "preferredBoard": "all_inclusive_plus",
-  "acceptedSourceLanguages": ["de", "en"],
+  "acceptedSourceLanguages": [
+    "de",
+    "en"
+  ],
   "topOffers": 18,
   "offersPerAirport": 12,
   "currency": "EUR",

@@ -31,6 +31,22 @@ const BOARD_BADGES = {
   all_inclusive: "AI"
 };
 
+const RESTAURANT_STATUS_LABELS = {
+  "included": "inklusive",
+  "included_limited": "begrenzt inklusive",
+  "chargeable": "gegen Gebühr",
+  "restricted": "nur bestimmte Villen",
+  "verify": "vor Buchung prüfen"
+};
+
+const RESTAURANT_STATUS_CLASSES = {
+  "included": "included",
+  "included_limited": "limited",
+  "chargeable": "chargeable",
+  "restricted": "restricted",
+  "verify": "verify"
+};
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -125,6 +141,43 @@ function renderProviderOffer(item, locale, travelers, index) {
     </div>`;
 }
 
+function renderRestaurantInfo(info) {
+  if (!info || typeof info !== "object" || !Array.isArray(info.venues) || info.venues.length === 0) return "";
+  const typeLabel = (type) => type === "buffet" ? "Buffet" : "À la carte";
+  const planBadge = (plan, status) => {
+    if (!status) return "";
+    const label = RESTAURANT_STATUS_LABELS[status] || RESTAURANT_STATUS_LABELS.verify;
+    const className = RESTAURANT_STATUS_CLASSES[status] || RESTAURANT_STATUS_CLASSES.verify;
+    return `<span class="restaurant-plan restaurant-plan--${className}">${escapeHtml(plan)}: ${escapeHtml(label)}</span>`;
+  };
+  const venues = info.venues.map((venue) => `
+        <div class="restaurant-venue">
+          <div class="restaurant-venue-head"><strong>${escapeHtml(venue.name)}</strong><span>${escapeHtml(typeLabel(venue.type))}</span></div>
+          <div class="restaurant-plans">${planBadge("AI", venue.allInclusive)}${planBadge("AI+", venue.allInclusivePlus)}</div>
+          ${venue.note ? `<p>${escapeHtml(venue.note)}</p>` : ""}
+        </div>`).join("");
+  const extras = Array.isArray(info.extraCharge) && info.extraCharge.length
+    ? `<div class="restaurant-extra"><strong>Gegen Gebühr / nicht enthalten</strong><ul>${info.extraCharge.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></div>`
+    : "";
+  const sources = Array.isArray(info.sourceUrls) && info.sourceUrls.length
+    ? `<div class="restaurant-sources"><strong>Quellen:</strong> ${info.sourceUrls.map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer nofollow">${escapeHtml(source.label)}</a>`).join(" · ")}</div>`
+    : "";
+  const verified = info.verifiedAt
+    ? new Intl.DateTimeFormat("de-AT", { day: "2-digit", month: "2-digit", year: "numeric", timeZone: "Europe/Vienna" }).format(new Date(info.verifiedAt))
+    : null;
+  return `
+      <details class="restaurant-info" data-restaurant-info>
+        <summary><span>🍽 Restaurants & AI-Leistungen</span><span class="restaurant-count">${Number(info.total) || info.venues.length} gesamt · ${Number(info.buffet) || 0} Buffet · ${Number(info.aLaCarte) || 0} À la carte</span></summary>
+        <div class="restaurant-body">
+          <div class="restaurant-list">${venues}</div>
+          ${extras}
+          ${info.caveat ? `<p class="restaurant-caveat">${escapeHtml(info.caveat)}</p>` : ""}
+          ${sources}
+          ${verified ? `<p class="restaurant-verified">Restaurantstand geprüft: ${escapeHtml(verified)}</p>` : ""}
+        </div>
+      </details>`;
+}
+
 function renderCard(groupOffers, config, index) {
   const offer = groupOffers[0];
   const locale = config.locale || "de-AT";
@@ -189,6 +242,8 @@ function renderCard(groupOffers, config, index) {
 
       ${quality.length ? `<div class="quality">${quality.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : ""}
       ${offer.bookingDeadline ? `<p class="deadline">Nur bis ${escapeHtml(offer.bookingDeadline)} buchbar</p>` : ""}
+
+      ${renderRestaurantInfo(offer.restaurantInfo)}
 
       <details class="offer-options" data-offer-options>
         <summary><span>${groupOffers.length} ${groupOffers.length === 1 ? "Anbieterangebot" : "Anbieterangebote"}</span><span class="summary-hint">günstigstes zuerst</span></summary>
@@ -265,7 +320,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
     .trip-facts{display:grid;grid-template-columns:auto 1fr;gap:12px 13px;padding:15px;background:var(--aqua);border-radius:15px}.trip-facts>div{min-width:0}.trip-facts>div:last-child{grid-column:2}.trip-facts strong,.trip-facts span{display:block}.trip-facts strong{font-size:13px}.trip-facts span{margin-top:2px;color:#426b6b;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.airport{grid-row:1/3;display:flex;align-items:center;justify-content:center;min-width:55px;border-radius:12px;background:#fff;color:var(--teal-dark);font-weight:900;font-size:16px;box-shadow:0 4px 14px rgba(6,60,67,.08)}
     .quality{display:flex;flex-wrap:wrap;gap:6px;margin:13px 0}.quality span{padding:5px 8px;background:#f5f8f8;border-radius:7px;color:#48666a;font-size:11px}.deadline{margin:12px 0 0;color:#a74223;font-size:12px;font-weight:750}
     details{margin-top:14px;border-top:1px solid #edf3f2;padding-top:12px;color:var(--muted);font-size:12px}summary{cursor:pointer;color:#375c60;font-weight:750}details p{line-height:1.5}.evidence{font-size:11px}
-    .offer-options{margin:16px 0 14px;border:1px solid #bcded9;border-radius:14px;padding:0;overflow:hidden;background:#f7fcfb;color:var(--ink)}.offer-options>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 15px;list-style:none;background:#e8f8f5;color:var(--teal-dark);font-size:13px;font-weight:850}.offer-options>summary::-webkit-details-marker{display:none}.offer-options>summary:after{content:"＋";font-size:17px;line-height:1}.offer-options[open]>summary:after{content:"−"}.summary-hint{margin-left:auto;color:#5a7a7b;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.055em}.offer-list{display:grid;gap:9px;padding:10px}.offer-option{padding:12px;border:1px solid var(--line);border-radius:11px;background:#fff}.offer-option-head,.offer-option-head>div,.offer-option-bottom{display:flex;align-items:center}.offer-option-head{justify-content:space-between;gap:10px}.offer-option-head>div{gap:7px}.offer-number{color:var(--teal);font-size:10px;font-weight:850}.offer-option-head strong{font-size:13px}.offer-option-facts{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.offer-option-facts span{padding:4px 7px;border-radius:6px;background:#eef7f5;color:#315d60;font-size:10px}.offer-room{margin:8px 0;color:#536f72;font-size:11px}.offer-option-bottom{justify-content:space-between;gap:12px}.offer-price strong,.offer-price span{display:block}.offer-price strong{font-size:14px}.offer-price span{margin-top:2px;color:var(--muted);font-size:10px}.offer-link{display:inline-flex;align-items:center;gap:5px;flex:0 0 auto;padding:8px 10px;border-radius:8px;background:var(--teal-dark);color:#fff;text-decoration:none;font-size:11px;font-weight:800}.offer-link:hover{background:#043e45}.offer-evidence{margin-top:9px;padding-top:8px}.offer-evidence summary{font-size:10px}.offer-evidence p{margin:6px 0 0;color:#647b7e;font-size:10px}.deal-reasons{margin-top:10px}
+    .offer-options{margin:16px 0 14px;border:1px solid #bcded9;border-radius:14px;padding:0;overflow:hidden;background:#f7fcfb;color:var(--ink)}.offer-options>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 15px;list-style:none;background:#e8f8f5;color:var(--teal-dark);font-size:13px;font-weight:850}.offer-options>summary::-webkit-details-marker{display:none}.offer-options>summary:after{content:"＋";font-size:17px;line-height:1}.offer-options[open]>summary:after{content:"−"}.summary-hint{margin-left:auto;color:#5a7a7b;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.055em}.offer-list{display:grid;gap:9px;padding:10px}.offer-option{padding:12px;border:1px solid var(--line);border-radius:11px;background:#fff}.offer-option-head,.offer-option-head>div,.offer-option-bottom{display:flex;align-items:center}.offer-option-head{justify-content:space-between;gap:10px}.offer-option-head>div{gap:7px}.offer-number{color:var(--teal);font-size:10px;font-weight:850}.offer-option-head strong{font-size:13px}.offer-option-facts{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.offer-option-facts span{padding:4px 7px;border-radius:6px;background:#eef7f5;color:#315d60;font-size:10px}.offer-room{margin:8px 0;color:#536f72;font-size:11px}.offer-option-bottom{justify-content:space-between;gap:12px}.offer-price strong,.offer-price span{display:block}.offer-price strong{font-size:14px}.offer-price span{margin-top:2px;color:var(--muted);font-size:10px}.offer-link{display:inline-flex;align-items:center;gap:5px;flex:0 0 auto;padding:8px 10px;border-radius:8px;background:var(--teal-dark);color:#fff;text-decoration:none;font-size:11px;font-weight:800}.offer-link:hover{background:#043e45}.offer-evidence{margin-top:9px;padding-top:8px}.offer-evidence summary{font-size:10px}.offer-evidence p{margin:6px 0 0;color:#647b7e;font-size:10px}.restaurant-info{margin:14px 0 0;border:1px solid #d7e8e5;border-radius:14px;padding:0;overflow:hidden;background:#fffdf7;color:var(--ink)}.restaurant-info>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 14px;list-style:none;background:#fff6dc;color:#694d12;font-size:12px;font-weight:850}.restaurant-info>summary::-webkit-details-marker{display:none}.restaurant-info>summary:after{content:"＋";font-size:16px}.restaurant-info[open]>summary:after{content:"−"}.restaurant-count{margin-left:auto;color:#7c6840;font-size:9px;font-weight:750;text-align:right}.restaurant-body{padding:10px}.restaurant-list{display:grid;gap:8px}.restaurant-venue{padding:10px;border:1px solid #eadfca;border-radius:10px;background:#fff}.restaurant-venue-head{display:flex;align-items:center;justify-content:space-between;gap:8px}.restaurant-venue-head strong{font-size:12px}.restaurant-venue-head>span{color:#76664a;font-size:9px;text-transform:uppercase;letter-spacing:.05em}.restaurant-plans{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}.restaurant-plan{display:inline-flex;padding:4px 6px;border-radius:999px;font-size:9px;font-weight:800}.restaurant-plan--included{background:#dcfce7;color:#166534}.restaurant-plan--limited{background:#fef3c7;color:#854d0e}.restaurant-plan--chargeable{background:#fee2e2;color:#991b1b}.restaurant-plan--restricted,.restaurant-plan--verify{background:#e2e8f0;color:#475569}.restaurant-venue p{margin:7px 0 0;color:#5b6f70;font-size:10px;line-height:1.45}.restaurant-extra{margin-top:10px;padding:10px;border-radius:10px;background:#fff1ed;color:#8a3b24;font-size:10px}.restaurant-extra ul{margin:6px 0 0;padding-left:17px}.restaurant-extra li+li{margin-top:3px}.restaurant-caveat{margin:10px 0 0;color:#6a6459;font-size:10px;line-height:1.5}.restaurant-sources{margin-top:9px;color:#647b7e;font-size:9px;line-height:1.45}.restaurant-sources a{color:var(--teal-dark)}.restaurant-verified{margin:7px 0 0;color:#718385;font-size:9px}.deal-reasons{margin-top:10px}
     .deal-link{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding:14px 16px;border-radius:12px;background:var(--teal-dark);color:#fff;text-decoration:none;font-size:14px;font-weight:800}.deal-link:hover{background:#043e45}.deal-link span{font-size:18px}
     .empty{display:none;grid-column:1/-1;text-align:center;background:#fff;border:1px dashed #bdd4d2;border-radius:20px;padding:44px 20px;color:var(--muted)}.empty.visible{display:block}
     .notice{margin-top:24px;padding:18px;border-radius:16px;background:var(--sand);border:1px solid #f4dfb7;color:#6d5833;font-size:12px;line-height:1.55}.warning{margin-top:12px;color:#9a3412}
@@ -300,7 +355,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
         <button class="chip" type="button" data-airport-filter="all" aria-pressed="true">Alle Flughäfen</button>
         ${config.departureAirports.map((airport) => `<button class="chip" type="button" data-airport-filter="${escapeHtml(airport.code)}" aria-pressed="false">${escapeHtml(airport.code)}</button>`).join("")}
         <select id="board" aria-label="Verpflegung filtern"><option value="all">AI & AI+</option><option value="all_inclusive_plus">Nur AI+</option><option value="all_inclusive">Nur AI</option></select>
-        <select id="price" aria-label="Maximalpreis filtern"><option value="99999">Bis ${eur(config.maximumPricePerPersonEur, locale)}</option><option value="3000">Bis 3.000 €</option><option value="3500">Bis 3.500 €</option></select>
+        <select id="price" aria-label="Maximalpreis filtern"><option value="${config.maximumPricePerPersonEur}">Bis ${eur(config.maximumPricePerPersonEur, locale)}</option><option value="3000">Bis 3.000 €</option><option value="3500">Bis 3.500 €</option></select>
         <select id="sort" aria-label="Angebote sortieren"><option value="score">Beste zuerst</option><option value="price">Günstigste zuerst</option><option value="nights">Längste zuerst</option></select>
         <button class="chip chip--saved" id="saved-only" type="button" aria-pressed="false">★ Gemerkte</button>
       </div>
@@ -317,7 +372,7 @@ export function renderSite({ offers, config, warnings = [], generatedAt = new Da
     </section>
 
     <aside class="notice">
-      <strong>Vor der Buchung kurz gegenprüfen:</strong> All Inclusive und All Inclusive Plus/Premium/Ultra sind auf der Seite getrennt gekennzeichnet. Angezeigt werden nur ausgewählte seriöse Quellen mit deutscher oder englischer Angebotsseite. Preise und Verfügbarkeiten ändern sich schnell. Bitte dort Reisedaten, Abflughafen, Gepäck, Transfer, genaue Verpflegungsstufe und Endpreis für ${config.travelers} Personen bestätigen. Mitgliederpreise sind entsprechend markiert.
+      <strong>Vor der Buchung kurz gegenprüfen:</strong> All Inclusive und All Inclusive Plus/Premium/Ultra sind auf der Seite getrennt gekennzeichnet. Angezeigt werden nur ausgewählte seriöse Quellen mit deutscher oder englischer Angebotsseite. Preise, Restaurantöffnungen und Verfügbarkeiten ändern sich schnell. Bitte dort Reisedaten, Abflughafen, Gepäck, Transfer, genaue Verpflegungsstufe, Restaurantleistungen und Endpreis für ${config.travelers} Personen bestätigen. Mitgliederpreise sind entsprechend markiert.
       ${warnings.length ? `<div class="warning"><strong>Hinweis zur aktuellen Suche:</strong> ${warnings.map(escapeHtml).join(" · ")}</div>` : ""}
     </aside>
     <footer>Keine Cookies, kein Tracking, keine Buchung über diese Seite. Favoriten werden ausschließlich im Browser dieses Geräts gespeichert.</footer>

@@ -45,6 +45,19 @@ function siteOffer(overrides = {}) {
     ratingOutOf10: 9,
     room: "Beach Villa",
     evidence: "Geprüfter Deal",
+    restaurantInfo: {
+      total: 2,
+      buffet: 1,
+      aLaCarte: 1,
+      venues: [
+        { name: "Lagoon Buffet", type: "buffet", allInclusive: "included", allInclusivePlus: "included", note: "Alle Mahlzeiten inklusive." },
+        { name: "Reef Grill", type: "a_la_carte", allInclusive: "chargeable", allInclusivePlus: "included_limited", note: "Ein Dinner pro Aufenthalt." }
+      ],
+      extraCharge: ["Private Dining"],
+      caveat: "Tarifdetails vor Buchung prüfen.",
+      sourceUrls: [{ label: "Resortquelle", url: "https://example.com/restaurants" }],
+      verifiedAt: "2026-08-23T12:00:00+02:00"
+    },
     dealStatus: "new",
     previousPricePerPersonEur: null,
     score: 95,
@@ -82,6 +95,11 @@ test("erzeugt eine mobile, nach AI und AI+ filterbare Seite mit Favoriten", () =
   assert.equal((html.match(/class="gallery-image"/g) || []).length, 6);
   assert.ok(html.includes('loading="lazy"'));
   assert.ok(html.includes("Lagoon Resort – Bild 1"));
+  assert.equal((html.match(/data-restaurant-info/g) || []).length, 2);
+  assert.ok(html.includes("2 gesamt · 1 Buffet · 1 À la carte"));
+  assert.ok(html.includes("AI: gegen Gebühr"));
+  assert.ok(html.includes("AI+: begrenzt inklusive"));
+  assert.ok(html.includes("https://example.com/restaurants"));
   assert.ok(html.includes("Keine Cookies, kein Tracking"));
 });
 
