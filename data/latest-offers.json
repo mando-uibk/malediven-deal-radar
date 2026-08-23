@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T21:58:00+02:00",
+  "updatedAt": "2026-08-23T22:42:25+02:00",
   "offers": [
     {
       "resortName": "Mercure Maldives Kooddoo Resort",
@@ -911,6 +911,555 @@
       }
     },
     {
+      "resortName": "Fihalhohi Maldives",
+      "island": "Fihalhohi",
+      "atoll": "Süd-Malé-Atoll",
+      "provider": "ITS",
+      "url": "https://www.restplatzboerse.at/hotel/4660/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2498,
+      "totalPriceEur": 4996,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Deluxe Beach",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei ITS, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Deluxe Beach, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.498,00 € p. P. / 4.996,00 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/4660/1/xl",
+        "https://images.flux.reisen/hotel/4660/2/m",
+        "https://images.flux.reisen/hotel/4660/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 1,
+        "buffet": 1,
+        "aLaCarte": 0,
+        "venues": [
+          {
+            "name": "Palm Grove Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Buffetfrühstück, -mittagessen und -abendessen im All Inclusive."
+          }
+        ],
+        "extraCharge": [
+          "Beach Hut",
+          "Private Dining",
+          "Seafood-, Steak- und Champagner-Dinner"
+        ],
+        "caveat": "Blue Lagoon Bar liefert AI-Nachmittagssnacks, zählt aber nicht als Restaurant; Beach Hut und Private Dining sind ausgeschlossen. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Fihalhohi AI-Inhalte",
+            "url": "https://www.fihalhohimaldives.com/dining/all-inclusive-inclusion/"
+          },
+          {
+            "label": "Fihalhohi Dining",
+            "url": "https://www.fihalhohimaldives.com/dining/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Canareef Resort Maldives",
+      "island": "Herathera",
+      "atoll": "Addu-Atoll",
+      "provider": "alltours-X",
+      "url": "https://www.restplatzboerse.at/hotel/61809/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2536.21,
+      "totalPriceEur": 5072.41,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Villa, Sunrise, Klimaanlage, Dusche, Terrasse",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei alltours-X, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Villa, Sunrise, Klimaanlage, Dusche, Terrasse, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.536,21 € p. P. / 5.072,41 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/61809/1/xl",
+        "https://images.flux.reisen/hotel/61809/2/m",
+        "https://images.flux.reisen/hotel/61809/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Kilhi Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Buffet für Frühstück, Mittag- und Abendessen; AI-Hauptrestaurant."
+          },
+          {
+            "name": "Meeraa Asian Cuisine",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Gegen Aufpreis; veröffentlichte Paketinformation nennt 25 % Ermäßigung."
+          }
+        ],
+        "extraCharge": [
+          "Meeraa abzüglich dokumentierter Ermäßigung",
+          "Beach Dinner und BBQ"
+        ],
+        "caveat": "Für Meeraa ist nur ein Rabatt, keine Vollinklusion belegt. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Canareef Dining",
+            "url": "https://canareef.com/dining/"
+          },
+          {
+            "label": "Canareef AI-Paket",
+            "url": "https://canareef.com/all-inclusive-package/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Ifuru Island Maldives",
+      "island": "Ifuru",
+      "atoll": "Raa-Atoll",
+      "provider": "MEIERS WELTREISEN",
+      "url": "https://www.restplatzboerse.at/hotel/286154/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2603,
+      "totalPriceEur": 5206,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Sunset Sky Suite",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei MEIERS WELTREISEN, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Sunset Sky Suite, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.603,00 € p. P. / 5.206,00 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/286154/1/xl",
+        "https://images.flux.reisen/hotel/286154/2/m",
+        "https://images.flux.reisen/hotel/286154/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Social House",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "All-day-Dining mit Buffet/Themenabenden; Resort ordnet es Premium AI zu."
+          },
+          {
+            "name": "Waterfront",
+            "type": "a_la_carte",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Signature-Restaurant; Resort ordnet es Premium AI zu."
+          }
+        ],
+        "extraCharge": [
+          "„Spoil Yourself“-Erlebnisse und Einzelartikel außerhalb des Pakets"
+        ],
+        "caveat": "Das Resort bewirbt zwei Restaurants und vier Bars als Premium AI; die konkrete Veranstalterkarte nennt nur „All Inclusive“. Daher wird die erweiterte Stufe nicht behauptet und Dine-around als eingeschränkt markiert. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Ifuru Resort",
+            "url": "https://www.ifuruisland.com/"
+          },
+          {
+            "label": "Ifuru Cuisine",
+            "url": "https://www.ifuruisland.com/cocktails-cuisine"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "The Barefoot Eco Hotel",
+      "island": "Hanimaadhoo",
+      "atoll": "Haa-Dhaalu-Atoll",
+      "provider": "FERIEN Touristik",
+      "url": "https://www.restplatzboerse.at/hotel/147328/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2624.23,
+      "totalPriceEur": 5248.46,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Doppelzimmer Meerseite",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei FERIEN Touristik, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Doppelzimmer Meerseite, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.624,23 € p. P. / 5.248,46 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/147328/1/xl",
+        "https://images.flux.reisen/hotel/147328/2/m",
+        "https://images.flux.reisen/hotel/147328/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 1,
+        "buffet": 1,
+        "aLaCarte": 0,
+        "venues": [
+          {
+            "name": "The Barefoot Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Buffetfrühstück, -mittagessen und -abendessen im Hauptrestaurant."
+          }
+        ],
+        "extraCharge": [
+          "Private/romantische Seafood-Dinner",
+          "Raani Snack Bar außerhalb der Paketliste"
+        ],
+        "caveat": "Juice Bar, Raani Snack Bar und schwimmende Bar zählen nicht als Restaurants; private Seafood-Menüs sind kostenpflichtig. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Barefoot Dining",
+            "url": "https://www.thebarefoot.com/dining"
+          },
+          {
+            "label": "Barefoot Factsheet",
+            "url": "https://kompastour.com/useruploads/tiny_MCE/Maldives/haa-dhaalu-atoll/the_barefoot_eco_hotel/the_barefoot_eco_hotel_FS.pdf"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Oblu Xperience Ailafushi",
+      "island": "Ailafushi",
+      "atoll": "Nord-Malé-Atoll",
+      "provider": "ITS",
+      "url": "https://www.restplatzboerse.at/hotel/229777/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2663,
+      "totalPriceEur": 5326,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Ocean View",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei ITS, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Ocean View, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.663,00 € p. P. / 5.326,00 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/229777/1/xl",
+        "https://images.flux.reisen/hotel/229777/2/m",
+        "https://images.flux.reisen/hotel/229777/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 3,
+        "buffet": 1,
+        "aLaCarte": 2,
+        "venues": [
+          {
+            "name": "Element X",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen im FUSHI Plan."
+          },
+          {
+            "name": "ONLY BLU",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Unterwasserrestaurant; keine reguläre FUSHI-Plan-Inklusion belegt."
+          },
+          {
+            "name": "Copper Pot Food Truck",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Offiziell nicht im FUSHI Plan, ab 55 USD++ p. P."
+          }
+        ],
+        "extraCharge": [
+          "ONLY BLU",
+          "Copper Pot Food Truck",
+          "La Promenade außerhalb der Paketliste"
+        ],
+        "caveat": "X360 ist eine Bar, La Promenade ein Café/Shop; beide zählen nicht als Restaurant. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Ailafushi Dining",
+            "url": "https://coloursofoblu.com/oblu-xperience-ailafushi/en/dining"
+          },
+          {
+            "label": "Ailafushi FUSHI Plan",
+            "url": "https://coloursofoblu.com/oblu-xperience-ailafushi/en/fushi-plan"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Hondaafushi Island Resort",
+      "island": "Hondaafushi",
+      "atoll": "Haa-Dhaalu-Atoll",
+      "provider": "LMX Touristik",
+      "url": "https://www.restplatzboerse.at/hotel/157841/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-30",
+      "returnDate": "2026-12-10",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2730.06,
+      "totalPriceEur": 5460.12,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Strand-Bungalow Superior",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei LMX Touristik, 2026-11-30 ab MUC bis 2026-12-10, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Strand-Bungalow Superior, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.730,06 € p. P. / 5.460,12 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/157841/1/xl",
+        "https://images.flux.reisen/hotel/157841/2/m",
+        "https://images.flux.reisen/hotel/157841/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 1,
+        "buffet": 1,
+        "aLaCarte": 0,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen."
+          }
+        ],
+        "extraCharge": [
+          "Private oder besondere Dinner, sofern angeboten"
+        ],
+        "caveat": "Ein reguläres Restaurant ist belastbar belegt. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Hondaafushi Resort",
+            "url": "https://www.hondaafushiislandresort.com/"
+          },
+          {
+            "label": "Main Restaurant",
+            "url": "https://resortlife.travel/resort/hondaafushi-island-resort/dining/main-restaurant"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Ellaidhoo Maldives By Cinnamon",
+      "island": "Ellaidhoo",
+      "atoll": "Nord-Ari-Atoll",
+      "provider": "TUI XTUI",
+      "url": "https://www.restplatzboerse.at/hotel/4617/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2771.62,
+      "totalPriceEur": 5543.23,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Standard Room",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei TUI XTUI, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Standard Room, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.771,62 € p. P. / 5.543,23 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/4617/1/xl",
+        "https://images.flux.reisen/hotel/4617/2/m",
+        "https://images.flux.reisen/hotel/4617/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 3,
+        "buffet": 2,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Madi Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Hauptbuffet für das angebotene Standardzimmer."
+          },
+          {
+            "name": "Seanic Café & Bar",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Frühstücksbuffet/Mahlzeiten für Water-Bungalow-Gäste."
+          },
+          {
+            "name": "The Junction",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "À-la-carte-Spezialitäten; Meal-Plan-Gäste erhalten 20 % Rabatt."
+          }
+        ],
+        "extraCharge": [
+          "The Junction abzüglich 20 % Rabatt",
+          "Private Beach Dinner"
+        ],
+        "caveat": "Seanic ist an Water-Bungalow-Gäste gebunden; für das Standardzimmer ist Madi maßgeblich. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Ellaidhoo Dining",
+            "url": "https://www.cinnamonhotels.com/ellaidhoo-maldives-by-cinnamon"
+          },
+          {
+            "label": "The Junction",
+            "url": "https://www.cinnamonhotels.com/ellaidhoo-maldives-by-cinnamon/dine-with-us/the-junction"
+          },
+          {
+            "label": "Seanic",
+            "url": "https://www.cinnamonhotels.com/ellaidhoo-maldives-by-cinnamon/dine-with-us/seanic-caf-bar"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Dreamland The Unique Sea & Lake Resort / Spa",
+      "island": "Hirundhoo",
+      "atoll": "Baa-Atoll",
+      "provider": "ITS",
+      "url": "https://www.restplatzboerse.at/hotel/191341/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-30",
+      "returnDate": "2026-12-10",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2789,
+      "totalPriceEur": 5578,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Beach Bungalow",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei ITS, 2026-11-30 ab MUC bis 2026-12-10, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Beach Bungalow, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.789,00 € p. P. / 5.578,00 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/191341/1/xl",
+        "https://images.flux.reisen/hotel/191341/2/m",
+        "https://images.flux.reisen/hotel/191341/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 2,
+        "aLaCarte": 0,
+        "venues": [
+          {
+            "name": "Lake View Restaurant",
+            "type": "buffet",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Eines der je Unterkunftsbereich zugeordneten Hauptrestaurants für alle Mahlzeiten."
+          },
+          {
+            "name": "Sea View Restaurant",
+            "type": "buffet",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Eines der je Unterkunftsbereich zugeordneten Hauptrestaurants für alle Mahlzeiten."
+          }
+        ],
+        "extraCharge": [
+          "Eat & Enjoy À-la-carte-Menü",
+          "Private BBQ-, Lobster- und Honeymoon-Dinner"
+        ],
+        "caveat": "Der Voucher muss bestätigen, welcher Speisesaal für den Beach Bungalow gilt; Sonder-/À-la-carte-Menüs sind separat ausgewiesen. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Dreamland Dining",
+            "url": "https://dreamland.com.mv/dining/"
+          },
+          {
+            "label": "Dreamland Downloads",
+            "url": "https://dreamland.com.mv/downloads/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
       "resortName": "Embudu Village Maldives",
       "island": "Embudu",
       "atoll": "Süd-Malé-Atoll",
@@ -1057,6 +1606,186 @@
       }
     },
     {
+      "resortName": "Kuredu Resort & Spa",
+      "island": "Kuredu",
+      "atoll": "Lhaviyani-Atoll",
+      "provider": "TUI XTUI",
+      "url": "https://www.restplatzboerse.at/hotel/4638/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-29",
+      "returnDate": "2026-12-09",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2824.62,
+      "totalPriceEur": 5649.23,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Garden Bungalow",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei TUI XTUI, 2026-11-29 ab MUC bis 2026-12-09, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Garden Bungalow, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.824,62 € p. P. / 5.649,23 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/4638/1/xl",
+        "https://images.flux.reisen/hotel/4638/2/m",
+        "https://images.flux.reisen/hotel/4638/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 7,
+        "buffet": 4,
+        "aLaCarte": 3,
+        "venues": [
+          {
+            "name": "Bonthi Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Für den angebotenen Garden Bungalow zugeordnetes Buffet für alle Hauptmahlzeiten."
+          },
+          {
+            "name": "Koamas Restaurant",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Für bestimmte Beach-Villa-Kategorien; fremde Kategorien nur nach Band-/Reservierungsregel."
+          },
+          {
+            "name": "O Restaurant",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Für O-Villen; Alters-, Reservierungs- und mögliche Aufpreisregeln."
+          },
+          {
+            "name": "Sangu Restaurant",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Für Sangu-Villen und Gäste ab 15; für Garden Bungalows nicht regulär enthalten."
+          },
+          {
+            "name": "Franco's",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Mediterrane Küche; Essen außerhalb des zugeordneten Buffets im offiziellen Paket ausgeschlossen."
+          },
+          {
+            "name": "The Far East",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Asiatische Küche/Teppanyaki; nicht im normalen Buffetumfang."
+          },
+          {
+            "name": "The Beach",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Französisch inspirierte Küche/Seafood; nicht im normalen Buffetumfang."
+          }
+        ],
+        "extraCharge": [
+          "Drei À-la-carte-Restaurants",
+          "5.8 Undersea Restaurant auf der Nachbarinsel",
+          "Destination Dining und Premiumgetränke"
+        ],
+        "caveat": "Die Live-Karte nennt „All Inclusive“, nicht „All Inclusive Plus“. Für Garden Bungalows ist Bonthi zugeordnet; das offizielle Paket schließt Speisen anderer Resortrestaurants aus. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Kuredu Wine & Dine",
+            "url": "https://www.kuredu.com/wine-dine/"
+          },
+          {
+            "label": "Kuredu Paket 2025/26",
+            "url": "https://www.kuredu.com/wp-content/uploads/2025/11/KureduAllInclusivePlusPackage110125103126Rev052125.pdf"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Hotel Riu Atoll",
+      "island": "Maafushi",
+      "atoll": "Dhaalu-Atoll",
+      "provider": "Capital Holidays",
+      "url": "https://www.restplatzboerse.at/hotel/203179/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2825.5,
+      "totalPriceEur": 5651,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Standard Room",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei Capital Holidays, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Standard Room, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.825,50 € p. P. / 5.651,00 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/203179/1/xl",
+        "https://images.flux.reisen/hotel/203179/2/m",
+        "https://images.flux.reisen/hotel/203179/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 3,
+        "buffet": 1,
+        "aLaCarte": 2,
+        "venues": [
+          {
+            "name": "Dhoni",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Buffet für Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "Sofia",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Italienisches Abendessen im 24h-AI-Konzept; Reservierung/Öffnung beachten."
+          },
+          {
+            "name": "Beef Steak House",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Brunch/Frühstück und Steakhouse-Abendessen; Reservierung/Öffnung beachten."
+          }
+        ],
+        "extraCharge": [
+          "Nicht gelistete Premiumweine und private Dinner"
+        ],
+        "caveat": "RIU bewirbt 24-Stunden-All-Inclusive; Spezialitätenrestaurants sind reservierungsabhängig. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "RIU Gastronomie",
+            "url": "https://www.riu.com/en/hotel/maldives/dhaalu-atoll/hotel-riu-atoll/gastronomy"
+          },
+          {
+            "label": "RIU Resort",
+            "url": "https://www.riu.com/en/hotel/maldives/dhaalu-atoll/hotel-riu-atoll"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
       "resortName": "Embudu Village Maldives",
       "island": "Embudu",
       "atoll": "Süd-Malé-Atoll",
@@ -1127,6 +1856,264 @@
           }
         ],
         "verifiedAt": "2026-08-23T21:57:00+02:00"
+      }
+    },
+    {
+      "resortName": "Filitheyo Island Resort",
+      "island": "Filitheyo",
+      "atoll": "Faafu-Atoll",
+      "provider": "TUI XTUI",
+      "url": "https://www.restplatzboerse.at/hotel/20498/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-29",
+      "returnDate": "2026-12-09",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2895.62,
+      "totalPriceEur": 5791.23,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Promotion Superior Villa",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei TUI XTUI, 2026-11-29 ab MUC bis 2026-12-09, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Promotion Superior Villa, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.895,62 € p. P. / 5.791,23 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/20498/1/xl",
+        "https://images.flux.reisen/hotel/20498/2/m",
+        "https://images.flux.reisen/hotel/20498/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 2,
+        "buffet": 1,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Main Restaurant",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "All-you-can-eat-Buffet für Frühstück, Mittag- und Abendessen."
+          },
+          {
+            "name": "Sunset Restaurant",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Reguläre À-la-carte-Speisen extra; nur ausgewiesene Afternoon-Tea-/Snack-Zeit inklusive."
+          }
+        ],
+        "extraCharge": [
+          "À-la-carte-Mahlzeiten im Sunset Restaurant",
+          "Private Dinner und Premiumgetränke"
+        ],
+        "caveat": "Das offizielle Paket umfasst das Hauptbuffet und ausgewählte Getränke; Afternoon Tea im Sunset Restaurant ist enthalten, dessen reguläre Speisen nicht. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Filitheyo AI-Paket",
+            "url": "https://aaaresorts.com/filitheyo-island-resort/dining/all-inclusive-package/"
+          },
+          {
+            "label": "Filitheyo Restaurants",
+            "url": "https://resortlife.travel/resort/filitheyo-island-resort"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Cinnamon Dhonveli Maldives",
+      "island": "Kanu Huraa",
+      "atoll": "Nord-Malé-Atoll",
+      "provider": "TUI XTUI",
+      "url": "https://www.restplatzboerse.at/hotel/49700/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2896.62,
+      "totalPriceEur": 5793.23,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Superior Room",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei TUI XTUI, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Superior Room, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.896,62 € p. P. / 5.793,23 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/49700/1/xl",
+        "https://images.flux.reisen/hotel/49700/2/m",
+        "https://images.flux.reisen/hotel/49700/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 4,
+        "buffet": 3,
+        "aLaCarte": 1,
+        "venues": [
+          {
+            "name": "Koimala",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Hauptbuffet für Standard-/Superior-Zimmer."
+          },
+          {
+            "name": "Rehendhi Restaurant",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Nur Overwater Suites und Beach Suites with Pool."
+          },
+          {
+            "name": "Dalchini",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Buffet für bestimmte Kategorien; indisches À-la-carte-Menü für alle kostenpflichtig."
+          },
+          {
+            "name": "Tex Mex",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Offiziell für alle Meal Plans kostenpflichtig."
+          }
+        ],
+        "extraCharge": [
+          "Tex Mex",
+          "Indisches À-la-carte-Menü im Dalchini",
+          "Dine Under the Stars"
+        ],
+        "caveat": "Für das Superior Room ist Koimala maßgeblich; Rehendhi ist zimmergebunden. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Dhonveli Dining",
+            "url": "https://www.cinnamonhotels.com/cinnamon-dhonveli-maldives"
+          },
+          {
+            "label": "Dalchini",
+            "url": "https://www.cinnamonhotels.com/cinnamon-dhonveli-maldives/dine-with-us/dalchini"
+          },
+          {
+            "label": "Tex Mex",
+            "url": "https://www.cinnamonhotels.com/cinnamon-dhonveli-maldives/dine-with-us/tex-mex"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
+      "resortName": "Villa Park Sun Island",
+      "island": "Nalaguraidhoo",
+      "atoll": "Süd-Ari-Atoll",
+      "provider": "LMX Touristik",
+      "url": "https://www.restplatzboerse.at/hotel/16305/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 2919.89,
+      "totalPriceEur": 5839.77,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Villa, Gartenblick",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei LMX Touristik, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Villa, Gartenblick, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 2.919,89 € p. P. / 5.839,77 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/16305/1/xl",
+        "https://images.flux.reisen/hotel/16305/2/m",
+        "https://images.flux.reisen/hotel/16305/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 6,
+        "buffet": 2,
+        "aLaCarte": 4,
+        "venues": [
+          {
+            "name": "Maaniya",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Internationales Hauptbuffet für Beach-/Garden-Villen."
+          },
+          {
+            "name": "Southern Star",
+            "type": "buffet",
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "note": "Zweites Buffet, je nach Unterkunftsbereich zugeordnet."
+          },
+          {
+            "name": "Sun Star",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Thai/Oriental À-la-carte."
+          },
+          {
+            "name": "Al Pontile",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Italienische À-la-carte-Küche."
+          },
+          {
+            "name": "ZERO",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Treetop/Farm-to-table."
+          },
+          {
+            "name": "Teppanyaki Restaurant",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Japanisches Live-Cooking."
+          }
+        ],
+        "extraCharge": [
+          "Vier À-la-carte-Restaurants",
+          "Private Dining und Sondermenüs"
+        ],
+        "caveat": "Ein inkludiertes À-la-carte-Essen ist offiziell nur für qualifizierende Aufenthalte bis 31.10.2026 genannt; diese Reise liegt später. Daher ist für Nov./Dez. 2026 nur das zugeordnete Buffet sicher enthalten. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Villa Park Dining",
+            "url": "https://villaresorts.com/villa-park/dining/"
+          },
+          {
+            "label": "Villa Meal Plans",
+            "url": "https://villaresorts.com/meal-plans/"
+          },
+          {
+            "label": "Villa Park Factsheet",
+            "url": "https://www.onextour.com/asset/hotel/1106/villa-park-factsheet-march-2023.pdf"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
       }
     },
     {
@@ -1225,6 +2212,141 @@
       }
     },
     {
+      "resortName": "Niva Kuramathi Maldives",
+      "island": "Kuramathi",
+      "atoll": "Nord-Ari-Atoll",
+      "provider": "LTUR",
+      "url": "https://www.restplatzboerse.at/hotel/75227/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1",
+      "sourceLanguage": "de",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "returnDate": "2026-12-06",
+      "nights": 9,
+      "board": "all_inclusive",
+      "packageIncludesFlights": true,
+      "transfer": "included",
+      "transferType": null,
+      "baggage": "included",
+      "pricePerPersonEur": 3286,
+      "totalPriceEur": 6572,
+      "priceConfidence": "live",
+      "dealType": "regular",
+      "membershipRequired": false,
+      "bookingDeadline": null,
+      "stars": null,
+      "ratingOutOf10": null,
+      "room": "Beach Villa",
+      "evidence": "Live-Preisprüfung am 23.08.2026 gegen 22:30 CEST: konkrete Tarifkarte „Angebot verfügbar“ bei LTUR, 2026-11-26 ab MUC bis 2026-12-06, Etihad Airways, 10 Reisetage = 9 Hotelnächte, Beach Villa, All Inclusive, Hotel + Flug, Hoteltransfer und Gepäck enthalten, 3.286,00 € p. P. / 6.572,00 € gesamt. Dynamischer Link: gegebenenfalls 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Tage und All Inclusive erneut setzen.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/75227/1/xl",
+        "https://images.flux.reisen/hotel/75227/2/m",
+        "https://images.flux.reisen/hotel/75227/3/m"
+      ],
+      "restaurantInfo": {
+        "total": 12,
+        "buffet": 3,
+        "aLaCarte": 9,
+        "venues": [
+          {
+            "name": "Haruge",
+            "type": "buffet",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Eines der drei je Villa zugeordneten Buffets."
+          },
+          {
+            "name": "Malaafaiy",
+            "type": "buffet",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Eines der drei je Villa zugeordneten Buffets."
+          },
+          {
+            "name": "Farivalhu",
+            "type": "buffet",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Eines der drei je Villa zugeordneten Buffets."
+          },
+          {
+            "name": "The Reef",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "Island Barbeque",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "Palm",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "La Belle Vie",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "Siam Garden",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "Kobe",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "Inguru",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "Tandoor Mahal",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          },
+          {
+            "name": "Island Coffee Shop",
+            "type": "a_la_carte",
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "note": "Im normalen AI-Tarif nicht als Dine-around enthalten; erweiterter Premiumtarif separat."
+          }
+        ],
+        "extraCharge": [
+          "Neun À-la-carte-Restaurants im normalen AI-Tarif",
+          "Private Dining"
+        ],
+        "caveat": "Die Live-Karte nennt nur „All Inclusive“; die Resortseite bewirbt separat „Premium All Inclusive“. Ohne diesen Originaltarif gelten nur Mahlzeiten im zugeordneten Buffet als sicher enthalten. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "sourceUrls": [
+          {
+            "label": "Niva Kuramathi Dining",
+            "url": "https://www.nivakuramathi.com/dining/"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      }
+    },
+    {
       "resortName": "Sentido OBLU Helengeli",
       "island": "Helengeli",
       "atoll": "Nord-Malé-Atoll",
@@ -1307,14 +2429,14 @@
     }
   ],
   "warnings": [
-    "Am 23.08.2026 gegen 21:40 CEST wurden 14 der 17 verbleibenden Angebote im Cloud-Browser direkt in konkreten Live-Tarifkarten bestätigt: 9 Restplatzbörse.at-Angebote sowie 5 BILLA-/DERTOUR-Angebote. Drei TUI/L’TUR-Angebote bleiben nach der 48-Stunden-Regel auf Basis der letzten Live-Prüfung vom 23.08.2026 gegen 07:40 CEST erhalten.",
-    "Restplatzbörse.at wurde als Pflichtquelle mit den exakten Filtern 2 Erwachsene, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Reisetage und All Inclusive geprüft. Aufgenommen wurden Mercure Maldives Kooddoo Resort mit der Originalbezeichnung „All Inclusive Plus“, Adaaran Club Rannalhi mit All Inclusive und zusätzliche ITS-Angebote für Embudu Village. Preis, Flüge, Daten, Zimmer, Hoteltransfer und Gepäck waren jeweils in der konkreten Live-Tarifkarte sichtbar.",
-    "Bei den Restplatzbörse-Angeboten entsprechen 10 Reisetage neun Hotelübernachtungen, weil der Hinflug ab MUC abends startet und die Ankunft auf den Malediven am Folgetag erfolgt; die Rückflüge starten am dokumentierten Rückreisedatum. Ein zunächst angezeigter günstigerer Mercure-Preis änderte sich bei der Preisprüfung deutlich und wurde nicht übernommen.",
-    "TUI wurde erneut als Pflichtquelle geprüft. Die konkrete Centara-Seite war erreichbar, zeigte in diesem Lauf jedoch keine Tarifkarten oder Preise. Die drei erhaltenen Centara-Angebote wurden zuletzt am 23.08.2026 gegen 07:40 CEST mit MUC, exakten Daten, 9 Hotelnächten, Hotel + Flug, Transfer und All Inclusive live bestätigt und werden nicht als frisch bestätigt dargestellt.",
-    "Die fünf weitergeführten BILLA-/DERTOUR-Angebote wurden gegen 21:40 CEST erneut live bestätigt.",
-    "Die Preisobergrenze wurde auf 3.700 € pro Person bzw. 7.400 € gesamt gesenkt. Das zuvor enthaltene Oaga-AI+-Angebot zu 4.874 € p. P. wurde deshalb entfernt.",
-    "Restaurantdaten wurden am 23.08.2026 gegen 21:57 CEST anhand offizieller Resortseiten und konkreter Veranstalterbeschreibungen ergänzt. Enthaltene Set-Menüs, besuchsabhängige Spezialitätenrestaurants und nur für bestimmte Villenkategorien verfügbare Lokale sind ausdrücklich als begrenzt oder eingeschränkt markiert; verbindlich ist die Tarifbeschreibung bei Buchung.",
-    "Restplatzbörse-, TUI- und BILLA-Seiten sind dynamisch. Nach dem Öffnen müssen Datum, Abflughafen, Reisedauer, Reisende und Verpflegung gegebenenfalls erneut gewählt werden.",
-    "Jedes der sechs Resorts besitzt drei unterschiedliche, resortbezogene HTTPS-Bilder aus der live geöffneten Anbieter-Galerie. Die veröffentlichte Seite wird nach dem Deployment auf vollständigen Bildaufbau, Restaurantdetails und aufklappbare Anbieterlisten geprüft."
+    "Am 23.08.2026 gegen 22:30 CEST wurden 14 neue Resorts in konkreten Restplatzbörse.at-Tarifkarten vollständig live bestätigt. Zusammen mit den 17 höchstens 48 Stunden alten, bereits belegten Varianten umfasst der Radar jetzt 31 Angebote in 20 unterschiedlichen Resorts.",
+    "Restplatzbörse.at wurde mit 2 Erwachsenen, MUC/ZRH/VIE, 26.11.–10.12.2026, 10 Reisetagen und All Inclusive geprüft. Jede neue Tarifkarte zeigte exakte Hin- und Rückreise, MUC, Fluggesellschaft, 9 Hotelnächte, Zimmer, All Inclusive, Hotel + Flug, Hoteltransfer, Gepäck und den nach der Preisprüfung gültigen Gesamtpreis.",
+    "Nika Island Resort wurde ausgeschlossen: Die konkrete geprüfte Tarifkarte lautete nur „All Inclusive Light“ und unterschritt damit die geforderte Mindestverpflegung.",
+    "TUI wurde als Pflichtquelle im Cloud-Browser mit exakt MUC/ZRH/VIE, 26.11.–10.12.2026, 9–14 Nächten, 2 Erwachsenen, Pauschalreise und All Inclusive geprüft. Die Liste zeigte 110 Hotels, aber nicht bei jeder Karte gleichzeitig den konkreten Flughafen und das Rückreisedatum; deshalb wurden daraus keine neuen TUI-Direktangebote ohne Detailbeleg übernommen. Kuredu, Ellaidhoo, Cinnamon Dhonveli und Filitheyo wurden als TUI-XTUI-Angebote in konkreten Restplatzbörse-Tarifkarten vollständig bestätigt.",
+    "Bei mehreren Angeboten änderte sich der Vorschaupreis nach „Angebot prüfen“. Gespeichert ist ausschließlich der danach angezeigte Status „Angebot verfügbar“ mit dem finalen Preis; Vorschaupreise wurden nicht ungeprüft übernommen.",
+    "Die 17 zuvor vorhandenen Angebote bleiben nach der 48-Stunden-Regel erhalten: 14 waren zuletzt am 23.08.2026 gegen 21:40 CEST live bestätigt, drei TUI/L’TUR-Centara-Varianten am 23.08.2026 gegen 07:40 CEST. Sie werden in diesem Lauf nicht als frisch bestätigte Einzeltarife dargestellt.",
+    "Restaurantdaten wurden am 23.08.2026 gegen 22:35 CEST aus offiziellen Resortseiten, offiziellen Paket-/Factsheet-Dokumenten und ergänzend seriösen Resortbeschreibungen ergänzt. Buffet- und À-la-carte-Zahlen zählen Restaurants, nicht Bars oder reine Cafés. Zimmerzuordnung, Reservierung, Besuchslimits, Rabatte und Aufpreise sind je Restaurant vermerkt; verbindlich bleibt der konkrete Voucher.",
+    "Alle 14 neuen Resorts besitzen drei unterschiedliche, resortbezogene HTTPS-Bilder aus der live geöffneten Restplatzbörse-Galerie; die sechs vorhandenen Resorts behalten ihre drei plausiblen Bilder. Die veröffentlichte Seite wird nach dem Deployment auf vollständigen Bildaufbau und 20 Resortkarten geprüft.",
+    "Restplatzbörse-, TUI- und BILLA-Seiten sind dynamisch. Nach dem Öffnen müssen Datum, Abflughafen, Reisedauer, Reisende und Verpflegung gegebenenfalls erneut gewählt werden."
   ]
 }
