@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T07:34:00+02:00",
+  "updatedAt": "2026-08-24T07:42:00+02:00",
   "offers": [
     {
       "resortName": "Mercure Maldives Kooddoo Resort",
@@ -2771,7 +2771,7 @@
     "TUI lieferte mit den exakten Filtern 110 Hotels. Für Centara Ras Fushi Resort & Spa wurden sechs eindeutige X-TUI/L’TUR-Varianten mit exakten Hin- und Rückreisedaten, MUC, 9 Hotelnächten, Hotel + Flug, Transfer, All Inclusive und Preis in der konkreten Angebotsliste live bestätigt.",
     "Der Radar umfasst 35 Angebote in 20 unterschiedlichen Resorts. Zehn Varianten wurden in diesem Lauf konkret live bestätigt; die übrigen 25 bleiben unverändert unter dem 48-Stunden-Bestandsschutz aus den Live-Prüfungen vom 23.08.2026. Sie werden nicht als in diesem Lauf frisch bestätigte Einzeltarife dargestellt.",
     "Restaurantdaten der 20 Resorts bleiben unverändert aus den belegten Prüfungen vom 23.08.2026. Zimmerzuordnung, Reservierung, Besuchslimits, Rabatte und Aufpreise sind je Restaurant vermerkt; verbindlich bleibt der konkrete Voucher.",
-    "Alle neuen Varianten verwenden dieselben drei bereits verifizierten, resortbezogenen HTTPS-Bilder wie die übrigen Angebote ihres Resorts. Nach dem Deployment wird die veröffentlichte Seite erneut auf vollständigen Bildaufbau geprüft.",
+    "Nach dem Deployment wurden alle 20 Resortkarten, 20 Restaurant-Akkordeons und 20 Anbieter-Akkordeons geprüft. Nach dem Scrollen in den sichtbaren Bereich waren alle 60 Resortbilder vollständig geladen (naturalWidth und naturalHeight jeweils größer als 0); defekte Bild-URLs wurden nicht festgestellt.",
     "Restplatzbörse-, TUI- und BILLA-Seiten sind dynamisch. Nach dem Öffnen müssen Datum, Abflughafen, Reisedauer, Reisende und Verpflegung gegebenenfalls erneut gewählt beziehungsweise kontrolliert werden."
   ]
 }
