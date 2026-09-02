@@ -7,8 +7,88 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Panoramic Lagoon Open-air Bath; 6178 € gesamt bzw. 3089 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://www.maldives.com/uploads/Centara_Mirage_Lagoon_Maldives_General_Island_Aerial_57e545054d.jpg",
+        "https://www.travel4news.at/wp-content/uploads/2024/12/Centara-Mirage-Lagoon-Maldives-Two-Bedroom-Overwater-Villa-c-Centara-Hotels-Resorts.jpg",
+        "https://www.hashcorner.com/wp-content/uploads/2025/03/Centara-Mirage-Lagoon-Maldives-13.jpg"
+      ],
+      "island": "Nakachchafushi",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 3089,
+      "provider": "Schauinsland-Reisen",
+      "ratingOutOf10": 9.5,
+      "resortName": "Centara Mirage Lagoon Maldives",
+      "restaurantInfo": {
+        "total": 3,
+        "buffet": 1,
+        "aLaCarte": 2,
+        "venues": [
+          {
+            "name": "The Sailhouse",
+            "type": "buffet",
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "note": "Internationales Buffet zum Frühstück, Mittag- und Abendessen im All-Inclusive-Konzept."
+          },
+          {
+            "name": "Acqua",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Italienische À-la-carte-Küche; Reservierung erforderlich. Einzelne Premiumgerichte wie Hummer können Zuschläge haben."
+          },
+          {
+            "name": "Suan Bua",
+            "type": "a_la_carte",
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "note": "Thailändische À-la-carte-Küche; Reservierung erforderlich."
+          }
+        ],
+        "extraCharge": [
+          "Premiumgerichte außerhalb der All-Inclusive-Auswahl, ausdrücklich genannt insbesondere Hummer",
+          "Private Dining und sonstige nicht ausdrücklich eingeschlossene Leistungen"
+        ],
+        "caveat": "Die konkrete Restplatzbörse-Tarifkarte weist All Inclusive aus, nennt jedoch keine detaillierte Restaurantmatrix. Offizielle Resortquellen bestätigen Namen und Typen; ein aktueller Resortbericht beschreibt Dine-around mit Reservierung für À-la-carte-Restaurants. Zuschläge für einzelne Premiumgerichte bleiben möglich.",
+        "sourceUrls": [
+          {
+            "label": "Centara: Restaurants & Bars",
+            "url": "https://www.centarahotelsresorts.com/centara/cmlm/restaurants-and-bars"
+          },
+          {
+            "label": "The Week: aktueller Resortbericht zum All-Inclusive-Dine-around",
+            "url": "https://theweek.com/culture-life/travel/the-atollia-by-centara-mirage-lagoon-resort-maldives-review"
+          },
+          {
+            "label": "Restplatzbörse: konkrete Pauschalreise-Tarifkarte",
+            "url": "https://www.restplatzboerse.at/hotel/294909/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+          }
+        ],
+        "verifiedAt": "2026-09-01T07:23:29+02:00"
+      },
+      "returnDate": "2026-12-06",
+      "room": "Panoramic Lagoon Open-air Bath",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 6178,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/294909/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Nord-Malé-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Panoramic Lagoon Open-air Bath; 6474 € gesamt bzw. 3237 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Panoramic Lagoon Open-air Bath; 6474 € gesamt bzw. 3237 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://www.maldives.com/uploads/Centara_Mirage_Lagoon_Maldives_General_Island_Aerial_57e545054d.jpg",
         "https://www.travel4news.at/wp-content/uploads/2024/12/Centara-Mirage-Lagoon-Maldives-Two-Bedroom-Overwater-Villa-c-Centara-Hotels-Resorts.jpg",
@@ -88,7 +168,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Panoramic Lagoon Open-air Bath; 6474 € gesamt bzw. 3237 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Panoramic Lagoon Open-air Bath; 6474 € gesamt bzw. 3237 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://www.maldives.com/uploads/Centara_Mirage_Lagoon_Maldives_General_Island_Aerial_57e545054d.jpg",
         "https://www.travel4news.at/wp-content/uploads/2024/12/Centara-Mirage-Lagoon-Maldives-Two-Bedroom-Overwater-Villa-c-Centara-Hotels-Resorts.jpg",
@@ -161,94 +241,14 @@
       "url": "https://www.restplatzboerse.at/hotel/294909/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
-      "atoll": "Nord-Malé-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland Dynamisch, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Panoramic Lagoon Open-air Bath; 6510 € gesamt bzw. 3255 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://www.maldives.com/uploads/Centara_Mirage_Lagoon_Maldives_General_Island_Aerial_57e545054d.jpg",
-        "https://www.travel4news.at/wp-content/uploads/2024/12/Centara-Mirage-Lagoon-Maldives-Two-Bedroom-Overwater-Villa-c-Centara-Hotels-Resorts.jpg",
-        "https://www.hashcorner.com/wp-content/uploads/2025/03/Centara-Mirage-Lagoon-Maldives-13.jpg"
-      ],
-      "island": "Nakachchafushi",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 3255,
-      "provider": "Schauinsland Dynamisch",
-      "ratingOutOf10": 9.5,
-      "resortName": "Centara Mirage Lagoon Maldives",
-      "restaurantInfo": {
-        "total": 3,
-        "buffet": 1,
-        "aLaCarte": 2,
-        "venues": [
-          {
-            "name": "The Sailhouse",
-            "type": "buffet",
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "note": "Internationales Buffet zum Frühstück, Mittag- und Abendessen im All-Inclusive-Konzept."
-          },
-          {
-            "name": "Acqua",
-            "type": "a_la_carte",
-            "allInclusive": "included_limited",
-            "allInclusivePlus": null,
-            "note": "Italienische À-la-carte-Küche; Reservierung erforderlich. Einzelne Premiumgerichte wie Hummer können Zuschläge haben."
-          },
-          {
-            "name": "Suan Bua",
-            "type": "a_la_carte",
-            "allInclusive": "included_limited",
-            "allInclusivePlus": null,
-            "note": "Thailändische À-la-carte-Küche; Reservierung erforderlich."
-          }
-        ],
-        "extraCharge": [
-          "Premiumgerichte außerhalb der All-Inclusive-Auswahl, ausdrücklich genannt insbesondere Hummer",
-          "Private Dining und sonstige nicht ausdrücklich eingeschlossene Leistungen"
-        ],
-        "caveat": "Die konkrete Restplatzbörse-Tarifkarte weist All Inclusive aus, nennt jedoch keine detaillierte Restaurantmatrix. Offizielle Resortquellen bestätigen Namen und Typen; ein aktueller Resortbericht beschreibt Dine-around mit Reservierung für À-la-carte-Restaurants. Zuschläge für einzelne Premiumgerichte bleiben möglich.",
-        "sourceUrls": [
-          {
-            "label": "Centara: Restaurants & Bars",
-            "url": "https://www.centarahotelsresorts.com/centara/cmlm/restaurants-and-bars"
-          },
-          {
-            "label": "The Week: aktueller Resortbericht zum All-Inclusive-Dine-around",
-            "url": "https://theweek.com/culture-life/travel/the-atollia-by-centara-mirage-lagoon-resort-maldives-review"
-          },
-          {
-            "label": "Restplatzbörse: konkrete Pauschalreise-Tarifkarte",
-            "url": "https://www.restplatzboerse.at/hotel/294909/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-          }
-        ],
-        "verifiedAt": "2026-09-01T07:23:29+02:00"
-      },
-      "returnDate": "2026-12-06",
-      "room": "Panoramic Lagoon Open-air Bath",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 6510,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/294909/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
       "atoll": "Gaafu-Alifu-Atoll",
       "baggage": "included",
       "board": "all_inclusive_plus",
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-27",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Smart Option, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, Strand-Villa; 4650 € gesamt bzw. 2325 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-26",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Strand-Villa; 4630 € gesamt bzw. 2315 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/175566/1/xl",
         "https://images.flux.reisen/hotel/175566/2/m",
@@ -259,8 +259,8 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2325,
-      "provider": "LMX Smart Option",
+      "pricePerPersonEur": 2315,
+      "provider": "LMX Touristik",
       "ratingOutOf10": null,
       "resortName": "Mercure Maldives Kooddoo Resort",
       "restaurantInfo": {
@@ -300,11 +300,80 @@
         ],
         "verifiedAt": "2026-08-23T21:57:00+02:00"
       },
-      "returnDate": "2026-12-07",
+      "returnDate": "2026-12-06",
       "room": "Strand-Villa",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 4650,
+      "totalPriceEur": 4630,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/175566/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Gaafu-Alifu-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive_plus",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Strand-Villa; 4630 € gesamt bzw. 2315 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/175566/1/xl",
+        "https://images.flux.reisen/hotel/175566/2/m",
+        "https://images.flux.reisen/hotel/175566/3/m"
+      ],
+      "island": "Kooddoo Island",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2315,
+      "provider": "LMX Touristik",
+      "ratingOutOf10": null,
+      "resortName": "Mercure Maldives Kooddoo Resort",
+      "restaurantInfo": {
+        "aLaCarte": 1,
+        "buffet": 1,
+        "caveat": "Das konkrete Restplatzbörse-Angebot heißt „All Inclusive Plus“. Die offizielle 2026-Leistungsseite nennt das Resortpaket „All-Inclusive“ und schließt Alita sowie Vista ein; die verbindliche Tarifliste vor Buchung nochmals abgleichen.",
+        "extraCharge": [
+          "Private Dining",
+          "Premium-Spirituosen und frisch gepresste Säfte außerhalb der Paketliste"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Mercure: All-Inclusive-Angebot 2026",
+            "url": "https://mercuremaldiveskooddooresort.com/offers/all-inclusive-offer/"
+          },
+          {
+            "label": "Mercure: Alita Restaurant",
+            "url": "https://mercuremaldiveskooddooresort.com/enjoy-no-fuss-comforting-and-exciting-dining-with-bed-breakfast-and-half-board-meal-plans/alita-restaurant/"
+          }
+        ],
+        "total": 2,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "name": "Alita",
+            "note": "Internationales Buffet zum Frühstück, Mittag- und Abendessen.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": "included",
+            "name": "Vista",
+            "note": "Mediterranes/italienisches À-la-carte-Restaurant über dem Wasser; Mittag- und Abendessen nach Öffnung und Reservierung.",
+            "type": "a_la_carte"
+          }
+        ],
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
+      },
+      "returnDate": "2026-12-09",
+      "room": "Strand-Villa",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 4630,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/175566/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -317,7 +386,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Smart Option, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Strand-Villa; 4674 € gesamt bzw. 2337 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Strand-Villa; 4630 € gesamt bzw. 2315 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/175566/1/xl",
         "https://images.flux.reisen/hotel/175566/2/m",
@@ -328,8 +397,8 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2337,
-      "provider": "LMX Smart Option",
+      "pricePerPersonEur": 2315,
+      "provider": "LMX Touristik",
       "ratingOutOf10": null,
       "resortName": "Mercure Maldives Kooddoo Resort",
       "restaurantInfo": {
@@ -373,76 +442,7 @@
       "room": "Strand-Villa",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 4674,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/175566/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
-      "atoll": "Gaafu-Alifu-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive_plus",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Smart Option, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Strand-Villa; 4712 € gesamt bzw. 2356 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/175566/1/xl",
-        "https://images.flux.reisen/hotel/175566/2/m",
-        "https://images.flux.reisen/hotel/175566/3/m"
-      ],
-      "island": "Kooddoo Island",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2356,
-      "provider": "LMX Smart Option",
-      "ratingOutOf10": null,
-      "resortName": "Mercure Maldives Kooddoo Resort",
-      "restaurantInfo": {
-        "aLaCarte": 1,
-        "buffet": 1,
-        "caveat": "Das konkrete Restplatzbörse-Angebot heißt „All Inclusive Plus“. Die offizielle 2026-Leistungsseite nennt das Resortpaket „All-Inclusive“ und schließt Alita sowie Vista ein; die verbindliche Tarifliste vor Buchung nochmals abgleichen.",
-        "extraCharge": [
-          "Private Dining",
-          "Premium-Spirituosen und frisch gepresste Säfte außerhalb der Paketliste"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Mercure: All-Inclusive-Angebot 2026",
-            "url": "https://mercuremaldiveskooddooresort.com/offers/all-inclusive-offer/"
-          },
-          {
-            "label": "Mercure: Alita Restaurant",
-            "url": "https://mercuremaldiveskooddooresort.com/enjoy-no-fuss-comforting-and-exciting-dining-with-bed-breakfast-and-half-board-meal-plans/alita-restaurant/"
-          }
-        ],
-        "total": 2,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": "included",
-            "name": "Alita",
-            "note": "Internationales Buffet zum Frühstück, Mittag- und Abendessen.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": "included",
-            "name": "Vista",
-            "note": "Mediterranes/italienisches À-la-carte-Restaurant über dem Wasser; Mittag- und Abendessen nach Öffnung und Reservierung.",
-            "type": "a_la_carte"
-          }
-        ],
-        "verifiedAt": "2026-08-23T21:57:00+02:00"
-      },
-      "returnDate": "2026-12-06",
-      "room": "Strand-Villa",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 4712,
+      "totalPriceEur": 4630,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/175566/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -454,8 +454,130 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Strand-Bungalow Superior; 4890 € gesamt bzw. 2445 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/157841/1/xl",
+        "https://images.flux.reisen/hotel/157841/2/m",
+        "https://images.flux.reisen/hotel/157841/3/m"
+      ],
+      "island": "Hondaafushi",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2445,
+      "provider": "LMX Touristik",
+      "ratingOutOf10": null,
+      "resortName": "Hondaafushi Island Resort",
+      "restaurantInfo": {
+        "aLaCarte": 0,
+        "buffet": 1,
+        "caveat": "Ein reguläres Restaurant ist belastbar belegt. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "Private oder besondere Dinner, sofern angeboten"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Hondaafushi Resort",
+            "url": "https://www.hondaafushiislandresort.com/"
+          },
+          {
+            "label": "Main Restaurant",
+            "url": "https://resortlife.travel/resort/hondaafushi-island-resort/dining/main-restaurant"
+          }
+        ],
+        "total": 1,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Main Restaurant",
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen.",
+            "type": "buffet"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-06",
+      "room": "Strand-Bungalow Superior",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 4890,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/157841/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Haa-Dhaalu-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Strand-Bungalow Superior; 4890 € gesamt bzw. 2445 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/157841/1/xl",
+        "https://images.flux.reisen/hotel/157841/2/m",
+        "https://images.flux.reisen/hotel/157841/3/m"
+      ],
+      "island": "Hondaafushi",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2445,
+      "provider": "LMX Touristik",
+      "ratingOutOf10": null,
+      "resortName": "Hondaafushi Island Resort",
+      "restaurantInfo": {
+        "aLaCarte": 0,
+        "buffet": 1,
+        "caveat": "Ein reguläres Restaurant ist belastbar belegt. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "Private oder besondere Dinner, sofern angeboten"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Hondaafushi Resort",
+            "url": "https://www.hondaafushiislandresort.com/"
+          },
+          {
+            "label": "Main Restaurant",
+            "url": "https://resortlife.travel/resort/hondaafushi-island-resort/dining/main-restaurant"
+          }
+        ],
+        "total": 1,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Main Restaurant",
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen.",
+            "type": "buffet"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-09",
+      "room": "Strand-Bungalow Superior",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 4890,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/157841/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Haa-Dhaalu-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Strand-Bungalow Superior; 4890 € gesamt bzw. 2445 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Strand-Bungalow Superior; 4890 € gesamt bzw. 2445 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/157841/1/xl",
         "https://images.flux.reisen/hotel/157841/2/m",
@@ -509,128 +631,6 @@
       "url": "https://www.restplatzboerse.at/hotel/157841/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
-      "atoll": "Haa-Dhaalu-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-27",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, Strand-Bungalow Superior; 4910 € gesamt bzw. 2455 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/157841/1/xl",
-        "https://images.flux.reisen/hotel/157841/2/m",
-        "https://images.flux.reisen/hotel/157841/3/m"
-      ],
-      "island": "Hondaafushi",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2455,
-      "provider": "LMX Touristik",
-      "ratingOutOf10": null,
-      "resortName": "Hondaafushi Island Resort",
-      "restaurantInfo": {
-        "aLaCarte": 0,
-        "buffet": 1,
-        "caveat": "Ein reguläres Restaurant ist belastbar belegt. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
-        "extraCharge": [
-          "Private oder besondere Dinner, sofern angeboten"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Hondaafushi Resort",
-            "url": "https://www.hondaafushiislandresort.com/"
-          },
-          {
-            "label": "Main Restaurant",
-            "url": "https://resortlife.travel/resort/hondaafushi-island-resort/dining/main-restaurant"
-          }
-        ],
-        "total": 1,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Main Restaurant",
-            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen.",
-            "type": "buffet"
-          }
-        ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
-      },
-      "returnDate": "2026-12-07",
-      "room": "Strand-Bungalow Superior",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 4910,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/157841/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
-      "atoll": "Haa-Dhaalu-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-28",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 28.11.2026–08.12.2026, 9 Hotelnächte, Strand-Bungalow Superior; 4914 € gesamt bzw. 2457 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/157841/1/xl",
-        "https://images.flux.reisen/hotel/157841/2/m",
-        "https://images.flux.reisen/hotel/157841/3/m"
-      ],
-      "island": "Hondaafushi",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2457,
-      "provider": "LMX Touristik",
-      "ratingOutOf10": null,
-      "resortName": "Hondaafushi Island Resort",
-      "restaurantInfo": {
-        "aLaCarte": 0,
-        "buffet": 1,
-        "caveat": "Ein reguläres Restaurant ist belastbar belegt. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
-        "extraCharge": [
-          "Private oder besondere Dinner, sofern angeboten"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Hondaafushi Resort",
-            "url": "https://www.hondaafushiislandresort.com/"
-          },
-          {
-            "label": "Main Restaurant",
-            "url": "https://resortlife.travel/resort/hondaafushi-island-resort/dining/main-restaurant"
-          }
-        ],
-        "total": 1,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Main Restaurant",
-            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen.",
-            "type": "buffet"
-          }
-        ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
-      },
-      "returnDate": "2026-12-08",
-      "room": "Strand-Bungalow Superior",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 4914,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/157841/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
       "atoll": "Lhaviyani-Atoll",
       "baggage": "included",
       "board": "all_inclusive",
@@ -638,7 +638,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Garden Bungalow; 4964 € gesamt bzw. 2482 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Garden Bungalow; 4964 € gesamt bzw. 2482 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4638/1/xl",
         "https://images.flux.reisen/hotel/4638/2/m",
@@ -743,7 +743,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Garden Bungalow; 4964 € gesamt bzw. 2482 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Garden Bungalow; 4964 € gesamt bzw. 2482 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4638/1/xl",
         "https://images.flux.reisen/hotel/4638/2/m",
@@ -848,7 +848,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-27",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, Garden Bungalow; 4988 € gesamt bzw. 2494 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, Garden Bungalow; 4988 € gesamt bzw. 2494 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4638/1/xl",
         "https://images.flux.reisen/hotel/4638/2/m",
@@ -953,7 +953,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach; 4994 € gesamt bzw. 2497 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach; 4992 € gesamt bzw. 2496 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4660/1/xl",
         "https://images.flux.reisen/hotel/4660/2/m",
@@ -964,7 +964,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2497,
+      "pricePerPersonEur": 2496,
       "provider": "ITS",
       "ratingOutOf10": null,
       "resortName": "Fihalhohi Maldives",
@@ -1003,7 +1003,7 @@
       "room": "Deluxe Beach",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 4994,
+      "totalPriceEur": 4992,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/4660/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -1016,7 +1016,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS Indi, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach; 5076 € gesamt bzw. 2538 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS Indi, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach; 5076 € gesamt bzw. 2538 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4660/1/xl",
         "https://images.flux.reisen/hotel/4660/2/m",
@@ -1079,7 +1079,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, DERTOUR, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach; 5166 € gesamt bzw. 2583 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, DERTOUR, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach; 5164 € gesamt bzw. 2582 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4660/1/xl",
         "https://images.flux.reisen/hotel/4660/2/m",
@@ -1090,7 +1090,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2583,
+      "pricePerPersonEur": 2582,
       "provider": "DERTOUR",
       "ratingOutOf10": null,
       "resortName": "Fihalhohi Maldives",
@@ -1129,7 +1129,7 @@
       "room": "Deluxe Beach",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5166,
+      "totalPriceEur": 5164,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/4660/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -1142,7 +1142,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Sunrise Villa; 5166 € gesamt bzw. 2583 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Sunrise Villa; 5166 € gesamt bzw. 2583 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/61809/1/xl",
         "https://images.flux.reisen/hotel/61809/2/m",
@@ -1211,7 +1211,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Sunrise Villa; 5166 € gesamt bzw. 2583 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Schauinsland-Reisen, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Sunrise Villa; 5166 € gesamt bzw. 2583 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/61809/1/xl",
         "https://images.flux.reisen/hotel/61809/2/m",
@@ -1280,7 +1280,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Villa Sunrise; 5168 € gesamt bzw. 2584 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Villa Sunrise; 5168 € gesamt bzw. 2584 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/61809/1/xl",
         "https://images.flux.reisen/hotel/61809/2/m",
@@ -1349,7 +1349,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Superior Bungalow; 5172 € gesamt bzw. 2586 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Superior Bungalow; 5172 € gesamt bzw. 2586 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
@@ -1422,7 +1422,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Superior Bungalow; 5178 € gesamt bzw. 2589 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Superior Bungalow; 5178 € gesamt bzw. 2589 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
@@ -1494,8 +1494,8 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-27",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, Superior Bungalow; 5184 € gesamt bzw. 2592 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Superior Bungalow; 5180 € gesamt bzw. 2590 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_25.jpg?w=568&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE13177B_W26-B01W2627_1.jpg?w=609&h=406",
@@ -1506,8 +1506,8 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2592,
-      "provider": "TUI XTUI",
+      "pricePerPersonEur": 2590,
+      "provider": "ITS",
       "ratingOutOf10": null,
       "resortName": "Embudu Village Maldives",
       "restaurantInfo": {
@@ -1551,11 +1551,11 @@
         ],
         "verifiedAt": "2026-08-23T21:57:00+02:00"
       },
-      "returnDate": "2026-12-07",
+      "returnDate": "2026-12-09",
       "room": "Superior Bungalow",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5184,
+      "totalPriceEur": 5180,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/4655/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -1568,7 +1568,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, MEIERS WELTREISEN, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Sunset Sky Suite; 5206 € gesamt bzw. 2603 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, MEIERS WELTREISEN, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Sunset Sky Suite; 5206 € gesamt bzw. 2603 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/286154/1/xl",
         "https://images.flux.reisen/hotel/286154/2/m",
@@ -1636,7 +1636,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, MEIERS WELTREISEN, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Sunset Sky Suite; 5206 € gesamt bzw. 2603 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, MEIERS WELTREISEN, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Sunset Sky Suite; 5206 € gesamt bzw. 2603 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/286154/1/xl",
         "https://images.flux.reisen/hotel/286154/2/m",
@@ -1703,70 +1703,8 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Doppelzimmer Meerseite; 5246 € gesamt bzw. 2623 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/147328/1/xl",
-        "https://images.flux.reisen/hotel/147328/2/m",
-        "https://images.flux.reisen/hotel/147328/3/m"
-      ],
-      "island": "Hanimaadhoo",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2623,
-      "provider": "FERIEN Touristik",
-      "ratingOutOf10": null,
-      "resortName": "The Barefoot Eco Hotel",
-      "restaurantInfo": {
-        "aLaCarte": 0,
-        "buffet": 1,
-        "caveat": "Juice Bar, Raani Snack Bar und schwimmende Bar zählen nicht als Restaurants; private Seafood-Menüs sind kostenpflichtig. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
-        "extraCharge": [
-          "Private/romantische Seafood-Dinner",
-          "Raani Snack Bar außerhalb der Paketliste"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Barefoot Dining",
-            "url": "https://www.thebarefoot.com/dining"
-          },
-          {
-            "label": "Barefoot Factsheet",
-            "url": "https://kompastour.com/useruploads/tiny_MCE/Maldives/haa-dhaalu-atoll/the_barefoot_eco_hotel/the_barefoot_eco_hotel_FS.pdf"
-          }
-        ],
-        "total": 1,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "The Barefoot Restaurant",
-            "note": "Buffetfrühstück, -mittagessen und -abendessen im Hauptrestaurant.",
-            "type": "buffet"
-          }
-        ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
-      },
-      "returnDate": "2026-12-09",
-      "room": "Doppelzimmer Meerseite",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5246,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/147328/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
-      "atoll": "Haa-Dhaalu-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Doppelzimmer Meerseite; 5246 € gesamt bzw. 2623 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Doppelzimmer Meerseite; 5246 € gesamt bzw. 2623 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/147328/1/xl",
         "https://images.flux.reisen/hotel/147328/2/m",
@@ -1821,6 +1759,68 @@
       "url": "https://www.restplatzboerse.at/hotel/147328/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
+      "atoll": "Haa-Dhaalu-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-30",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Coral Travel, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Doppelzimmer Meerseite; 5304 € gesamt bzw. 2652 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/147328/1/xl",
+        "https://images.flux.reisen/hotel/147328/2/m",
+        "https://images.flux.reisen/hotel/147328/3/m"
+      ],
+      "island": "Hanimaadhoo",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2652,
+      "provider": "Coral Travel",
+      "ratingOutOf10": null,
+      "resortName": "The Barefoot Eco Hotel",
+      "restaurantInfo": {
+        "aLaCarte": 0,
+        "buffet": 1,
+        "caveat": "Juice Bar, Raani Snack Bar und schwimmende Bar zählen nicht als Restaurants; private Seafood-Menüs sind kostenpflichtig. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "Private/romantische Seafood-Dinner",
+          "Raani Snack Bar außerhalb der Paketliste"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Barefoot Dining",
+            "url": "https://www.thebarefoot.com/dining"
+          },
+          {
+            "label": "Barefoot Factsheet",
+            "url": "https://kompastour.com/useruploads/tiny_MCE/Maldives/haa-dhaalu-atoll/the_barefoot_eco_hotel/the_barefoot_eco_hotel_FS.pdf"
+          }
+        ],
+        "total": 1,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "The Barefoot Restaurant",
+            "note": "Buffetfrühstück, -mittagessen und -abendessen im Hauptrestaurant.",
+            "type": "buffet"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-10",
+      "room": "Doppelzimmer Meerseite",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5304,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/147328/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
       "atoll": "Nord-Malé-Atoll",
       "baggage": "included",
       "board": "all_inclusive",
@@ -1828,7 +1828,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Ocean View; 5326 € gesamt bzw. 2663 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Ocean View; 5324 € gesamt bzw. 2662 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/229777/1/xl",
         "https://images.flux.reisen/hotel/229777/2/m",
@@ -1839,7 +1839,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2663,
+      "pricePerPersonEur": 2662,
       "provider": "ITS",
       "ratingOutOf10": null,
       "resortName": "Oblu Xperience Ailafushi",
@@ -1892,7 +1892,7 @@
       "room": "Ocean View",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5326,
+      "totalPriceEur": 5324,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/229777/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -1905,7 +1905,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Ocean View; 5346 € gesamt bzw. 2673 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Ocean View; 5344 € gesamt bzw. 2672 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/229777/1/xl",
         "https://images.flux.reisen/hotel/229777/2/m",
@@ -1916,7 +1916,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2673,
+      "pricePerPersonEur": 2672,
       "provider": "ITS",
       "ratingOutOf10": null,
       "resortName": "Oblu Xperience Ailafushi",
@@ -1969,7 +1969,7 @@
       "room": "Ocean View",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5346,
+      "totalPriceEur": 5344,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/229777/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -1982,7 +1982,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Ocean View; 5356 € gesamt bzw. 2678 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Ocean View; 5354 € gesamt bzw. 2677 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/229777/1/xl",
         "https://images.flux.reisen/hotel/229777/2/m",
@@ -1993,7 +1993,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2678,
+      "pricePerPersonEur": 2677,
       "provider": "ITS",
       "ratingOutOf10": null,
       "resortName": "Oblu Xperience Ailafushi",
@@ -2046,7 +2046,7 @@
       "room": "Ocean View",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5356,
+      "totalPriceEur": 5354,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/229777/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -2058,8 +2058,83 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Double Room; 5488 € gesamt bzw. 2744 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/203179/1/xl",
+        "https://images.flux.reisen/hotel/203179/2/m",
+        "https://images.flux.reisen/hotel/203179/3/m"
+      ],
+      "island": "Maafushi",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2744,
+      "provider": "TUI XTUI",
+      "ratingOutOf10": null,
+      "resortName": "Hotel Riu Atoll",
+      "restaurantInfo": {
+        "aLaCarte": 2,
+        "buffet": 1,
+        "caveat": "RIU bewirbt 24-Stunden-All-Inclusive; Spezialitätenrestaurants sind reservierungsabhängig. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "Nicht gelistete Premiumweine und private Dinner"
+        ],
+        "sourceUrls": [
+          {
+            "label": "RIU Gastronomie",
+            "url": "https://www.riu.com/en/hotel/maldives/dhaalu-atoll/hotel-riu-atoll/gastronomy"
+          },
+          {
+            "label": "RIU Resort",
+            "url": "https://www.riu.com/en/hotel/maldives/dhaalu-atoll/hotel-riu-atoll"
+          }
+        ],
+        "total": 3,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Dhoni",
+            "note": "Buffet für Frühstück, Mittag- und Abendessen.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "name": "Sofia",
+            "note": "Italienisches Abendessen im 24h-AI-Konzept; Reservierung/Öffnung beachten.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "name": "Beef Steak House",
+            "note": "Brunch/Frühstück und Steakhouse-Abendessen; Reservierung/Öffnung beachten.",
+            "type": "a_la_carte"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-06",
+      "room": "Double Room",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5488,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/203179/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Dhaalu-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Double Room; 5488 € gesamt bzw. 2744 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Double Room; 5488 € gesamt bzw. 2744 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/203179/1/xl",
         "https://images.flux.reisen/hotel/203179/2/m",
@@ -2134,7 +2209,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Double Room; 5488 € gesamt bzw. 2744 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Double Room; 5488 € gesamt bzw. 2744 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/203179/1/xl",
         "https://images.flux.reisen/hotel/203179/2/m",
@@ -2202,81 +2277,6 @@
       "url": "https://www.restplatzboerse.at/hotel/203179/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
-      "atoll": "Dhaalu-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-27",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, Double Room; 5512 € gesamt bzw. 2756 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/203179/1/xl",
-        "https://images.flux.reisen/hotel/203179/2/m",
-        "https://images.flux.reisen/hotel/203179/3/m"
-      ],
-      "island": "Maafushi",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2756,
-      "provider": "TUI XTUI",
-      "ratingOutOf10": null,
-      "resortName": "Hotel Riu Atoll",
-      "restaurantInfo": {
-        "aLaCarte": 2,
-        "buffet": 1,
-        "caveat": "RIU bewirbt 24-Stunden-All-Inclusive; Spezialitätenrestaurants sind reservierungsabhängig. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
-        "extraCharge": [
-          "Nicht gelistete Premiumweine und private Dinner"
-        ],
-        "sourceUrls": [
-          {
-            "label": "RIU Gastronomie",
-            "url": "https://www.riu.com/en/hotel/maldives/dhaalu-atoll/hotel-riu-atoll/gastronomy"
-          },
-          {
-            "label": "RIU Resort",
-            "url": "https://www.riu.com/en/hotel/maldives/dhaalu-atoll/hotel-riu-atoll"
-          }
-        ],
-        "total": 3,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Dhoni",
-            "note": "Buffet für Frühstück, Mittag- und Abendessen.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "included_limited",
-            "allInclusivePlus": null,
-            "name": "Sofia",
-            "note": "Italienisches Abendessen im 24h-AI-Konzept; Reservierung/Öffnung beachten.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "included_limited",
-            "allInclusivePlus": null,
-            "name": "Beef Steak House",
-            "note": "Brunch/Frühstück und Steakhouse-Abendessen; Reservierung/Öffnung beachten.",
-            "type": "a_la_carte"
-          }
-        ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
-      },
-      "returnDate": "2026-12-07",
-      "room": "Double Room",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5512,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/203179/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
       "atoll": "Baa-Atoll",
       "baggage": "included",
       "board": "all_inclusive",
@@ -2284,7 +2284,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Beach Bungalow; 5622 € gesamt bzw. 2811 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Beach Bungalow; 5620 € gesamt bzw. 2810 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/191341/1/xl",
         "https://images.flux.reisen/hotel/191341/2/m",
@@ -2295,7 +2295,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2811,
+      "pricePerPersonEur": 2810,
       "provider": "ITS",
       "ratingOutOf10": null,
       "resortName": "Dreamland The Unique Sea & Lake Resort / Spa",
@@ -2340,7 +2340,7 @@
       "room": "Beach Bungalow",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5622,
+      "totalPriceEur": 5620,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/191341/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -2353,76 +2353,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, DERTOUR Dynamisch, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Beach Bungalow; 5646 € gesamt bzw. 2823 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/191341/1/xl",
-        "https://images.flux.reisen/hotel/191341/2/m",
-        "https://images.flux.reisen/hotel/191341/3/m"
-      ],
-      "island": "Hirundhoo",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2823,
-      "provider": "DERTOUR Dynamisch",
-      "ratingOutOf10": null,
-      "resortName": "Dreamland The Unique Sea & Lake Resort / Spa",
-      "restaurantInfo": {
-        "aLaCarte": 0,
-        "buffet": 2,
-        "caveat": "Der Voucher muss bestätigen, welcher Speisesaal für den Beach Bungalow gilt; Sonder-/À-la-carte-Menüs sind separat ausgewiesen. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
-        "extraCharge": [
-          "Eat & Enjoy À-la-carte-Menü",
-          "Private BBQ-, Lobster- und Honeymoon-Dinner"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Dreamland Dining",
-            "url": "https://dreamland.com.mv/dining/"
-          },
-          {
-            "label": "Dreamland Downloads",
-            "url": "https://dreamland.com.mv/downloads/"
-          }
-        ],
-        "total": 2,
-        "venues": [
-          {
-            "allInclusive": "included_limited",
-            "allInclusivePlus": null,
-            "name": "Lake View Restaurant",
-            "note": "Eines der je Unterkunftsbereich zugeordneten Hauptrestaurants für alle Mahlzeiten.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "included_limited",
-            "allInclusivePlus": null,
-            "name": "Sea View Restaurant",
-            "note": "Eines der je Unterkunftsbereich zugeordneten Hauptrestaurants für alle Mahlzeiten.",
-            "type": "buffet"
-          }
-        ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
-      },
-      "returnDate": "2026-12-10",
-      "room": "Beach Bungalow",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5646,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/191341/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
-      "atoll": "Baa-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, vtours international, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Beach Bungalow; 5650 € gesamt bzw. 2825 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, vtours international, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Beach Bungalow; 5650 € gesamt bzw. 2825 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/191341/1/xl",
         "https://images.flux.reisen/hotel/191341/2/m",
@@ -2484,6 +2415,75 @@
       "url": "https://www.restplatzboerse.at/hotel/191341/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
+      "atoll": "Baa-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-30",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, DERTOUR, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Beach Bungalow; 5652 € gesamt bzw. 2826 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/191341/1/xl",
+        "https://images.flux.reisen/hotel/191341/2/m",
+        "https://images.flux.reisen/hotel/191341/3/m"
+      ],
+      "island": "Hirundhoo",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2826,
+      "provider": "DERTOUR",
+      "ratingOutOf10": null,
+      "resortName": "Dreamland The Unique Sea & Lake Resort / Spa",
+      "restaurantInfo": {
+        "aLaCarte": 0,
+        "buffet": 2,
+        "caveat": "Der Voucher muss bestätigen, welcher Speisesaal für den Beach Bungalow gilt; Sonder-/À-la-carte-Menüs sind separat ausgewiesen. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "Eat & Enjoy À-la-carte-Menü",
+          "Private BBQ-, Lobster- und Honeymoon-Dinner"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Dreamland Dining",
+            "url": "https://dreamland.com.mv/dining/"
+          },
+          {
+            "label": "Dreamland Downloads",
+            "url": "https://dreamland.com.mv/downloads/"
+          }
+        ],
+        "total": 2,
+        "venues": [
+          {
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "name": "Lake View Restaurant",
+            "note": "Eines der je Unterkunftsbereich zugeordneten Hauptrestaurants für alle Mahlzeiten.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "included_limited",
+            "allInclusivePlus": null,
+            "name": "Sea View Restaurant",
+            "note": "Eines der je Unterkunftsbereich zugeordneten Hauptrestaurants für alle Mahlzeiten.",
+            "type": "buffet"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-10",
+      "room": "Beach Bungalow",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5652,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/191341/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
       "atoll": "Nord-Ari-Atoll",
       "baggage": "included",
       "board": "all_inclusive",
@@ -2491,7 +2491,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, alltours-X, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Doppelzimmer, Gartenblick, Klimaanlage, Dusche, Terrasse; 5640 € gesamt bzw. 2820 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, alltours-X, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Doppelzimmer, Gartenblick, Klimaanlage, Dusche, Terrasse; 5640 € gesamt bzw. 2820 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4617/1/xl",
         "https://images.flux.reisen/hotel/4617/2/m",
@@ -2571,7 +2571,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, alltours-X, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Doppelzimmer, Gartenblick, Klimaanlage, Dusche, Terrasse; 5640 € gesamt bzw. 2820 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, alltours-X, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Doppelzimmer, Gartenblick, Klimaanlage, Dusche, Terrasse; 5640 € gesamt bzw. 2820 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4617/1/xl",
         "https://images.flux.reisen/hotel/4617/2/m",
@@ -2650,8 +2650,8 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, byebye, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Doppelzimmer, Gartenblick, Klimaanlage, Dusche, Terrasse; 5656 € gesamt bzw. 2828 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-30",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, byebye, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Doppelzimmer, Gartenblick, Klimaanlage, Dusche, Terrasse; 5656 € gesamt bzw. 2828 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4617/1/xl",
         "https://images.flux.reisen/hotel/4617/2/m",
@@ -2714,7 +2714,7 @@
         ],
         "verifiedAt": "2026-08-23T22:42:25+02:00"
       },
-      "returnDate": "2026-12-09",
+      "returnDate": "2026-12-10",
       "room": "Doppelzimmer, Gartenblick, Klimaanlage, Dusche, Terrasse",
       "sourceLanguage": "de",
       "stars": null,
@@ -2730,8 +2730,8 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-27",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, Strand-Villa; 5668 € gesamt bzw. 2834 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-26",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Strand-Villa; 5648 € gesamt bzw. 2824 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
@@ -2742,8 +2742,8 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2834,
-      "provider": "FERIEN Touristik",
+      "pricePerPersonEur": 2824,
+      "provider": "LMX Touristik",
       "ratingOutOf10": null,
       "resortName": "ADAARAN Select Meedhupparu",
       "restaurantInfo": {
@@ -2809,106 +2809,11 @@
         ],
         "verifiedAt": "2026-08-23T21:57:00+02:00"
       },
-      "returnDate": "2026-12-07",
+      "returnDate": "2026-12-06",
       "room": "Strand-Villa",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5668,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/21266/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
-      "atoll": "Raa-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive_plus",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Beachvilla (Seaplane); 5712 € gesamt bzw. 2856 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
-        "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
-        "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_2.jpg?w=572&h=406"
-      ],
-      "island": "Meedhupparu",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2856,
-      "provider": "FERIEN Touristik",
-      "ratingOutOf10": null,
-      "resortName": "ADAARAN Select Meedhupparu",
-      "restaurantInfo": {
-        "aLaCarte": 3,
-        "buffet": 2,
-        "caveat": "Der Veranstalter führt 2 Buffet- und 3 À-la-carte-Restaurants sowie Dine-around nach Voranmeldung. Das gelistete Angebot ist eine Beach Villa; das exklusive Water Villa Restaurant ist daher nicht als nutzbare Inklusivleistung gerechnet.",
-        "extraCharge": [
-          "Leistungen außerhalb der Dine-around-/Paketkarte",
-          "Water Villa Restaurant für Gäste ohne passende Water-Villa-Berechtigung",
-          "Special Dining"
-        ],
-        "sourceUrls": [
-          {
-            "label": "TUI: AI- und Dine-around-Beschreibung",
-            "url": "https://www.tui.at/hotels/adaaran-select-meedhupparu-17205/hotelinformation/"
-          },
-          {
-            "label": "Adaaran: Premium All Inclusive",
-            "url": "https://www.adaaran.com/selectmeedhupparu/premium-all-inclusive-offering/"
-          },
-          {
-            "label": "Adaaran: Water Villa Restaurant",
-            "url": "https://www.adaaran.com/selectmeedhupparu/dining/water-villa-restaurant/"
-          }
-        ],
-        "total": 5,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": "included",
-            "name": "Jaafaiy",
-            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": "included",
-            "name": "Sufura",
-            "note": "Indische Küche; als zweites Buffetrestaurant im Veranstalterprofil geführt.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "included_limited",
-            "allInclusivePlus": "included",
-            "name": "Thavaa",
-            "note": "Mediterranes À-la-carte-Restaurant; Dine-around nach Voranmeldung.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "included_limited",
-            "allInclusivePlus": "included",
-            "name": "Café Mass",
-            "note": "Bestellservice mit Burgern, Pizza, Sandwiches und Snacks; konkrete Menüauswahl und Zeiten laut Paket.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "restricted",
-            "allInclusivePlus": "restricted",
-            "name": "Water Villa Restaurant & Lounge",
-            "note": "Exklusiv für Prestige-Water-Villa-Gäste; beim gelisteten Beach-Villa-Angebot nicht enthalten.",
-            "type": "a_la_carte"
-          }
-        ],
-        "verifiedAt": "2026-08-23T21:57:00+02:00"
-      },
-      "returnDate": "2026-12-06",
-      "room": "Beachvilla (Seaplane)",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5712,
+      "totalPriceEur": 5648,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/21266/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -2921,7 +2826,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Beachvilla (Seaplane); 5712 € gesamt bzw. 2856 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Strand-Villa; 5648 € gesamt bzw. 2824 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
@@ -2932,8 +2837,8 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2856,
-      "provider": "FERIEN Touristik",
+      "pricePerPersonEur": 2824,
+      "provider": "LMX Touristik",
       "ratingOutOf10": null,
       "resortName": "ADAARAN Select Meedhupparu",
       "restaurantInfo": {
@@ -3000,215 +2905,108 @@
         "verifiedAt": "2026-08-23T21:57:00+02:00"
       },
       "returnDate": "2026-12-09",
-      "room": "Beachvilla (Seaplane)",
+      "room": "Strand-Villa",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5712,
+      "totalPriceEur": 5648,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/21266/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
-      "atoll": "Süd-Ari-Atoll",
+      "atoll": "Raa-Atoll",
       "baggage": "included",
-      "board": "all_inclusive",
+      "board": "all_inclusive_plus",
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Island Villa PXY; 5802 € gesamt bzw. 2901 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-30",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive Plus, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Strand-Villa; 5648 € gesamt bzw. 2824 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
-        "https://images.flux.reisen/hotel/16305/1/xl",
-        "https://images.flux.reisen/hotel/16305/2/m",
-        "https://images.flux.reisen/hotel/16305/3/m"
+        "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
+        "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
+        "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_2.jpg?w=572&h=406"
       ],
-      "island": "Nalaguraidhoo",
+      "island": "Meedhupparu",
       "membershipRequired": false,
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2901,
-      "provider": "ITS",
+      "pricePerPersonEur": 2824,
+      "provider": "LMX Touristik",
       "ratingOutOf10": null,
-      "resortName": "Villa Park Sun Island",
+      "resortName": "ADAARAN Select Meedhupparu",
       "restaurantInfo": {
-        "aLaCarte": 4,
+        "aLaCarte": 3,
         "buffet": 2,
-        "caveat": "Ein inkludiertes À-la-carte-Essen ist offiziell nur für qualifizierende Aufenthalte bis 31.10.2026 genannt; diese Reise liegt später. Daher ist für Nov./Dez. 2026 nur das zugeordnete Buffet sicher enthalten. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "caveat": "Der Veranstalter führt 2 Buffet- und 3 À-la-carte-Restaurants sowie Dine-around nach Voranmeldung. Das gelistete Angebot ist eine Beach Villa; das exklusive Water Villa Restaurant ist daher nicht als nutzbare Inklusivleistung gerechnet.",
         "extraCharge": [
-          "Vier À-la-carte-Restaurants",
-          "Private Dining und Sondermenüs"
+          "Leistungen außerhalb der Dine-around-/Paketkarte",
+          "Water Villa Restaurant für Gäste ohne passende Water-Villa-Berechtigung",
+          "Special Dining"
         ],
         "sourceUrls": [
           {
-            "label": "Villa Park Dining",
-            "url": "https://villaresorts.com/villa-park/dining/"
+            "label": "TUI: AI- und Dine-around-Beschreibung",
+            "url": "https://www.tui.at/hotels/adaaran-select-meedhupparu-17205/hotelinformation/"
           },
           {
-            "label": "Villa Meal Plans",
-            "url": "https://villaresorts.com/meal-plans/"
+            "label": "Adaaran: Premium All Inclusive",
+            "url": "https://www.adaaran.com/selectmeedhupparu/premium-all-inclusive-offering/"
           },
           {
-            "label": "Villa Park Factsheet",
-            "url": "https://www.onextour.com/asset/hotel/1106/villa-park-factsheet-march-2023.pdf"
+            "label": "Adaaran: Water Villa Restaurant",
+            "url": "https://www.adaaran.com/selectmeedhupparu/dining/water-villa-restaurant/"
           }
         ],
-        "total": 6,
+        "total": 5,
         "venues": [
           {
             "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Maaniya",
-            "note": "Internationales Hauptbuffet für Beach-/Garden-Villen.",
+            "allInclusivePlus": "included",
+            "name": "Jaafaiy",
+            "note": "Internationales Buffet für Frühstück, Mittag- und Abendessen.",
             "type": "buffet"
           },
-          {
-            "allInclusive": "restricted",
-            "allInclusivePlus": null,
-            "name": "Southern Star",
-            "note": "Zweites Buffet, je nach Unterkunftsbereich zugeordnet.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Sun Star",
-            "note": "Thai/Oriental À-la-carte.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Al Pontile",
-            "note": "Italienische À-la-carte-Küche.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "ZERO",
-            "note": "Treetop/Farm-to-table.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Teppanyaki Restaurant",
-            "note": "Japanisches Live-Cooking.",
-            "type": "a_la_carte"
-          }
-        ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
-      },
-      "returnDate": "2026-12-06",
-      "room": "Island Villa PXY",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5802,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/16305/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
-      "atoll": "Süd-Ari-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Island Villa PXY; 5802 € gesamt bzw. 2901 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/16305/1/xl",
-        "https://images.flux.reisen/hotel/16305/2/m",
-        "https://images.flux.reisen/hotel/16305/3/m"
-      ],
-      "island": "Nalaguraidhoo",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2901,
-      "provider": "ITS",
-      "ratingOutOf10": null,
-      "resortName": "Villa Park Sun Island",
-      "restaurantInfo": {
-        "aLaCarte": 4,
-        "buffet": 2,
-        "caveat": "Ein inkludiertes À-la-carte-Essen ist offiziell nur für qualifizierende Aufenthalte bis 31.10.2026 genannt; diese Reise liegt später. Daher ist für Nov./Dez. 2026 nur das zugeordnete Buffet sicher enthalten. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
-        "extraCharge": [
-          "Vier À-la-carte-Restaurants",
-          "Private Dining und Sondermenüs"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Villa Park Dining",
-            "url": "https://villaresorts.com/villa-park/dining/"
-          },
-          {
-            "label": "Villa Meal Plans",
-            "url": "https://villaresorts.com/meal-plans/"
-          },
-          {
-            "label": "Villa Park Factsheet",
-            "url": "https://www.onextour.com/asset/hotel/1106/villa-park-factsheet-march-2023.pdf"
-          }
-        ],
-        "total": 6,
-        "venues": [
           {
             "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Maaniya",
-            "note": "Internationales Hauptbuffet für Beach-/Garden-Villen.",
+            "allInclusivePlus": "included",
+            "name": "Sufura",
+            "note": "Indische Küche; als zweites Buffetrestaurant im Veranstalterprofil geführt.",
             "type": "buffet"
+          },
+          {
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "name": "Thavaa",
+            "note": "Mediterranes À-la-carte-Restaurant; Dine-around nach Voranmeldung.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "included_limited",
+            "allInclusivePlus": "included",
+            "name": "Café Mass",
+            "note": "Bestellservice mit Burgern, Pizza, Sandwiches und Snacks; konkrete Menüauswahl und Zeiten laut Paket.",
+            "type": "a_la_carte"
           },
           {
             "allInclusive": "restricted",
-            "allInclusivePlus": null,
-            "name": "Southern Star",
-            "note": "Zweites Buffet, je nach Unterkunftsbereich zugeordnet.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Sun Star",
-            "note": "Thai/Oriental À-la-carte.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Al Pontile",
-            "note": "Italienische À-la-carte-Küche.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "ZERO",
-            "note": "Treetop/Farm-to-table.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Teppanyaki Restaurant",
-            "note": "Japanisches Live-Cooking.",
+            "allInclusivePlus": "restricted",
+            "name": "Water Villa Restaurant & Lounge",
+            "note": "Exklusiv für Prestige-Water-Villa-Gäste; beim gelisteten Beach-Villa-Angebot nicht enthalten.",
             "type": "a_la_carte"
           }
         ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
+        "verifiedAt": "2026-08-23T21:57:00+02:00"
       },
-      "returnDate": "2026-12-09",
-      "room": "Island Villa PXY",
+      "returnDate": "2026-12-10",
+      "room": "Strand-Villa",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5802,
+      "totalPriceEur": 5648,
       "transfer": "included",
       "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/16305/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+      "url": "https://www.restplatzboerse.at/hotel/21266/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
       "atoll": "Süd-Ari-Atoll",
@@ -3218,7 +3016,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Island Villa PXY; 5802 € gesamt bzw. 2901 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, DERTOUR XDER, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Island Villa PXY; 5816 € gesamt bzw. 2908 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/16305/1/xl",
         "https://images.flux.reisen/hotel/16305/2/m",
@@ -3229,8 +3027,8 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2901,
-      "provider": "ITS",
+      "pricePerPersonEur": 2908,
+      "provider": "DERTOUR XDER",
       "ratingOutOf10": null,
       "resortName": "Villa Park Sun Island",
       "restaurantInfo": {
@@ -3306,7 +3104,209 @@
       "room": "Island Villa PXY",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5802,
+      "totalPriceEur": 5816,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/16305/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Süd-Ari-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-30",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, DERTOUR Dynamisch, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Island Villa PXY; 5816 € gesamt bzw. 2908 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/16305/1/xl",
+        "https://images.flux.reisen/hotel/16305/2/m",
+        "https://images.flux.reisen/hotel/16305/3/m"
+      ],
+      "island": "Nalaguraidhoo",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2908,
+      "provider": "DERTOUR Dynamisch",
+      "ratingOutOf10": null,
+      "resortName": "Villa Park Sun Island",
+      "restaurantInfo": {
+        "aLaCarte": 4,
+        "buffet": 2,
+        "caveat": "Ein inkludiertes À-la-carte-Essen ist offiziell nur für qualifizierende Aufenthalte bis 31.10.2026 genannt; diese Reise liegt später. Daher ist für Nov./Dez. 2026 nur das zugeordnete Buffet sicher enthalten. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "Vier À-la-carte-Restaurants",
+          "Private Dining und Sondermenüs"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Villa Park Dining",
+            "url": "https://villaresorts.com/villa-park/dining/"
+          },
+          {
+            "label": "Villa Meal Plans",
+            "url": "https://villaresorts.com/meal-plans/"
+          },
+          {
+            "label": "Villa Park Factsheet",
+            "url": "https://www.onextour.com/asset/hotel/1106/villa-park-factsheet-march-2023.pdf"
+          }
+        ],
+        "total": 6,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Maaniya",
+            "note": "Internationales Hauptbuffet für Beach-/Garden-Villen.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "name": "Southern Star",
+            "note": "Zweites Buffet, je nach Unterkunftsbereich zugeordnet.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Sun Star",
+            "note": "Thai/Oriental À-la-carte.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Al Pontile",
+            "note": "Italienische À-la-carte-Küche.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "ZERO",
+            "note": "Treetop/Farm-to-table.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Teppanyaki Restaurant",
+            "note": "Japanisches Live-Cooking.",
+            "type": "a_la_carte"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-10",
+      "room": "Island Villa PXY",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5816,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/16305/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Süd-Ari-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, DERTOUR XDER, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Island Villa PXY; 5824 € gesamt bzw. 2912 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/16305/1/xl",
+        "https://images.flux.reisen/hotel/16305/2/m",
+        "https://images.flux.reisen/hotel/16305/3/m"
+      ],
+      "island": "Nalaguraidhoo",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2912,
+      "provider": "DERTOUR XDER",
+      "ratingOutOf10": null,
+      "resortName": "Villa Park Sun Island",
+      "restaurantInfo": {
+        "aLaCarte": 4,
+        "buffet": 2,
+        "caveat": "Ein inkludiertes À-la-carte-Essen ist offiziell nur für qualifizierende Aufenthalte bis 31.10.2026 genannt; diese Reise liegt später. Daher ist für Nov./Dez. 2026 nur das zugeordnete Buffet sicher enthalten. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "Vier À-la-carte-Restaurants",
+          "Private Dining und Sondermenüs"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Villa Park Dining",
+            "url": "https://villaresorts.com/villa-park/dining/"
+          },
+          {
+            "label": "Villa Meal Plans",
+            "url": "https://villaresorts.com/meal-plans/"
+          },
+          {
+            "label": "Villa Park Factsheet",
+            "url": "https://www.onextour.com/asset/hotel/1106/villa-park-factsheet-march-2023.pdf"
+          }
+        ],
+        "total": 6,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Maaniya",
+            "note": "Internationales Hauptbuffet für Beach-/Garden-Villen.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "restricted",
+            "allInclusivePlus": null,
+            "name": "Southern Star",
+            "note": "Zweites Buffet, je nach Unterkunftsbereich zugeordnet.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Sun Star",
+            "note": "Thai/Oriental À-la-carte.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Al Pontile",
+            "note": "Italienische À-la-carte-Küche.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "ZERO",
+            "note": "Treetop/Farm-to-table.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Teppanyaki Restaurant",
+            "note": "Japanisches Live-Cooking.",
+            "type": "a_la_carte"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-09",
+      "room": "Island Villa PXY",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5824,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/16305/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -3319,7 +3319,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Superior Room; 5790 € gesamt bzw. 2895 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, DZ Superior, Meerblick; 5766 € gesamt bzw. 2883 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/49700/1/xl",
         "https://images.flux.reisen/hotel/49700/2/m",
@@ -3330,7 +3330,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2895,
+      "pricePerPersonEur": 2883,
       "provider": "LMX Touristik",
       "ratingOutOf10": null,
       "resortName": "Cinnamon Dhonveli Maldives",
@@ -3391,10 +3391,10 @@
         "verifiedAt": "2026-08-23T22:42:25+02:00"
       },
       "returnDate": "2026-12-06",
-      "room": "Superior Room",
+      "room": "DZ Superior, Meerblick",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5790,
+      "totalPriceEur": 5766,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/49700/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -3406,8 +3406,8 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-27",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 27.11.2026–07.12.2026, 9 Hotelnächte, DZ Superior, Meerblick; 5812 € gesamt bzw. 2906 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, DZ Superior, Meerblick; 5766 € gesamt bzw. 2883 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/49700/1/xl",
         "https://images.flux.reisen/hotel/49700/2/m",
@@ -3418,7 +3418,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2906,
+      "pricePerPersonEur": 2883,
       "provider": "LMX Touristik",
       "ratingOutOf10": null,
       "resortName": "Cinnamon Dhonveli Maldives",
@@ -3478,11 +3478,11 @@
         ],
         "verifiedAt": "2026-08-23T22:42:25+02:00"
       },
-      "returnDate": "2026-12-07",
+      "returnDate": "2026-12-09",
       "room": "DZ Superior, Meerblick",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5812,
+      "totalPriceEur": 5766,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/49700/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -3494,8 +3494,8 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-28",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, TUI XTUI, Flug + Hotel für 2 Erwachsene ab MUC, 28.11.2026–08.12.2026, 9 Hotelnächte, DZ Superior, Meerblick; 5812 € gesamt bzw. 2906 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-30",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LMX Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, DZ Superior, Meerblick; 5766 € gesamt bzw. 2883 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/49700/1/xl",
         "https://images.flux.reisen/hotel/49700/2/m",
@@ -3506,8 +3506,8 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 2906,
-      "provider": "TUI XTUI",
+      "pricePerPersonEur": 2883,
+      "provider": "LMX Touristik",
       "ratingOutOf10": null,
       "resortName": "Cinnamon Dhonveli Maldives",
       "restaurantInfo": {
@@ -3566,11 +3566,11 @@
         ],
         "verifiedAt": "2026-08-23T22:42:25+02:00"
       },
-      "returnDate": "2026-12-08",
+      "returnDate": "2026-12-10",
       "room": "DZ Superior, Meerblick",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 5812,
+      "totalPriceEur": 5766,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/49700/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -3582,8 +3582,190 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
+      "departureDate": "2026-11-26",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beachfront PXY; 5794 € gesamt bzw. 2897 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/4632/1/l",
+        "https://images.flux.reisen/hotel/4632/2/l",
+        "https://images.flux.reisen/hotel/4632/3/l"
+      ],
+      "island": "Bandos Island",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2897,
+      "provider": "ITS",
+      "ratingOutOf10": null,
+      "resortName": "Bandos Maldives",
+      "restaurantInfo": {
+        "aLaCarte": 3,
+        "buffet": 1,
+        "caveat": "Bandos nennt offiziell 4 Restaurants und 3 Bars. Das Standard-AI-Paket umfasst die Mahlzeiten im Gallery Restaurant sowie ausgewählte Getränke an bezeichneten Bars/Outlets; verbindlich bleibt die konkrete ITS-Leistungsbeschreibung.",
+        "extraCharge": [
+          "À-la-carte-Speisen in Sea Breeze, Grill Bar und Umi Yaki",
+          "Private Dining, Candlelit Dinner, Lobster Dinner und Floating Breakfast"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Bandos Maldives: Dining",
+            "url": "https://bandosmaldives.com/dining/"
+          },
+          {
+            "label": "Bandos Maldives: All Inclusive Option",
+            "url": "https://bandosmaldives.com/dining/all_inclusive/"
+          },
+          {
+            "label": "Bandos Maldives: FAQ zum Meal Plan",
+            "url": "https://bandosmaldives.com/faqs/"
+          },
+          {
+            "label": "Bandos Maldives: Menüliste",
+            "url": "https://bandosmaldives.com/menu-list/"
+          }
+        ],
+        "total": 4,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Gallery Restaurant",
+            "note": "Frühstück, Mittag- und Abendessen als Buffet sind laut offiziellem AI-Leistungsumfang enthalten.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Sea Breeze",
+            "note": "À-la-carte-Speisen sind nicht als AI-Mahlzeit ausgewiesen und daher gegen Gebühr; ausgewählte AI-Getränke sind laut Resort eingeschlossen.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Grill Bar",
+            "note": "Abendliches Grillrestaurant; Speisen sind nicht im offiziellen AI-Mahlzeitenumfang genannt. Reservierung empfohlen, freitags geschlossen.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Umi Yaki",
+            "note": "Japanisches Teppanyaki-Restaurant; nicht im offiziellen AI-Mahlzeitenumfang genannt, daher gegen Gebühr; sonntags geschlossen.",
+            "type": "a_la_carte"
+          }
+        ],
+        "verifiedAt": "2026-08-25T07:25:00+02:00"
+      },
+      "returnDate": "2026-12-06",
+      "room": "Deluxe Beachfront PXY",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5794,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/4632/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Nord-Malé-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Deluxe Beachfront PXY; 5794 € gesamt bzw. 2897 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/4632/1/l",
+        "https://images.flux.reisen/hotel/4632/2/l",
+        "https://images.flux.reisen/hotel/4632/3/l"
+      ],
+      "island": "Bandos Island",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2897,
+      "provider": "ITS",
+      "ratingOutOf10": null,
+      "resortName": "Bandos Maldives",
+      "restaurantInfo": {
+        "aLaCarte": 3,
+        "buffet": 1,
+        "caveat": "Bandos nennt offiziell 4 Restaurants und 3 Bars. Das Standard-AI-Paket umfasst die Mahlzeiten im Gallery Restaurant sowie ausgewählte Getränke an bezeichneten Bars/Outlets; verbindlich bleibt die konkrete ITS-Leistungsbeschreibung.",
+        "extraCharge": [
+          "À-la-carte-Speisen in Sea Breeze, Grill Bar und Umi Yaki",
+          "Private Dining, Candlelit Dinner, Lobster Dinner und Floating Breakfast"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Bandos Maldives: Dining",
+            "url": "https://bandosmaldives.com/dining/"
+          },
+          {
+            "label": "Bandos Maldives: All Inclusive Option",
+            "url": "https://bandosmaldives.com/dining/all_inclusive/"
+          },
+          {
+            "label": "Bandos Maldives: FAQ zum Meal Plan",
+            "url": "https://bandosmaldives.com/faqs/"
+          },
+          {
+            "label": "Bandos Maldives: Menüliste",
+            "url": "https://bandosmaldives.com/menu-list/"
+          }
+        ],
+        "total": 4,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Gallery Restaurant",
+            "note": "Frühstück, Mittag- und Abendessen als Buffet sind laut offiziellem AI-Leistungsumfang enthalten.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Sea Breeze",
+            "note": "À-la-carte-Speisen sind nicht als AI-Mahlzeit ausgewiesen und daher gegen Gebühr; ausgewählte AI-Getränke sind laut Resort eingeschlossen.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Grill Bar",
+            "note": "Abendliches Grillrestaurant; Speisen sind nicht im offiziellen AI-Mahlzeitenumfang genannt. Reservierung empfohlen, freitags geschlossen.",
+            "type": "a_la_carte"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Umi Yaki",
+            "note": "Japanisches Teppanyaki-Restaurant; nicht im offiziellen AI-Mahlzeitenumfang genannt, daher gegen Gebühr; sonntags geschlossen.",
+            "type": "a_la_carte"
+          }
+        ],
+        "verifiedAt": "2026-08-25T07:25:00+02:00"
+      },
+      "returnDate": "2026-12-09",
+      "room": "Deluxe Beachfront PXY",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5794,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/4632/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Nord-Malé-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Deluxe Beachfront PXY; 5794 € gesamt bzw. 2897 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Deluxe Beachfront PXY; 5794 € gesamt bzw. 2897 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/4632/1/l",
         "https://images.flux.reisen/hotel/4632/2/l",
@@ -3667,196 +3849,14 @@
       "url": "https://www.restplatzboerse.at/hotel/4632/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
-      "atoll": "Nord-Malé-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beachfront PXY; 5796 € gesamt bzw. 2898 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/4632/1/l",
-        "https://images.flux.reisen/hotel/4632/2/l",
-        "https://images.flux.reisen/hotel/4632/3/l"
-      ],
-      "island": "Bandos Island",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2898,
-      "provider": "ITS",
-      "ratingOutOf10": null,
-      "resortName": "Bandos Maldives",
-      "restaurantInfo": {
-        "aLaCarte": 3,
-        "buffet": 1,
-        "caveat": "Bandos nennt offiziell 4 Restaurants und 3 Bars. Das Standard-AI-Paket umfasst die Mahlzeiten im Gallery Restaurant sowie ausgewählte Getränke an bezeichneten Bars/Outlets; verbindlich bleibt die konkrete ITS-Leistungsbeschreibung.",
-        "extraCharge": [
-          "À-la-carte-Speisen in Sea Breeze, Grill Bar und Umi Yaki",
-          "Private Dining, Candlelit Dinner, Lobster Dinner und Floating Breakfast"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Bandos Maldives: Dining",
-            "url": "https://bandosmaldives.com/dining/"
-          },
-          {
-            "label": "Bandos Maldives: All Inclusive Option",
-            "url": "https://bandosmaldives.com/dining/all_inclusive/"
-          },
-          {
-            "label": "Bandos Maldives: FAQ zum Meal Plan",
-            "url": "https://bandosmaldives.com/faqs/"
-          },
-          {
-            "label": "Bandos Maldives: Menüliste",
-            "url": "https://bandosmaldives.com/menu-list/"
-          }
-        ],
-        "total": 4,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Gallery Restaurant",
-            "note": "Frühstück, Mittag- und Abendessen als Buffet sind laut offiziellem AI-Leistungsumfang enthalten.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Sea Breeze",
-            "note": "À-la-carte-Speisen sind nicht als AI-Mahlzeit ausgewiesen und daher gegen Gebühr; ausgewählte AI-Getränke sind laut Resort eingeschlossen.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Grill Bar",
-            "note": "Abendliches Grillrestaurant; Speisen sind nicht im offiziellen AI-Mahlzeitenumfang genannt. Reservierung empfohlen, freitags geschlossen.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Umi Yaki",
-            "note": "Japanisches Teppanyaki-Restaurant; nicht im offiziellen AI-Mahlzeitenumfang genannt, daher gegen Gebühr; sonntags geschlossen.",
-            "type": "a_la_carte"
-          }
-        ],
-        "verifiedAt": "2026-08-25T07:25:00+02:00"
-      },
-      "returnDate": "2026-12-06",
-      "room": "Deluxe Beachfront PXY",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5796,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/4632/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
-      "atoll": "Nord-Malé-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, ITS, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Deluxe Beachfront PXY; 5796 € gesamt bzw. 2898 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/4632/1/l",
-        "https://images.flux.reisen/hotel/4632/2/l",
-        "https://images.flux.reisen/hotel/4632/3/l"
-      ],
-      "island": "Bandos Island",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2898,
-      "provider": "ITS",
-      "ratingOutOf10": null,
-      "resortName": "Bandos Maldives",
-      "restaurantInfo": {
-        "aLaCarte": 3,
-        "buffet": 1,
-        "caveat": "Bandos nennt offiziell 4 Restaurants und 3 Bars. Das Standard-AI-Paket umfasst die Mahlzeiten im Gallery Restaurant sowie ausgewählte Getränke an bezeichneten Bars/Outlets; verbindlich bleibt die konkrete ITS-Leistungsbeschreibung.",
-        "extraCharge": [
-          "À-la-carte-Speisen in Sea Breeze, Grill Bar und Umi Yaki",
-          "Private Dining, Candlelit Dinner, Lobster Dinner und Floating Breakfast"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Bandos Maldives: Dining",
-            "url": "https://bandosmaldives.com/dining/"
-          },
-          {
-            "label": "Bandos Maldives: All Inclusive Option",
-            "url": "https://bandosmaldives.com/dining/all_inclusive/"
-          },
-          {
-            "label": "Bandos Maldives: FAQ zum Meal Plan",
-            "url": "https://bandosmaldives.com/faqs/"
-          },
-          {
-            "label": "Bandos Maldives: Menüliste",
-            "url": "https://bandosmaldives.com/menu-list/"
-          }
-        ],
-        "total": 4,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Gallery Restaurant",
-            "note": "Frühstück, Mittag- und Abendessen als Buffet sind laut offiziellem AI-Leistungsumfang enthalten.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Sea Breeze",
-            "note": "À-la-carte-Speisen sind nicht als AI-Mahlzeit ausgewiesen und daher gegen Gebühr; ausgewählte AI-Getränke sind laut Resort eingeschlossen.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Grill Bar",
-            "note": "Abendliches Grillrestaurant; Speisen sind nicht im offiziellen AI-Mahlzeitenumfang genannt. Reservierung empfohlen, freitags geschlossen.",
-            "type": "a_la_carte"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Umi Yaki",
-            "note": "Japanisches Teppanyaki-Restaurant; nicht im offiziellen AI-Mahlzeitenumfang genannt, daher gegen Gebühr; sonntags geschlossen.",
-            "type": "a_la_carte"
-          }
-        ],
-        "verifiedAt": "2026-08-25T07:25:00+02:00"
-      },
-      "returnDate": "2026-12-09",
-      "room": "Deluxe Beachfront PXY",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5796,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/4632/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
       "atoll": "Nord-Ari-Atoll",
       "baggage": "included",
       "board": "all_inclusive",
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LTUR, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Beach Villa; 5770 € gesamt bzw. 2885 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-26",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LTUR, Flug + Hotel für 2 Erwachsene ab MUC, 26.11.2026–06.12.2026, 9 Hotelnächte, Beach Villa; 5770 € gesamt bzw. 2885 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/75227/1/xl",
         "https://images.flux.reisen/hotel/75227/2/m",
@@ -3974,7 +3974,7 @@
         ],
         "verifiedAt": "2026-08-23T22:42:25+02:00"
       },
-      "returnDate": "2026-12-09",
+      "returnDate": "2026-12-06",
       "room": "Beach Villa",
       "sourceLanguage": "de",
       "stars": null,
@@ -3990,8 +3990,8 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
-      "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LTUR, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Beach Villa; 5770 € gesamt bzw. 2885 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, LTUR, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Beach Villa; 5770 € gesamt bzw. 2885 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/75227/1/xl",
         "https://images.flux.reisen/hotel/75227/2/m",
@@ -4109,7 +4109,7 @@
         ],
         "verifiedAt": "2026-08-23T22:42:25+02:00"
       },
-      "returnDate": "2026-12-10",
+      "returnDate": "2026-12-09",
       "room": "Beach Villa",
       "sourceLanguage": "de",
       "stars": null,
@@ -4125,8 +4125,77 @@
       "bookingDeadline": null,
       "dealType": "regular",
       "departureAirport": "MUC",
+      "departureDate": "2026-11-29",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Villa Superior Economy; 5944 € gesamt bzw. 2972 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "imageUrls": [
+        "https://images.flux.reisen/hotel/20498/1/xl",
+        "https://images.flux.reisen/hotel/20498/2/m",
+        "https://images.flux.reisen/hotel/20498/3/m"
+      ],
+      "island": "Filitheyo",
+      "membershipRequired": false,
+      "nights": 9,
+      "packageIncludesFlights": true,
+      "priceConfidence": "live",
+      "pricePerPersonEur": 2972,
+      "provider": "FERIEN Touristik",
+      "ratingOutOf10": null,
+      "resortName": "Filitheyo Island Resort",
+      "restaurantInfo": {
+        "aLaCarte": 1,
+        "buffet": 1,
+        "caveat": "Das offizielle Paket umfasst das Hauptbuffet und ausgewählte Getränke; Afternoon Tea im Sunset Restaurant ist enthalten, dessen reguläre Speisen nicht. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
+        "extraCharge": [
+          "À-la-carte-Mahlzeiten im Sunset Restaurant",
+          "Private Dinner und Premiumgetränke"
+        ],
+        "sourceUrls": [
+          {
+            "label": "Filitheyo AI-Paket",
+            "url": "https://aaaresorts.com/filitheyo-island-resort/dining/all-inclusive-package/"
+          },
+          {
+            "label": "Filitheyo Restaurants",
+            "url": "https://resortlife.travel/resort/filitheyo-island-resort"
+          }
+        ],
+        "total": 2,
+        "venues": [
+          {
+            "allInclusive": "included",
+            "allInclusivePlus": null,
+            "name": "Main Restaurant",
+            "note": "All-you-can-eat-Buffet für Frühstück, Mittag- und Abendessen.",
+            "type": "buffet"
+          },
+          {
+            "allInclusive": "chargeable",
+            "allInclusivePlus": null,
+            "name": "Sunset Restaurant",
+            "note": "Reguläre À-la-carte-Speisen extra; nur ausgewiesene Afternoon-Tea-/Snack-Zeit inklusive.",
+            "type": "a_la_carte"
+          }
+        ],
+        "verifiedAt": "2026-08-23T22:42:25+02:00"
+      },
+      "returnDate": "2026-12-09",
+      "room": "Villa Superior Economy",
+      "sourceLanguage": "de",
+      "stars": null,
+      "totalPriceEur": 5944,
+      "transfer": "included",
+      "transferType": null,
+      "url": "https://www.restplatzboerse.at/hotel/20498/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
+    },
+    {
+      "atoll": "Faafu-Atoll",
+      "baggage": "included",
+      "board": "all_inclusive",
+      "bookingDeadline": null,
+      "dealType": "regular",
+      "departureAirport": "MUC",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Villa Superior Economy; 5944 € gesamt bzw. 2972 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 30.11.2026–10.12.2026, 9 Hotelnächte, Villa Superior Economy; 5944 € gesamt bzw. 2972 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/20498/1/xl",
         "https://images.flux.reisen/hotel/20498/2/m",
@@ -4195,7 +4264,7 @@
       "dealType": "regular",
       "departureAirport": "MUC",
       "departureDate": "2026-11-28",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 28.11.2026–08.12.2026, 9 Hotelnächte, Villa Superior Economy; 5972 € gesamt bzw. 2986 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, FERIEN Touristik, Flug + Hotel für 2 Erwachsene ab MUC, 28.11.2026–08.12.2026, 9 Hotelnächte, Villa Superior Economy; 5972 € gesamt bzw. 2986 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
       "imageUrls": [
         "https://images.flux.reisen/hotel/20498/1/xl",
         "https://images.flux.reisen/hotel/20498/2/m",
@@ -4257,75 +4326,6 @@
       "url": "https://www.restplatzboerse.at/hotel/20498/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
     },
     {
-      "atoll": "Faafu-Atoll",
-      "baggage": "included",
-      "board": "all_inclusive",
-      "bookingDeadline": null,
-      "dealType": "regular",
-      "departureAirport": "MUC",
-      "departureDate": "2026-11-29",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten Restplatzbörse.at-Tarifkarte: All Inclusive, Coral Travel, Flug + Hotel für 2 Erwachsene ab MUC, 29.11.2026–09.12.2026, 9 Hotelnächte, Villa Superior Economy; 5996 € gesamt bzw. 2998 € p. P. Inkl. Hoteltransfer und Gepäck. Dynamische Seite: Nach dem Öffnen Datum 26.11.–10.12.2026, 2 Erwachsene, MUC/ZRH/VIE, 9–14 Nächte und All Inclusive erneut kontrollieren.",
-      "imageUrls": [
-        "https://images.flux.reisen/hotel/20498/1/xl",
-        "https://images.flux.reisen/hotel/20498/2/m",
-        "https://images.flux.reisen/hotel/20498/3/m"
-      ],
-      "island": "Filitheyo",
-      "membershipRequired": false,
-      "nights": 9,
-      "packageIncludesFlights": true,
-      "priceConfidence": "live",
-      "pricePerPersonEur": 2998,
-      "provider": "Coral Travel",
-      "ratingOutOf10": null,
-      "resortName": "Filitheyo Island Resort",
-      "restaurantInfo": {
-        "aLaCarte": 1,
-        "buffet": 1,
-        "caveat": "Das offizielle Paket umfasst das Hauptbuffet und ausgewählte Getränke; Afternoon Tea im Sunset Restaurant ist enthalten, dessen reguläre Speisen nicht. Zimmerkategorie, Reservierung, Aufenthaltsdauer und Veranstaltertarif können den Umfang ändern; verbindlich ist der konkrete Voucher.",
-        "extraCharge": [
-          "À-la-carte-Mahlzeiten im Sunset Restaurant",
-          "Private Dinner und Premiumgetränke"
-        ],
-        "sourceUrls": [
-          {
-            "label": "Filitheyo AI-Paket",
-            "url": "https://aaaresorts.com/filitheyo-island-resort/dining/all-inclusive-package/"
-          },
-          {
-            "label": "Filitheyo Restaurants",
-            "url": "https://resortlife.travel/resort/filitheyo-island-resort"
-          }
-        ],
-        "total": 2,
-        "venues": [
-          {
-            "allInclusive": "included",
-            "allInclusivePlus": null,
-            "name": "Main Restaurant",
-            "note": "All-you-can-eat-Buffet für Frühstück, Mittag- und Abendessen.",
-            "type": "buffet"
-          },
-          {
-            "allInclusive": "chargeable",
-            "allInclusivePlus": null,
-            "name": "Sunset Restaurant",
-            "note": "Reguläre À-la-carte-Speisen extra; nur ausgewiesene Afternoon-Tea-/Snack-Zeit inklusive.",
-            "type": "a_la_carte"
-          }
-        ],
-        "verifiedAt": "2026-08-23T22:42:25+02:00"
-      },
-      "returnDate": "2026-12-09",
-      "room": "Villa Superior Economy",
-      "sourceLanguage": "de",
-      "stars": null,
-      "totalPriceEur": 5996,
-      "transfer": "included",
-      "transferType": null,
-      "url": "https://www.restplatzboerse.at/hotel/20498/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
-    },
-    {
       "atoll": "Raa-Atoll",
       "baggage": "included",
       "board": "all_inclusive",
@@ -4333,7 +4333,7 @@
       "dealType": "regular",
       "departureAirport": "VIE",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Beach Villa (VB1); 6253 € Zimmerpreis gesamt und 3126 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Beach Villa (VB1); 6253 € Zimmerpreis gesamt und 3126 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
@@ -4428,7 +4428,7 @@
       "dealType": "regular",
       "departureAirport": "VIE",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, XDER, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach Villa PXY (VB8); 6342 € Zimmerpreis gesamt und 3171 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, XDER, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach Villa PXY (VB8); 6346 € Zimmerpreis gesamt und 3173 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
@@ -4439,7 +4439,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 3171,
+      "pricePerPersonEur": 3173,
       "provider": "XDER",
       "ratingOutOf10": null,
       "resortName": "ADAARAN Select Meedhupparu",
@@ -4510,7 +4510,7 @@
       "room": "Deluxe Beach Villa PXY (VB8)",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 6342,
+      "totalPriceEur": 6346,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/21266/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -4523,7 +4523,7 @@
       "dealType": "regular",
       "departureAirport": "VIE",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, DERTOUR, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach Villa PXY (VB8); 6531 € Zimmerpreis gesamt und 3265 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, DERTOUR, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Deluxe Beach Villa PXY (VB8); 6549 € Zimmerpreis gesamt und 3274 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_37.jpg?w=678&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE17101B_W26-B01W2627_1.jpg?w=623&h=406",
@@ -4534,7 +4534,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 3265,
+      "pricePerPersonEur": 3274,
       "provider": "DERTOUR",
       "ratingOutOf10": null,
       "resortName": "ADAARAN Select Meedhupparu",
@@ -4605,7 +4605,7 @@
       "room": "Deluxe Beach Villa PXY (VB8)",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 6531,
+      "totalPriceEur": 6549,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.restplatzboerse.at/hotel/21266/?ibe=package&board=5&adult=2&ddate=2026-11-26&rdate=2026-12-10&dur=10&depap=MUC,ZRH,VIE&srtHot=price&rarec=80&page=1"
@@ -4618,7 +4618,7 @@
       "dealType": "regular",
       "departureAirport": "VIE",
       "departureDate": "2026-11-30",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 30.11.2026–10.12.2026, 9 Hotelnächte, Deluxe Beach Villa (VD1); 6981 € Zimmerpreis gesamt und 3490 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 30.11.2026–10.12.2026, 9 Hotelnächte, Deluxe Beach Villa (VD1); 7041 € Zimmerpreis gesamt und 3520 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_48.jpg?w=1210&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_1.jpg?w=540&h=406",
@@ -4629,7 +4629,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 3490,
+      "pricePerPersonEur": 3520,
       "provider": "BILLA Reisen",
       "ratingOutOf10": null,
       "resortName": "Sentido OBLU Helengeli",
@@ -4686,7 +4686,7 @@
       "room": "Deluxe Beach Villa (VD1)",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 6981,
+      "totalPriceEur": 7041,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.billareisen.at/Reisen/Sentido+OBLU+Helengeli-MLE10107P.html?bdid=ib&toid=iba&ptid=BTS&ssnid=W26&pttid=PF&phidf=MLE10107P&pdacf=au&pdaf=VIE&dft=apx&psdf=2026-11-26&pedf=2026-12-10&pnnfl=9&pnnfh=12&pbtf=ai&ptf=1&pnsf=0&ps=pr&pdm=pp&psbbr=pna%3D2%26pnc%3D0"
@@ -4699,7 +4699,7 @@
       "dealType": "regular",
       "departureAirport": "VIE",
       "departureDate": "2026-11-26",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Lagoon Villa with Pool (VL1); 7117 € Zimmerpreis gesamt und 3558 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 26.11.2026–06.12.2026, 9 Hotelnächte, Lagoon Villa with Pool (VL1); 7117 € Zimmerpreis gesamt und 3558 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_48.jpg?w=1210&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_1.jpg?w=540&h=406",
@@ -4780,7 +4780,7 @@
       "dealType": "regular",
       "departureAirport": "VIE",
       "departureDate": "2026-11-28",
-      "evidence": "Live geprüft am 02.09.2026 gegen 07:25 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 28.11.2026–08.12.2026, 9 Hotelnächte, Deluxe Beach Villa (VD1); 7138 € Zimmerpreis gesamt und 3569 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
+      "evidence": "Live geprüft am 02.09.2026 gegen 19:21 CEST in der konkreten BILLA-Reisen-Angebotskarte: Alles Inklusive, BILLA Reisen, Pauschalreise mit Flug + Hotel für 2 Erwachsene ab VIE, 28.11.2026–08.12.2026, 9 Hotelnächte, Deluxe Beach Villa (VD1); 7253 € Zimmerpreis gesamt und 3626 € p. P. laut Karte. Transfer eingeschlossen. Dynamische Seite: Datum, 2 Erwachsene, VIE, Reisedauer und Alles Inklusive nach dem Öffnen erneut kontrollieren.",
       "imageUrls": [
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_48.jpg?w=1210&h=406",
         "https://www.billareisen.at/pibe-media/itsb_atc/hotel/MLE10107B_W26-B01W2627_1.jpg?w=540&h=406",
@@ -4791,7 +4791,7 @@
       "nights": 9,
       "packageIncludesFlights": true,
       "priceConfidence": "live",
-      "pricePerPersonEur": 3569,
+      "pricePerPersonEur": 3626,
       "provider": "BILLA Reisen",
       "ratingOutOf10": null,
       "resortName": "Sentido OBLU Helengeli",
@@ -4848,20 +4848,20 @@
       "room": "Deluxe Beach Villa (VD1)",
       "sourceLanguage": "de",
       "stars": null,
-      "totalPriceEur": 7138,
+      "totalPriceEur": 7253,
       "transfer": "included",
       "transferType": null,
       "url": "https://www.billareisen.at/Reisen/Sentido+OBLU+Helengeli-MLE10107P.html?bdid=ib&toid=iba&ptid=BTS&ssnid=W26&pttid=PF&phidf=MLE10107P&pdacf=au&pdaf=VIE&dft=apx&psdf=2026-11-26&pedf=2026-12-10&pnnfl=9&pnnfh=12&pbtf=ai&ptf=1&pnsf=0&ps=pr&pdm=pp&psbbr=pna%3D2%26pnc%3D0"
     }
   ],
-  "updatedAt": "2026-09-02T07:25:13+02:00",
+  "updatedAt": "2026-09-02T19:21:02+02:00",
   "warnings": [
-    "Am 02.09.2026 gegen 07:25 CEST wurden beide vorgegebenen Restplatzbörse.at-Malediven-Seiten, die gefilterte Restplatzbörse-Ergebnisliste, TUI und BILLA Reisen im Cloud-Browser mit 2 Erwachsenen, MUC/ZRH/VIE, 26.11.–10.12.2026, mindestens 9 Hotelnächten und All Inclusive geprüft.",
+    "Am 02.09.2026 gegen 19:21 CEST wurden beide vorgegebenen Restplatzbörse.at-Malediven-Seiten, die gefilterte Restplatzbörse-Ergebnisliste, TUI und BILLA Reisen im Cloud-Browser mit 2 Erwachsenen, MUC/ZRH/VIE, 26.11.–10.12.2026, mindestens 9 Hotelnächten und All Inclusive geprüft.",
     "Restplatzbörse.at zeigte 110 Hotels im Pflichtfilter. Alle 54 enthaltenen Restplatzbörse-Varianten wurden in konkreten Live-Tarifkarten mit Hin- und Rückreise, Abflughafen, Flugpaket, Verpflegung, Veranstalter und Preis frisch bestätigt; kein 48-Stunden-Bestandsschutz ist nötig.",
-    "Mehrere zunächst angezeigte Vorschaupreise änderten sich bei der automatischen Preisprüfung. Insbesondere wurden die bisherigen 2.171-€-Centara- und 2.315-€-Mercure-Karten nicht fortgeführt; übernommen wurden nur danach weiterhin sichtbare Alternativkarten. Centara Mirage beginnt nun bei 3.237 € p. P., Mercure AI+ bei 2.325 € p. P.",
+    "Bei automatisch preisgeprüften Restplatzbörse-Karten wurden Karten mit abweichendem Endpreis nicht übernommen; stattdessen wurden nur weiterhin sichtbare Alternativkarten erfasst. Mercure AI+ ist wieder ab 2.315 € p. P. sichtbar, Centara Mirage ab 3.089 € p. P.",
     "TUI lud die konkrete Angebotsliste auch nach dem zulässigen einmaligen Neuladen ohne Datum, Flughafen oder Preis. Daher wurde kein direktes TUI-Angebot und keine erweiterte TUI-All-Inclusive-Stufe übernommen; XTUI-Tarife wurden ausschließlich über konkrete Restplatzbörse-Tarifkarten bestätigt.",
-    "BILLA bestätigte drei ADAARAN-Varianten ab 3.126 € p. P. und drei Sentido-OBLU-Helengeli-Varianten ab 3.490 € p. P.; alle zeigen 9 Hotelnächte, Flug ab VIE, Transfer und Alles Inklusive.",
-    "Bei The Barefoot Eco Hotel wurden ausdrücklich als „All Inclusive Light“ bezeichnete Karten ausgeschlossen; nur zwei reguläre All-Inclusive-Karten wurden übernommen.",
+    "BILLA bestätigte drei ADAARAN-Varianten ab 3.126 € p. P. und drei Sentido-OBLU-Helengeli-Varianten ab 3.520 € p. P.; alle zeigen 9 Hotelnächte, Flug ab VIE, Transfer und Alles Inklusive.",
+    "Bei The Barefoot Eco Hotel wurden ausdrücklich als „All Inclusive Light“ bezeichnete Karten ausgeschlossen; übernommen wurden nur reguläre All-Inclusive-Karten.",
     "Bestehende resortbezogene Bild-URLs und Restaurantdaten wurden übernommen. Die Restaurantquellen wurden in diesem Lauf nicht vollständig neu geöffnet; die weiterhin plausiblen Angaben bleiben mit ihren vorhandenen sourceUrls und verifiedAt bestehen.",
     "Restplatzbörse-, TUI- und BILLA-Seiten können den Auswahlzustand verlieren. Nach dem Öffnen müssen Datum, Abflughafen, Reisedauer, Reisende und Verpflegung gegebenenfalls erneut gewählt beziehungsweise kontrolliert werden."
   ]
